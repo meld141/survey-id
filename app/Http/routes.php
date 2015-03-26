@@ -39,3 +39,8 @@ Route::get('linkedin', function()
 {
     return view('linkedin.index');
 });
+
+Route::get('urban', function()
+{
+    return view('urban.index');
+});

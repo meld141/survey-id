@@ -1,9 +1,8 @@
 <html>
 	<head>
-		<title>Laravel</title>
-		
+		<title>Survey</title>
 		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 		<style>
 			body {
 				margin: 0;
@@ -40,9 +39,18 @@
 	<body>
 		<div class="container">
 			<div class="content">
-				<div class="title">Laravel 5</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
+                <div><h1>Survey</h1></div>
+                <br><br>
+                <ul class="list-inline">
+                    <li><a href="/interninc" class="btn btn-default" role="button">Intern Inc</a></li>
+                    <li><a href="/im" class="btn btn-default" role="button">Intern Match</a></li>
+                    <li><a href="/jobstreet" class="btn btn-default" role="button">Jobstreet</a></li>
+                    <li><a href="/linkedin" class="btn btn-default" role="button">Linkedin</a></li>
+                    <li><a href="/urban" class="btn btn-default" role="button">Urban Interns</a></li>
+                </ul>
 			</div>
 		</div>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	</body>
 </html>
