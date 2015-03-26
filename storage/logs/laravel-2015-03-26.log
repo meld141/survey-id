@@ -1,9 +1,9 @@
-[2015-03-26 06:45:47] production.ERROR: exception 'InvalidArgumentException' with message 'View [jobstreet.index] not found.' in /Users/RusselBaoy/Projects/php/appeal-test/vendor/compiled.php:12898
+[2015-03-26 07:22:39] production.ERROR: exception 'InvalidArgumentException' with message 'View [im.index] not found.' in /Users/RusselBaoy/Projects/php/appeal-test/vendor/compiled.php:12898
 Stack trace:
-#0 /Users/RusselBaoy/Projects/php/appeal-test/vendor/compiled.php(12871): Illuminate\View\FileViewFinder->findInPaths('jobstreet.index', Array)
-#1 /Users/RusselBaoy/Projects/php/appeal-test/vendor/compiled.php(12996): Illuminate\View\FileViewFinder->find('jobstreet.index')
-#2 /Users/RusselBaoy/Projects/php/appeal-test/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(565): Illuminate\View\Factory->make('jobstreet.index', Array, Array)
-#3 /Users/RusselBaoy/Projects/php/appeal-test/app/Http/routes.php(30): view('jobstreet.index')
+#0 /Users/RusselBaoy/Projects/php/appeal-test/vendor/compiled.php(12871): Illuminate\View\FileViewFinder->findInPaths('im.index', Array)
+#1 /Users/RusselBaoy/Projects/php/appeal-test/vendor/compiled.php(12996): Illuminate\View\FileViewFinder->find('im.index')
+#2 /Users/RusselBaoy/Projects/php/appeal-test/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(565): Illuminate\View\Factory->make('im.index', Array, Array)
+#3 /Users/RusselBaoy/Projects/php/appeal-test/app/Http/routes.php(35): view('im.index')
 #4 [internal function]: App\Providers\RouteServiceProvider->{closure}()
 #5 /Users/RusselBaoy/Projects/php/appeal-test/vendor/compiled.php(7298): call_user_func_array(Object(Closure), Array)
 #6 /Users/RusselBaoy/Projects/php/appeal-test/vendor/compiled.php(7285): Illuminate\Routing\Route->runCallable(Object(Illuminate\Http\Request))

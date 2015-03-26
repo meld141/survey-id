@@ -29,3 +29,8 @@ Route::get('jobstreet', function()
 {
     return view('jobstreet.index');
 });
+
+Route::get('im', function()
+{
+    return view('im.index');
+});
