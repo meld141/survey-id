@@ -407,13 +407,13 @@ z-index: 1005;
             slideshow_height: '255',//slideshow window height
             thumbnail_width: '130',//thumbnail width
             time_Interval: '4000',//Milliseconds
-            directory: 'media/ds/interninc_files/images/'// flash-on.gif and flashtext-bg.jpg directory
+            directory: 'media/dsimages/'// flash-on.gif and flashtext-bg.jpg directory
         });});
 </script>
 
 <style type="text/css">
  .desSlideshow{
-    background-image: url(media/ds/interninc_files/images/loading.gif);
+    background-image: url(media/dsimages/loading.gif);
     background-position: center center;
     background-repeat: no-repeat;
 }
