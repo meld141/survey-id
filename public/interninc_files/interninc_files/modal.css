@@ -1,0 +1,267 @@
+.body-overlayed embed, .body-overlayed object, .body-overlayed select
+{
+	visibility:				hidden;
+}
+
+#sbox-window embed, #sbox-window object, #sbox-window select
+{
+	visibility:				visible;
+}
+#formelemL
+{
+float:left;
+}
+#formelemR
+{
+float:right;
+}
+
+#newest
+{
+background:url("../images/new.png") no-repeat scroll 0 0 transparent;
+color:#FFFFFF;
+
+text-transform:uppercase;
+
+font-size:85%;
+font-weight:700;
+height:16px;
+line-height:16px;
+padding:0 5px 0 10px;
+
+float:right;
+
+}
+.field
+{
+border-top:1px solid #e9edef;
+padding:4px 0 0 0;
+margin:0 0 0 0;
+}
+#formelemR ul.pagination{
+margin:0px;
+padding:0px 0;
+background:none repeat scroll 0 0 transparent;
+}
+#formelemR  ul.pagination a 
+{
+border:0 solid #F6F6F6;
+padding:0;
+}
+#formelemR   ul.pagination li span {
+border:0 solid #F6F6F6;
+padding:0 ;
+font-weight:bold;
+}
+#formelemR ul.pagination li a
+ {
+font-size:100%;
+}
+#sel{
+color:#000;
+text-decoration:none;
+font-weight:bold;
+padding:3px 4px 4px 17px;
+}
+#unsel{
+color:#006699;
+text-decoration :underline;
+font-weight:bold;
+padding:3px 4px 4px 17px;
+}
+#unsel:hover{
+color:#333333;
+}
+#pico
+{
+padding:0 5px 5px 8px;
+
+}
+#searchForm label
+{
+display:inline;
+}
+.info
+{
+margin:1px 0 0 60px;
+padding:1px 0 0 20px;
+}
+.smallfriends
+{
+padding:0px 0px 0px 18px;
+margin:0px;
+float:left;
+width:50px;
+background:url("../images/icons-16x16.gif")no-repeat scroll 0 -58px transparent;
+}
+.divavatar
+{
+
+border:1px solid #EFEFEF;
+float:left;
+height:64px;
+margin:0 12px 0 0;
+width:64px;
+}
+.smallmessage
+{
+padding:0px 0px 0px 18px;
+margin:2px;
+float:left;
+width:100px;
+
+}
+
+.img_groups
+{
+background:url("../images/icons-16x16.gif")no-repeat scroll 0 -58px transparent;
+}
+.img_users
+{
+background:url("../images/icons-16x16.gif")no-repeat scroll 0 2px transparent;
+}
+.img_photos
+{
+background:url("../images/icons-16x16.gif")no-repeat scroll 0 -357px transparent;
+}
+.img_discussions
+{
+background:url("../images/icons-16x16.gif")no-repeat scroll 0 -257px transparent;
+}
+.img_videos
+{
+background:url("../images/icons-16x16.gif")no-repeat scroll 0 -398px transparent;
+}
+.img_content
+{
+background:url("../images/icons-16x16.gif")no-repeat scroll 0 -338px transparent;
+}
+.img_comments
+{
+background:url("../images/icons-16x16.gif")no-repeat scroll 0 -297px transparent;
+}
+.img_newsfeeds
+{
+background:url("../images/newsfeeds.png")no-repeat scroll 0 1px transparent;
+}
+.img_rsevents
+{
+background:url("../../../administrator/components/com_rsevents/images/rs_events_icon.gif")no-repeat scroll 0 3px transparent;
+}
+.img_internship
+{
+background:url("../images/icons-16x16.gif")no-repeat  scroll 0 -275px transparent;
+}
+.img_categories
+{
+background:url("../images/icons-16x16.gif")no-repeat  scroll 0 -458px transparent;
+}
+.img_docman
+{
+background:url("../images/icons-16x16.gif")no-repeat  scroll 0 -437px transparent;
+}
+.img_contacts
+{
+background:url("../images/icons-16x16.gif")no-repeat  scroll 0 -116px transparent;
+}
+.img_weblinks
+{
+background:url("../images/links.png")no-repeat scroll 0 1px transparent;
+}
+.img_sections
+{
+background:url("../images/icons-16x16.gif")no-repeat  scroll 0 -417px transparent;
+}
+#datetime
+{
+margin:0 0 0 80px;
+}
+ .app-box-title {
+color:#3B5998;
+font-size:104%;
+font-weight:bold;
+background:none repeat scroll 0 0 transparent;
+font-weight:bold;
+margin:0 0 0 0;
+padding:0;
+text-shadow:0 1px 2px #FFFFFF;
+}
+
+.app-box-header
+ {
+background:none repeat scroll 0 0 #ECEFF5;
+border-top:1px solid #94A3C4;
+height:30px;
+margin-right:10px;
+padding-left:10px;
+position:relative;
+}
+
+#sbox-overlay
+{
+	position:				absolute;
+	background-color:		#000;
+}
+
+#sbox-window
+{
+	position:				absolute;
+	background-color:		#000;
+	text-align:				left;
+	overflow:				visible;
+	padding:				10px;
+	-moz-border-radius:		3px;
+}
+
+* html #sbox-window
+{
+	top: 50% !important;
+	left: 50% !important;
+}
+
+#sbox-btn-close
+{
+	position:				absolute;
+	width:					30px;
+	height:					30px;
+	right:					-15px;
+	top:					-15px;
+	background:				url(../images/closebox.png) no-repeat top left;
+	border:					none;
+}
+
+.sbox-loading #sbox-content
+{
+	background-image:		url(../images/spinner.gif);
+	background-repeat:		no-repeat;
+	background-position:	center;
+}
+
+#sbox-content
+{
+	clear:					both;
+	overflow:				auto;
+	background-color:		#fff;
+	height:					100%;
+	width:					100%;
+}
+
+.sbox-content-image#sbox-content
+{
+	overflow:				visible;
+}
+
+#sbox-image
+{
+	display:				block;
+}
+
+.sbox-content-image img
+{
+	display:				block;
+}
+
+.sbox-content-iframe#sbox-content
+{
+	overflow:				visible;
+}

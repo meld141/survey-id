@@ -19,3 +19,13 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+Route::get('interninc', function()
+{
+    return view('interninc_files.index');
+});
+
+Route::get('jobstreet', function()
+{
+    return view('jobstreet.index');
+});

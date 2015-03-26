@@ -1,0 +1,33 @@
+
+
+
+/* System Messages      */
+#system-message ul li{list-style:none;margin-left:40px;padding:10px;margin-top:5px; margin-bottom:5px;}
+#system-message dd{font-weight:700;text-indent:30px;margin:0;}
+#sys_messages{margin:0;}
+
+
+/* OpenID icon style  */input.system-openid,input.com-system-openid{background:url(http://openid.net/images/login-bg.gif) no-repeat;background-color:#fff;background-position:0 50%;color:#000;padding-left:18px;}
+/* Unpublished  */.system-unpublished{background:#e8edf1;border-top:4px solid #c4d3df;border-bottom:4px solid #c4d3df;}
+/* System Messages  */#system-message{margin-bottom:20px;padding:0;}
+#system-message dt{font-weight:700;}
+#system-message dd ul{background:#C3D2E5 url(../images/notice-info.png) 4px center no-repeat;color:#05B;margin-bottom:10px;list-style:none;border-top:3px solid #84A7DB;border-bottom:3px solid #84A7DB;}
+/* System Standard Messages  */#system-message dt.message{display:none;}
+/* System Error Messages  */#system-message dt.error{display:none;}
+#system-message dd.error ul{color:#c00;background:#E6C0C0 url(../images/notice-alert.png) 4px center no-repeat;border-top:3px solid #DE7A7B;border-bottom:3px solid #DE7A7B;padding-left:40px;text-indent:0;margin:0;}
+/* System Notice Messages  */
+#system-message dt.notice{display:none;}
+/* System Notice Messages  */
+#system-message dd.notice ul{color:#c00;background:#EFE7B8 url(../images/notice-note.png) 4px center no-repeat;border-top:3px solid #F0DC7E;border-bottom:3px solid #F0DC7E;}
+/* Debug  */
+#system-debug{color:#ccc;background-color:#fff;margin:10px;padding:10px;}
+#system-debug div{font-size:11px;}
+/* Form validation  */.invalid{border-color:red;}
+label.invalid{color:red;}
+
+/*Additional 1.5 Stuff  Added _menu and _text module suffix styles above for better cooperation of default content  */
+.module_menu ul,.module_menu ul li{margin-left:0;}
+a img{border:none;}
+form#form-login fieldset{border:none;margin:0;padding:0;}
+#form-login ul{margin:0;padding:0;}
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset{margin-bottom:20px}

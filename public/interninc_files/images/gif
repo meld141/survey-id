@@ -1,0 +1,582 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr" >
+
+<head>
+
+<meta http-equiv="pragma" content="no-cache" />
+
+	<script src="http://www.google.com/jsapi?key=ABQIAAAA0JjVRJQ93QAgkLyu0boH9hSyMyxYSvY_5PCiK3M5BxddecsJBhSg6Cgupp--ZiA2m9-myl0A3Z3BHw" type="text/javascript"></script>
+	<script language="Javascript" type="text/javascript">
+	 //  key is for interninc.com  -->
+	google.load("mootools", "1.2.4");
+	  	google.load("jquery", "1.4.2");
+	  	google.load("jqueryui", "1.7.2");
+	</script>
+
+
+	
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="google-site-verification" content="G8d1bfTp6iv9RQfdQECNW2pmwUsu8wdNzkzs89dKj3g" />
+  <meta name="keywords" content="Interninc, Intern" />
+  <meta name="description" content="Intern Inc. takes a unique approach to the internship placement process by certifying intern candidates as well as internship positions, providing internship effectiveness training to both the intern and employer and thereby enabling a higher rate of success for both parties." />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Looking For An Internship? Search For Exclusive Internships at InternInc.com!</title>
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/interninc_blue_v2/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.interninc.com/components/com_k2/css/k2.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/css/jcemediabox.css?v=105" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/themes/light/css/style.css?version=105" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jceutilities/css/jceutilities.css?v=224" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jceutilities/themes/standard/css/style.css?version=224" type="text/css" />
+  <link rel="stylesheet" href="http://www.interninc.com/components/com_jbolo/css/chat.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.interninc.com/components/com_jbolo/css/screen.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.interninc.com/components/com_jbolo/css/jbolo.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.interninc.com/modules/mod_gk_tab/styles/horizontal/style1.css" type="text/css" />
+  <script type="text/javascript" src="/media/system/js/modal.js"></script>
+  <script type="text/javascript" src="http://www.interninc.com/components/com_k2/js/k2.js"></script>
+  <script type="text/javascript" src="/plugins/system/jcemediabox/js/jcemediabox.js?v=105"></script>
+  <script type="text/javascript" src="/plugins/system/jcemediabox/addons/default.js?v=105"></script>
+  <script type="text/javascript" src="/plugins/system/jcemediabox/addons/twitter.js?v=105"></script>
+  <script type="text/javascript" src="http://www.interninc.com/plugins/system/mediaobject/js/mediaobject-150.js"></script>
+  <script type="text/javascript" src="/plugins/system/jceutilities/js/jceutilities.js?v=224"></script>
+  <script type="text/javascript" src="/components/com_jcomments/js/jcomments-v2.1.js?v=2"></script>
+  <script type="text/javascript" src="/components/com_jcomments/libraries/joomlatune/ajax.js"></script>
+  <script type="text/javascript" src="/index.php?option=com_jbolo&amp;view=js&amp;format=raw"></script>
+  <script type="text/javascript" src="http://www.interninc.com/components/com_jbolo/js/jquery-1.3.2.pack.js"></script>
+  <script type="text/javascript" src="http://www.interninc.com/components/com_jbolo/sound/soundmanager2.js"></script>
+  <script type="text/javascript" src="http://www.interninc.com/components/com_jbolo/js/fb_chat.js"></script>
+  <script type="text/javascript" src="http://www.interninc.com/modules/mod_gk_tab/scripts/mootools.js"></script>
+  <script type="text/javascript" src="http://www.interninc.com/modules/mod_gk_tab/scripts/engine_compress.js"></script>
+  <script type="text/javascript" src="http://www.interninc.com/modules/mod_gk_tab/scripts/importer.php?modid=tabmix2&amp;activator=click&amp;animation=0&amp;animationFun=Fx.Transitions.linear&amp;animationType=1&amp;animationSpeed=1000&amp;animationInterval=5000&amp;styleType=0&amp;styleSuffix=style1&amp;fixedHeight=0&amp;fixedHeightValue=200&amp;alwaysHide=0"></script>
+  <script type="text/javascript">
+
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+
+			$$('a.modal').each(function(el) {
+				el.addEvent('click', function(e) {
+					new Event(e).stop();
+					SqueezeBox.fromElement(el);
+				});
+			});
+		});var K2RatingURL = 'http://www.interninc.com/';	JCEMediaBox.init({popup:{width:"",height:"",legacy:1,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:0,scrolling:"fixed",labels:{'close':'Close','next':'Next','previous':'Previous','cancel':'Cancel','numbers':'{$current} of {$total}'}},tooltip:{className:"tooltip",opacity:0.8,speed:150,position:"br",offsets:{x: 16, y: 16}},base:"/",imgpath:"plugins/system/jcemediabox/img",theme:"light",themecustom:"",themepath:"plugins/system/jcemediabox/themes"});	MediaObject.init({'flash':"9,0,124,0",'windowmedia':"5,1,52,701",'quicktime':"6,0,2,0",'realmedia':"7,0,0,0",'shockwave':"8,5,1,0"});	window.addEvent('domready', function(){window.jcepopup=new JCEUtilities({popup:{legacy:0,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:1,scrollpopup:1},tooltip:{className:"tooltip",opacity:1,speed:150,position:"br",offsets:{x: 16, y: 16}},imgpath:"plugins/system/jceutilities/img",theme:"standard",themecustom:"",themepath:"plugins/system/jceutilities/themes"});});
+  </script>
+  <!--[if IE 7]><link href="http://www.interninc.com/components/com_k2/css/k2_ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
+  <!--[if lte IE 6]><link href="http://www.interninc.com/components/com_k2/css/k2_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+  <script type='text/javascript'>
+/*<![CDATA[*/
+	var jax_live_site = 'http://www.interninc.com/index.php';
+	var jax_site_type = '1.5';
+/*]]>*/
+</script><script type="text/javascript" src="http://www.interninc.com/plugins/system/pc_includes/ajax_1.3.js"></script>
+
+  <link rel="apple-touch-icon" href="/apple_touch_icon.png" />
+  <script type="text/javascript" language="javascript" src="http://www.interninc.com/templates/interninc_blue_v2/js/jquery.scrollTo-min.js"></script>
+  <link rel="stylesheet" href="http://www.interninc.com/templates/system/css/system.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.interninc.com/templates/system/css/general.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.interninc.com/templates/interninc_blue_v2/css/template.css" type="text/css" />
+  <script type="text/javascript" src="/includes/js/jquery.js"></script>
+  <link href="/templates/interninc_blue_v2/css/style.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="http://www.interninc.com/templates/interninc_blue_v2/css/newhomepage.css" type="text/css" />
+    <script language="javascript" type="text/javascript" src="http://www.interninc.com/templates/interninc_blue_v2/js/ja.script.js"></script>
+
+	<!-- THICKBOX -->
+		<script type="text/javascript" src="http://www.indeed.com/ads/apiresults.js"></script>
+	<script type="text/javascript" src="http://www.interninc.com/includes/js/jquery-ui-1.7.2.custom.min.js"></script>
+	<script type="text/javascript" src="http://www.interninc.com/includes/js/ui.core.js"></script>
+	<script type="text/javascript" src="http://www.interninc.com/includes/js/ui.datepicker.js"></script>
+	<script type="text/javascript" src="http://www.interninc.com/includes/js/jquery.suggest.js"></script>
+	<script type="text/javascript" src="http://www.interninc.com/includes/js/jquery.selectboxes.js"></script>
+	<link href="http://www.interninc.com/templates/interninc_blue_v2/css/jquery-ui-1.7.2.custom.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="http://www.interninc.com/includes/js/jquery-thickbox/thickbox.css" type="text/css" media="screen">
+	<link href="http://www.interninc.com/templates/interninc_blue_v2/css/jquery.suggest.css" rel="stylesheet" type="text/css">
+	<!-- FILE UPLOAD AJAXFILEUPLOAD -->
+	<script type="text/javascript" src="http://www.interninc.com/includes/js/ajaxfileupload.js"></script>
+
+	<script type="text/javascript">
+		var dirty_edit = false;
+
+		window.onbeforeunload = function ()
+		{
+			if (dirty_edit == true) {
+			//return confirm('You have unsaved changes which would be lost if you navigate away from this page.\nAre you sure you want to continue?');
+			return 'If you navigate away from this page you will loose any data\nyou have entered until now.';
+			}
+		};
+		window.onunload = function() { /* nothing to do, just don't show the confirmation box a second time! */ }
+	</script>
+
+  
+  	  	    <link rel="stylesheet" href="http://www.interninc.com/templates/interninc_blue_v2/css/ja-sosdmenu.css" type="text/css" />
+	    <script language="javascript" type="text/javascript" src="http://www.interninc.com/templates/interninc_blue_v2/js/ja.cssmenu.js"></script>
+	      
+  <link rel="stylesheet" href="http://www.interninc.com/templates/interninc_blue_v2/css/style_background.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.interninc.com/templates/interninc_blue_v2/css/style_elements.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.interninc.com/templates/interninc_blue_v2/css/style_header.css" type="text/css" />
+
+  <!-- MOD-WILL 03/06/10 -->
+  <link rel="stylesheet" href="http://www.interninc.com/templates/interninc_blue_v2/css/custom.css" type="text/css" />
+  <!-- MOD-WIll-END 03/06/10 -->
+
+  
+  <style type="text/css">
+  #ja-header,#ja-mainnav-whitebar,#ja-container,#ja-botsl,#ja-footer {width: 984px;margin: 0 auto;}
+  #ja-wrapper {min-width: 985px;}
+  </style>
+
+	<!-- CSS temp override styles -->
+	<link rel="stylesheet" href="http://www.interninc.com/templates/interninc_blue_v2/css/091610-override.css" type="text/css" />
+  <!--[if lte IE 6]>
+      <link rel="stylesheet" href="http://www.interninc.com/templates/interninc_blue_v2/css/lteie6.css" type="text/css" />
+  <![endif]-->
+  <!--[if lte IE 7]>
+      <link rel="stylesheet" href="http://www.interninc.com/templates/interninc_blue_v2/css/lteie7.css" type="text/css" />
+  <![endif]-->
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://www.interninc.com/templates/interninc_blue_v2/css/lteie8.css" type="text/css" />
+  <![endif]-->
+  <!--[if gte IE 7.0]>
+      <style type="text/css">
+          .clearfix {display: inline-block;}
+      </style>
+  <![endif]-->
+
+</head>
+
+
+<body class="newhomepage">
+<script type="text/javascript" src="/media/system/js/mootools.js"></script>
+
+<div class="maincontainer">
+		<div class="employerHead">Employers: <a href="http://www.interninc.com/employers/">Post Jobs</a> | <a href="http://www.interninc.com/employers/">Search Resumes</a></div>
+  	<div class="logo"><a href="/">interninc: Real Connections. Real Experience.</a></div>
+		<div class="login"><form action="/index.php" method="post" name="login" id="form-login" >
+		    <input type="text" name="username" id="modlgn_username" value="Username" onblur="if(this.value=='') this.value='Username';" onfocus="if(this.value=='Username') this.value='';">
+	    <input type="password" name="passwd" id="modlgn_passwd" value="Password" onblur="if(this.value=='') this.value='Password';" onfocus="if(this.value=='Password') this.value='';">
+        <input onclick="document.getElementById('form-login').submit()" type="image" name="btnSignIn" id="btnSignIn" src="http://www.interninc.com//templates/interninc_blue_v2/images/newfrontpage/login.jpg">
+        <div class="clear"></div>
+        <a class="reset" href="/index.php?option=com_user&amp;view=reset" class="reset_password">Forgot Password?</a>
+	
+			<input type="hidden" name="option" value="com_user" />
+	<input type="hidden" name="task" value="login" />
+	<input type="hidden" name="return" value="L3BsdWdpbnMvc3lzdGVtL2pjZW1lZGlhYm94L3RoZW1lcy9saWdodC9jc3MvZGF0YWltYWdlL2dpZg==" />
+	<input type="hidden" name="5ef5ac5d22cb131a78d826425547eb8d" value="1" /></form>
+</div>
+		    <div class="clear"></div>
+    <div class="mainmenu">
+
+       
+            		<div class="moduletableTabbedPanelsTab">
+					
+<ul class=TabbedPanelsTabGroup><li class=TabbedPanelsTab><div><a href=index.php?option=com_acctexp&task=subscribe&usage=3&Itemid=104>JOIN!</a></div></li><li class='TabbedPanelsSeperator'><div class='seperator hidden'></div></li><li class=TabbedPanelsTab><div><a href=index.php?option=com_userlist&view=list&listid=4&sortBy=id&sortDir=DESC&limitstart=0&Itemid=>Companies</a></div></li><li class='TabbedPanelsSeperator'><div class='seperator hidden'></div></li><li class=TabbedPanelsTab><div><a href=index.php?option=com_k2&view=itemlist&task=category&id=529>Schools</a></div></li><li class='TabbedPanelsSeperator'><div class='seperator hidden'></div></li><li class=TabbedPanelsTab><div><a href=index.php?option=com_k2&view=latest&layout=latest&Itemid=264>Industries</a></div></li><li class='TabbedPanelsSeperator'><div class='seperator hidden'></div></li><li class=TabbedPanelsTab><div><a href=index.php?option=com_k2&view=itemlist&layout=category&task=category&id=48&Itemid=203>Career Advice</a></div></li><li class='TabbedPanelsSeperator'><div class='seperator hidden'></div></li><li class=TabbedPanelsTab><div><a href=index.php?searchword=&ordering=category&searchphrase=any&limit=0&filter=all&userfilter=all&option=com_search>Search</a></div></li><li class='TabbedPanelsSeperator'><div class='seperator hidden'></div></li><li class=TabbedPanelsTab><div><a href=index.php?option=com_jumi&fileid=11>Groups</a></div></li><li class='TabbedPanelsSeperator last'><div class='seperator hidden'></div></li></ul>
+		</div>
+	
+	   	   <div class="clear"></div>
+    </div>
+    <div class="mainbar">
+        <div class="slideshow">
+            <div id="slideshow_slide1">
+                <div class="text1">Intern Inc. connects <span class="greentext">students</span> to valuable <span class="greentext">internships</span>, <span class="greentext">networking</span> opportunities and future <span class="greentext">jobs</span>.</div>
+            </div>
+            <div id="slideshow_slide2" style="display: none;">
+                <div class="text2">&quot;Internships are important educational experiences for students. Tomorrow's business leaders will greatly benefit from organizations like Intern inc. that offer opportunities to gain valuable, direct experience.&quot;<span class="quoteby">Intern Inc. investor Eric Schmidt, Chairman and CEO of Google</span></div>
+            </div>
+            <div id="slideshow_slide3" style="display: none;">
+                <div class="text1">Intern Inc. connects <span class="greentext">students</span> to valuable <span class="greentext">internships</span>, <span class="greentext">networking</span> opportunities and future <span class="greentext">jobs</span>.</div>
+            </div>
+            <div id="slideshow_slide4" style="display: none;">
+                <div class="text2">&quot;Internships are important educational experiences for students. Tomorrow's business leaders will greatly benefit from organizations like Intern inc. that offer opportunities to gain valuable, direct experience.&quot;<span class="quoteby">Intern Inc. investor Eric Schmidt, Chairman and CEO of Google</span></div>
+            </div>
+            <div id="slideshow_slide5" style="display: none;">
+                <div class="text1">Intern Inc. connects <span class="greentext">students</span> to valuable <span class="greentext">internships</span>, <span class="greentext">networking</span> opportunities and future <span class="greentext">jobs</span>.</div>
+            </div>
+                        <script type="text/javascript">
+                /* Slideshow */
+                sf1();
+
+                function sf1() {
+                    jQuery(".slideshow #slideshow_slide1").fadeIn(
+                        "slow",
+                        function() { setTimeout('jQuery(".slideshow #slideshow_slide1").fadeOut("slow", sf2)', 5000); }
+                    );
+                }
+
+                function sf2() {
+                    jQuery(".slideshow #slideshow_slide2").fadeIn(
+                        "slow",
+                        function() { setTimeout('jQuery(".slideshow #slideshow_slide2").fadeOut("slow", sf3)', 5000); }
+                    );
+                }
+
+                function sf3() {
+                    jQuery(".slideshow #slideshow_slide3").fadeIn(
+                        "slow",
+                        function() { setTimeout('jQuery(".slideshow #slideshow_slide3").fadeOut("slow", sf4)', 5000); }
+                    );
+                }
+
+                function sf4() {
+                    jQuery(".slideshow #slideshow_slide4").fadeIn(
+                        "slow",
+                        function() { setTimeout('jQuery(".slideshow #slideshow_slide4").fadeOut("slow", sf5)', 5000); }
+                    );
+                }
+
+                function sf5() {
+                    jQuery(".slideshow #slideshow_slide5").fadeIn(
+                        "slow",
+                        function() { setTimeout('jQuery(".slideshow #slideshow_slide5").fadeOut("slow", sf1)', 5000); }
+                    );
+                }
+
+            </script>
+
+        </div>
+        <div class="homepage-featured1">
+       		<div id="frontpage-calltoaction">
+<h2>Start Connecting to Exciting Internship Opportunities</h2>
+<p><a href="/index.php?option=com_acctexp&amp;task=subscribe&amp;usage=3&amp;Itemid=104"><img alt="join-now2" src="/images/stories/join-now2.png" height="52" width="195" /></a></p>
+</div>
+       	</div>
+    </div>
+
+
+    <div class="homeModules_row1">
+     	<div class="homeModules_advert">
+    		
+    	</div>
+        <div class="hMod_left">
+        	<h2>Recent Articles</h2>
+        	<script src="/includes/js/desSlideshow.js"></script>
+
+<script language="javascript" type="text/javascript">
+    jQuery(function() {
+
+        jQuery("#desSlideshow2").desSlideshow({
+            autoplay: 'enable',//option:enable,disable
+            slideshow_width: '610',//slideshow window width
+            slideshow_height: '255',//slideshow window height
+            thumbnail_width: '130',//thumbnail width
+            time_Interval: '4000',//Milliseconds
+            directory: 'media/dsimages/'// flash-on.gif and flashtext-bg.jpg directory
+        });});
+</script>
+
+<style type="text/css">
+ .desSlideshow{
+    background-image: url(media/dsimages/loading.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.desSlideshow .switchBigPic,.desSlideshow .nav{
+    display: none;
+}
+
+</style>
+
+
+
+
+
+
+
+
+<div id="desSlideshow2" class="desSlideshow">
+	<div class="switchBigPic">
+		<div>
+                    <a title="The Ultimate Internship" href="http://www.ultimateinternship.com/blog"><img class="pic" src="/media/dsimages/internin-ultimate-internship-fp.png" /></a>
+                    <p><strong>Get The Latest News On The Ultimate Internship!</strong><br/>
+                        sign up for notifications, details, and tips to win!
+                    </p>
+      </div>
+		<div><a title="" href="/index.php?option=com_k2&view=item&id=109:how-to-turn-your-internship-into-a-full-time-job&Itemid=203"><img class="pic" src="/media/dsimages/004.jpg" /></a>
+		
+		                    <p><strong>Internship Into A Full-Time Job </strong><br/>
+                        An internship is a great way to test the waters and land the job of your dreams.
+                    </p>
+      </div>
+		<div><a title="" href="/index.php?option=com_k2&view=item&id=92:spotlight-on-fashion-internships"><img class="pic" src="/media/dsimages/001.jpg" /></a>
+                    <p><strong>Spotlight on Fashion Industry</strong><br/>
+                        Money, fame and glamor lure people to major cities all over the world in hopes of making their fashion dreams come true.
+                    </p>
+      </div>
+		<div><a title="" href="/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=48&Itemid=203"><img class="pic" src="/media/dsimages/003.jpg" /></a>
+                    <p><strong>Advice to succeed</strong><br/>
+                        Information you need to start building your future...
+                    </p>
+      </div>
+  </div>
+	<ul class="nav">
+		<li><a href="/index.php?option=com_acctexp&task=subscribe&usage=3&Itemid=104">Join Now...</a></li>
+  		<li><a href="/index.php?option=com_k2&view=item&id=109:how-to-turn-your-internship-into-a-full-time-job&Itemid=203">How to...</a></li>
+  		<li><a href="/index.php?option=com_k2&view=item&id=92:spotlight-on-fashion-internships"">Spotlight...</a></li>
+  		<li><a href="/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=48&Itemid=203">Tools...</a></li>
+	</ul>
+</div><script src="/includes/js/desSlideshow.js"></script>
+
+<script language="javascript" type="text/javascript">
+    jQuery(function() {
+
+        jQuery("#desSlideshow2").desSlideshow({
+            autoplay: 'enable',//option:enable,disable
+            slideshow_width: '610',//slideshow window width
+            slideshow_height: '255',//slideshow window height
+            thumbnail_width: '130',//thumbnail width
+            time_Interval: '4000',//Milliseconds
+            directory: 'media/dsimages/'// flash-on.gif and flashtext-bg.jpg directory
+        });});
+</script>
+
+<style type="text/css">
+ .desSlideshow{
+    background-image: url(media/dsimages/loading.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.desSlideshow .switchBigPic,.desSlideshow .nav{
+    display: none;
+}
+
+</style>
+
+
+
+
+
+
+
+
+<div id="desSlideshow2" class="desSlideshow">
+	<div class="switchBigPic">
+		<div>
+                    <a title="The Ultimate Internship" href="http://www.ultimateinternship.com/blog"><img class="pic" src="/media/dsimages/internin-ultimate-internship-fp.png" /></a>
+                    <p><strong>Get The Latest News On The Ultimate Internship!</strong><br/>
+                        sign up for notifications, details, and tips to win!
+                    </p>
+      </div>
+		<div><a title="" href="/index.php?option=com_k2&view=item&id=109:how-to-turn-your-internship-into-a-full-time-job&Itemid=203"><img class="pic" src="/media/dsimages/004.jpg" /></a>
+		
+		                    <p><strong>Internship Into A Full-Time Job </strong><br/>
+                        An internship is a great way to test the waters and land the job of your dreams.
+                    </p>
+      </div>
+		<div><a title="" href="/index.php?option=com_k2&view=item&id=92:spotlight-on-fashion-internships"><img class="pic" src="/media/dsimages/001.jpg" /></a>
+                    <p><strong>Spotlight on Fashion Industry</strong><br/>
+                        Money, fame and glamor lure people to major cities all over the world in hopes of making their fashion dreams come true.
+                    </p>
+      </div>
+		<div><a title="" href="/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=48&Itemid=203"><img class="pic" src="/media/dsimages/003.jpg" /></a>
+                    <p><strong>Advice to succeed</strong><br/>
+                        Information you need to start building your future...
+                    </p>
+      </div>
+  </div>
+	<ul class="nav">
+		<li><a href="/index.php?option=com_acctexp&task=subscribe&usage=3&Itemid=104">Join Now...</a></li>
+  		<li><a href="/index.php?option=com_k2&view=item&id=109:how-to-turn-your-internship-into-a-full-time-job&Itemid=203">How to...</a></li>
+  		<li><a href="/index.php?option=com_k2&view=item&id=92:spotlight-on-fashion-internships"">Spotlight...</a></li>
+  		<li><a href="/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=48&Itemid=203">Tools...</a></li>
+	</ul>
+</div>
+        </div>
+        <div class="hMod_right">
+        	<h2>Latest Internships</h2>
+        	
+
+<div class="gk_tab gk_tab-style1 clearfix-tabs" id="tabmix2">
+	<div class="gk_tab_wrap-style1 clearfix-tabs" style="">
+			
+    <ul class="gk_tab_ul-style1">
+            <li id="tabmix2_tab_1"><span>Recent Internship Posts</span></li>
+        </ul>
+                
+	<div class="gk_tab_container0-style1" style="">
+        <div class="gk_tab_container1-style1 clearfix-tabs" style="">
+            <div class="gk_tab_container2-style1 clearfix-tabs">
+                
+<div class="gk_tab_item-style1" style="">
+	<div class="gk_tab_item_space">
+		
+<div id="recent-internships">
+
+    <div class="job">
+        <div class="job-title">
+            <a href="/index.php?option=com_postinternship&amp;view=details&amp;internship_id=520">Account Executive/Recruiter</a>
+        </div>
+        <div class="company-name"> <b>15 April 2015</b></div>
+    </div>
+    <div class="job">
+        <div class="job-title">
+            <a href="/index.php?option=com_postinternship&amp;view=details&amp;internship_id=535">Intern to the CEO of #DKPRadio & Editor In Chief of #RAmag</a>
+        </div>
+        <div class="company-name">Diamond Kesawn Presents <b>31 March 2015</b></div>
+    </div>
+    <div class="job">
+        <div class="job-title">
+            <a href="/index.php?option=com_postinternship&amp;view=details&amp;internship_id=149">Gain excellent experience in the Hospitality Industry in Cape Town South Africa</a>
+        </div>
+        <div class="company-name">Magister International Student Placements <b>01 May 2015</b></div>
+    </div>
+    <div class="job">
+        <div class="job-title">
+            <a href="/index.php?option=com_postinternship&amp;view=details&amp;internship_id=504">Paid Spring Internship</a>
+        </div>
+        <div class="company-name">DoSomething.org <b>08 May 2015</b></div>
+    </div>
+    <div class="job">
+        <div class="job-title">
+            <a href="/index.php?option=com_postinternship&amp;view=details&amp;internship_id=518">Social Media Strategist/Communication Specialist</a>
+        </div>
+        <div class="company-name">Womanpreneur, Inc. <b>28 March 2015</b></div>
+    </div>
+
+<div style="float:left;">
+    <a href="http://www.interninc.com/?option=com_customsearch&view=searchinternships&searchwordALL=">Find More</a>
+</div>
+
+<div style="float:right;">
+    <a href="http://www.interninc.com/employers/">Post An Internship</a>
+</div>
+
+<div style="clear:both;"></div>
+</div>
+		</div>
+</div>            </div>
+        </div>
+    </div>
+      
+	</div>
+	
+		
+</div>
+<div class="clearfix-tabs"></div>
+
+
+
+        </div>
+    </div>
+    <div class="homeModules_row2">
+        <a href="http://www.ultimateinternship.com/blog/"><img alt="homepage-banner" src="/images/stories/homepage-banner.png" /></a>
+    </div>
+        <div class="companies_scroller2">
+        <a class="scroll_left"></a>
+          <div class="logos_cutoff">
+            <div class="logos_all">
+                <a href="/index.php?option=com_community&view=profile&userid=311&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_bti.jpg"></a>
+                <a href="/index.php?option=com_community&view=profile&userid=288&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_cu.jpg"></a>
+                <a href="/index.php?option=com_community&view=profile&userid=1513&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_deloitte.jpg"></a>
+                <a href="/index.php?option=com_community&view=profile&userid=961&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_du.jpg"></a>
+                <a href="/index.php?option=com_community&view=profile&userid=1260&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_enterprise.jpg"></a>
+                <a href="/index.php?option=com_community&view=profile&userid=1005&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_freshandeasy.jpg"></a>
+                <a href="/index.php?option=com_content&view=article&id=125&Itemid=224"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_google.jpg"></a>
+                <a href="/index.php?option=com_content&view=article&id=91"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_johnsoncontrols.jpg"></a>
+                <a href="/index.php?option=com_content&view=article&id=91"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_miamiu.jpg"></a>
+                <a href="/index.php?option=com_community&view=profile&userid=1006&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_nestle.jpg"></a>
+                <a href="/index.php?option=com_community&view=profile&userid=1552&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_purina.jpg"></a>
+                <a href="/index.php?option=com_community&view=profile&userid=1521&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_pwc.jpg"></a>
+                <a href="/index.php?option=com_content&view=article&id=91"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_cardinalhealth.jpg"></a>
+                <a href="/index.php?option=com_community&view=profile&userid=1739&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_qwest.jpg"></a>
+                <a href="/index.php?option=com_content&view=article&id=91"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_rka.jpg"></a>
+                <a href="/index.php?option=com_community&view=profile&userid=1740&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_ge.jpg"></a>
+                <a href="/index.php?option=com_community&view=profile&userid=1653&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_corbis.jpg"></a>
+                <a href="/index.php?option=com_content&view=article&id=91"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_webmd.jpg"></a>
+                <a href="/index.php?option=com_community&view=profile&userid=1741&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_redhat.jpg"></a>
+                <a href="/index.php?option=com_community&view=profile&userid=2238&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_apexsystems.jpg"></a>
+                <a href="/index.php?option=com_community&view=profile&userid=1745&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_monsanto.jpg"></a>
+                <a href="/index.php?option=com_community&view=profile&userid=1742&Itemid=29"><img src="/templates/interninc_blue_v2/images/newfrontpage/logos/color/logo_naylor.gif"></a>
+            </div>
+        </div>
+				<a class="scroll_right"></a>
+
+
+        <script type="text/javascript">
+            var maxPos = -5000;
+            var pos = (Math.floor(Math.random()*-3000));
+
+            if (Math.round(Math.random()) == 1) {
+            	jQuery(".companies_scroller2 .logos_all").animate({marginLeft: pos}, 2500);
+            } else {
+            	jQuery(".companies_scroller2 .logos_all").animate({marginLeft: -5000}, 0);
+            	jQuery(".companies_scroller2 .logos_all").animate({marginLeft: pos}, 2500);
+            }
+
+            jQuery(".companies_scroller2 .scroll_right").click(function() {
+                if (pos > -5000) {
+                    pos -= 500;
+                    jQuery(".companies_scroller2 .logos_all").animate({marginLeft: '-=500'}, 1000);
+                }              });
+            jQuery(".companies_scroller2 .scroll_left").click(function() {
+                if (pos < 0) {
+                    pos += 500;
+                    jQuery(".companies_scroller2 .logos_all").animate({marginLeft: '+=500'}, 1000);
+                }
+            });
+        </script>
+    </div>
+
+	</div>
+
+	<div id="fMod_wrap">
+		<div class="footerModules">
+					    <div id="subFoot1">
+					<ul class="menu"><li class="item245"><a href="/index.php?option=com_content&amp;view=article&amp;id=69&amp;Itemid=245"><span>Why Use Intern Inc</span></a></li><li class="item247"><a href="/index.php?option=com_content&amp;view=article&amp;id=89&amp;Itemid=247"><span>Management Team</span></a></li><li class="item244"><a href="/index.php?option=com_content&amp;view=article&amp;id=70&amp;Itemid=244"><span>Learn About Intern Inc</span></a></li><li class="item242"><a href="/index.php?option=com_content&amp;view=article&amp;id=72&amp;Itemid=242"><span>Privacy Statement</span></a></li><li class="item243"><a href="/index.php?option=com_content&amp;view=article&amp;id=71&amp;Itemid=243"><span>Website Disclaimer</span></a></li><li class="item246"><a href="/index.php?option=com_content&amp;view=article&amp;id=68&amp;Itemid=246"><span>Copyright</span></a></li></ul>
+		    </div>
+		   					    <div id="subFoot2">
+					<ul class="menu"><li class="item253"><a href="http://ultimateinternship.com"><span>Ultimate Internship - Google</span></a></li><li class="item254"><a href="http://www.interninc.com/schools"><span>Find Your School</span></a></li><li class="item255"><a href="http://www.interninc.com/index.php?option=com_k2&amp;view=itemlist&amp;layout=category&amp;task=category&amp;id=48&amp;Itemid=203"><span>Student Resources</span></a></li><li class="item248"><a href="/index.php?option=com_docman&amp;Itemid=248"><span>Intern Training Documents</span></a></li><li class="item249"><a href="/index.php?option=com_k2&amp;view=itemlist&amp;layout=category&amp;task=category&amp;id=49&amp;Itemid=249"><span>Internship Advice Articles</span></a></li><li class="item280"><a href="/index.php?option=com_userlist&amp;view=list&amp;listid=4&amp;Itemid=280"><span>Find Companies On Intern Inc</span></a></li></ul>
+		    </div>
+								    <div id="subFoot3">
+					<ul class="menu"><li class="item279"><a href="/?option=com_k2&amp;view=latest&amp;layout=latest&amp;Itemid=264"><span>Explore Top Industries</span></a></li><li class="item256"><a href="http://www.interninc.com/index.php?option=com_k2&amp;view=itemlist&amp;task=category&amp;id=331:consulting&amp;Itemid=250"><span>Industry Insight: Consulting</span></a></li><li class="item257"><a href="http://www.interninc.com/index.php?option=com_k2&amp;view=itemlist&amp;task=category&amp;id=337:operations-and-supply-chain-management&amp;Itemid=250"><span>Industry Insight: Supply Chain</span></a></li><li class="item258"><a href="http://www.interninc.com/index.php?option=com_k2&amp;view=itemlist&amp;task=category&amp;id=293:accounting&amp;Itemid=250"><span>Industry Insight: Accounting</span></a></li></ul>
+		    </div>
+											    <div id="subFoot5">
+					&nbsp;&nbsp;
+		    </div>
+				    <div id="subFoot6">
+		    <div class="footer-social-links">
+  	      <h4>Connect with us on</h4>
+					<ul>
+						<li class="linkedin"><a href="http://www.linkedin.com/groups?home=&gid=2614824" target="_blank">linkedin</a></li>
+						<li class="facebook"><a href="http://www.facebook.com/interninc" target="_blank">facebook</a></li>
+						<li class="twitter"><a href="http://twitter.com/interninc" target="_blank">twitter</a></li>
+					</ul>
+		    </div>
+	    </div>
+		</div>
+		<div class="clear"></div>
+	</div>
+<script type="text/javascript">
+var clicky = { log: function(){ return; }, goal: function(){ return; }};
+var clicky_site_id = 66387066;
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = ( document.location.protocol == 'https:' ? 'https://static.getclicky.com/js' : 'http://static.getclicky.com/js' );
+  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+})();
+</script>
+<a title="Real Time Web Analytics" href="http://getclicky.com/66387066"></a>
+<noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/66387066ns.gif" /></p></noscript>
+
+
+
+			<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			try {
+			var pageTracker = _gat._getTracker("UA-10024212-1");
+			pageTracker._trackPageview();
+			} catch(err) {}</script>
+			</body>
+
+</html>

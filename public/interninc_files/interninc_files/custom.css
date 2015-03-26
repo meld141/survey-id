@@ -1,0 +1,338 @@
+/*  The CSS in here has not been integrated into the various files yet. It is a work-in-progress and may
+change frequently -Will Lowrey
+    
+*/
+
+/* ------------------------------*/
+/* ------>> GLOBAL CHANGE <<-----*/
+/* ------------------------------*/
+
+
+/* DO NOT USE - this should be replaced and any use should use .clearfix from template.css */
+
+/* added 3/16/10 by br */
+/* ========== GREY STRIPES TABLE ========== */
+/* =============== TABLE STYLES =============== */
+/* ========== TEXT TREATMENTS  ========== */	
+
+
+.clearboth {clear:both;} 
+
+/*---:[ universal image classes ]:---*/
+img.alignleft, img.left { float: left; }
+img.alignright, img.right { float: right; }
+img.aligncenter, img.center { display: block; margin-right: auto; margin-left: auto; float: none; clear: both; }
+img.alignnone, img.block { display: block; clear: both; }
+img.frame { background: #eee; border-style: solid; border-color: #ddd; }
+img.stack { clear: none !important; }
+img[align="left"] { float: left; clear: left; }
+img[align="right"] { float: right; clear: right; }
+img[align="middle"] { display: block; margin-right: auto; margin-left: auto; float: none; clear: both; }
+
+/* Do rounding (native in Safari, Firefox and Chrome) */
+.roundedCorners {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+	.roundedCornersLeft {
+		-webkit-border-top-left-radius : 15px;
+		-webkit-border-bottom-left-radius : 15px;
+		-moz-border-radius-topleft : 15px;
+		-moz-border-radius-bottomleft : 15px;
+	}
+	
+	.roundedCornersRight {
+		-webkit-border-top-right-radius : 15px;
+		-webkit-border-bottom-right-radius : 15px;
+		-moz-border-radius-topright : 15px;
+		-moz-border-radius-bottomright : 15px;
+	}
+	
+	.roundedCornersTop {
+		-webkit-border-top-left-radius : 15px;
+		-webkit-border-top-right-radius : 15px;	
+		-moz-border-radius-topleft : 15px;
+		-moz-border-radius-topright :15px;
+	}
+	
+	.roundedCornersBottom {
+		-webkit-border-bottom-left-radius : 15px;
+		-webkit-border-bottom-right-radius : 15px;
+		-moz-border-radius-bottomleft : 15px;
+		-moz-border-radius-bottomright : 15px;
+	}
+	
+.dropshadow {
+	-webkit-box-shadow: 0px 1px 10px rgba(0,0,0,.5);
+	-moz-box-shadow: 0px 1px 10px rgba(0,0,0,.5);
+	box-shadow: 0px 1px 10px rgba(0,0,0,.5); 
+}
+
+/* ------------------------------*/
+/* ------>> COLOR PALETTE <<-----*/
+/* ------------------------------*/
+.purple-fg {color: #A60B74;}
+.purple-bg {background-color: #A60B74;}
+.orange-fg {color: #E96C24;}
+.orange-bg {background-color: #E96C24;}
+.white-fg {color: #FFF;}
+.white-bg {background-color: #FFF;}
+.grey-fg {color: #F2F2F2;}
+.grey-bg {background-color: #F2F2F2;}
+.blue-fg {color: #166990;}
+.blue-bg {background-color:#166990;}
+.green-fg {color: #BCD439;}
+.green-bg {background-color: #BCD439;}
+
+/* ------------------------------*/
+/* ------>> CUSTOM STYLES <<-----*/
+/* ------------------------------*/
+
+.hilite-1 {font-size: 1.5em; text-transform: uppercase;}
+
+h2.style1 { font-size: 2.0em; margin-bottom: 15px; padding-bottom: 0px; margin-left: 15px; margin-top: 0px; padding-top: 0px; }
+h3.style1 { font-size: 1.5em; margin-left: 15px; }
+
+/*--:[custom bullets]:--*/
+ul.check-purple, ul.check-2 {
+	padding-left: 15px !important;
+	overflow: hidden;
+	margin-left: 15px !important;
+}
+	ul.check-purple li, ul.check-2 li {
+		list-style: none;
+		padding-bottom: 3px !important;
+		margin-bottom: 5px !important;
+		padding-left: 20px !important;
+		line-height: 1.25em;
+	}
+
+	ul.check-purple li {background: url(../images/check-purple.jpg) 0 0px no-repeat;}
+
+
+
+.feature-box { padding: 5px; display: block; position: relative; min-height: 50px; margin-bottom: 20px; }
+	.feature-box-title{padding: 5px; line-height: 1.5em; font-size: 20px; width: 75%; float: left;}
+		.feature-box-function {padding-top: 13px; float: right;padding-right: 15px; }
+			.feature-box-function a{ color: white; text-decoration: none; font-size: 14px; }
+			.feature-box-function a:hover{text-decoration: underline}
+	.feature-focus {display: block; position: relative; margin: 2px; padding: 0  0 10px 10px; min-height: 200px; min-width: 200px;}
+
+
+
+/*--:[Join Now mini-mod box -- */
+.join-mod {float: left; position: relative; display: block;}
+.join-mod-message { width: 245px; float: left; padding-left: 15px; font-size: 1em;}
+.join-mod-form{ width: 435px; float: left; padding-left: 25px;}
+
+.join-mod-form input { margin-bottom: 6px; color: gray; font-size: 0.9em; padding-left: 15px;}
+
+/*--:[Join Now Generic Element Form CSS */
+.JoinForm { font-size: 12px; }
+	.JoinForm .name-field {	width: 13em;}
+	.JoinForm .first-name { margin-right: 5px; }
+	.JoinForm .last-name {}
+	.JoinForm .company-name{ width: 29em; }
+	.JoinForm .email-field { width: 29em;}
+	.JoinForm .submit-button {
+		color: #fff;
+ 		font-size: 0;
+ 		width: 88px;
+ 		height: 22px;
+ 		border: none;
+ 		margin: 0;
+ 		padding: 0;
+ 		background: transparent url(../images/submit-blue.png) 0 0 no-repeat;
+	}
+
+
+
+
+/*-- Company Scroller CSS: This manages the placement and movement. --*/
+
+.companies_scroller {
+    background: transparent url("../images/box_scroller.png") no-repeat scroll 0 0;
+    width: 750px;
+    height: 61px;
+    margin-top: 8px;    
+}
+
+.companies_scroller .scroll_left,
+.companies_scroller .scroll_right {
+    height: 25px;
+    width: 16px;
+    margin: 19px 16px;
+    float: left;
+    background: transparent url("../images/scroll_arrows.png") no-repeat;
+}
+
+.companies_scroller .scroll_left { background-position: 0 0; }
+.companies_scroller .scroll_right { background-position: -16px 0; }
+.companies_scroller .scroll_left:hover { background-position: 0 -25px; }
+.companies_scroller .scroll_right:hover { background-position: -16px -25px; }
+
+.companies_scroller .logos_cutoff {
+    float: left;
+    width: 654px;
+    height: 61px;
+    overflow: hidden;
+}
+
+.companies_scroller .logos_cutoff .logos_all {
+    width: 5000px;
+    height: 50px;
+    padding: 6px 0 0;
+}
+
+.companies_scroller .logos_cutoff .logos_all a img { opacity: 0.5; }
+.companies_scroller .logos_cutoff .logos_all a:hover img { opacity: 1; }
+.companies_scroller .logos_cutoff .logos_all img {  margin-right: 3em; }
+
+/*--:[Follow Us Module]:--*/
+.icon { float: left; }
+.icon .twitter, .icon .facebook, .icon .rss, .icon .linkedin .icon .blog {
+
+}
+
+div.itemTagsBlock ul li, div.itemSocialLinksBlock ul li, div.itemToolbar ul li, div.catItemTagsBlock ul li {background-image: url(none); list-style-type: none;}
+
+/* ========== GREY STRIPES TABLE ========== */
+table.table-greystripes {
+	border: 1px solid #d9d9d9;
+	color: #404040;
+	background: #ffffff;
+	border-collapse: collapse;
+}
+table.table-greystripes caption {
+	padding: 6px 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+table.table-greystripes td,
+table.table-greystripes th {
+	border: 1px dashed #e5e5e5;
+	padding: 5px 10px;
+}
+table.table-greystripes thead th {
+	border: 1px solid #595959;
+	border-bottom: 2px solid #000000;
+	background: #404040;
+	color: #ffffff;
+	font-size: 1.1em;
+}
+table.table-greystripes tbody th,
+table.table-greystripes tbody td {
+	vertical-align: top;
+	text-align: left;
+}
+table.table-greystripes tbody tr.odd {
+	background: #f2f2f2;
+}
+table.table-greystripes tbody tr:hover {
+	background: #e5e5e5;
+}
+table.table-greystripes tbody tr:hover th,
+table.table-greystripes tbody tr.odd:hover th {
+	background: #e5e5e5;
+}
+table.table-greystripes tfoot th,
+table.table-greystripes tfoot td {
+	border: none;
+	padding: 4px 10px;
+	background-color: #d9d9d9;
+	color: #000000;
+	font-size: 1.1em;
+}
+table.table-greystripes tfoot td {
+	text-align: right;
+}
+
+/* =============== TABLE STYLES =============== */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th {
+	text-align: left;
+}
+/* ========== PLAIN ROWS TABLE ========== */
+table.table-plainrows {
+	border-collapse:collapse;
+	background-color: #f2f2f2;
+	color: #404040;
+}
+table.table-plainrows caption {
+	padding: 6px 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+table.table-plainrows thead {
+	border-bottom: solid 1px;
+}
+table.table-plainrows thead th {
+	text-transform: capitalize;
+	padding: 5px 10px;
+	color: #ffffff;
+	font-size: 1.1em;
+}
+table.table-plainrows tfoot th,
+table.table-plainrows tfoot td {
+	text-transform: capitalize;
+	padding: 3px 10px;
+	background-color: #d9d9d9;
+	color: #000000;
+	font-size: 1.1em;
+}
+table.table-plainrows tfoot td {
+	text-align: right;
+}
+table.table-plainrows tbody th,
+table.table-plainrows tbody td {
+	border-bottom: solid 1px #d9d9d9;
+	padding: 4px 10px;
+}
+table.table-plainrows tbody th {
+	white-space: nowrap;
+}
+table.table-plainrows tr.odd {
+/*	background-color: #e5e5e5;*/
+}
+table.table-plainrows tbody tr:hover {
+	background: #e5e5e5;
+	
+	
+/* ========== TEXT TREATMENTS  ========== */	
+.text-dropcap:first-letter {
+	color: #404040;
+	font: 4em/.8em "Times New Roman", Times, serif;
+	float: left;
+}	
+   /* ========== BlockQuotes  ========== */	
+.bqstart {
+     float: left;
+     height: 45px;
+     margin-top: -20px;
+     padding-top: 45px;
+     margin-bottom: -50px;
+     font-size: 700%;
+     color: #BCD439;
+ }
+
+ .bqend {
+     float: right;
+     height: 25px;
+     margin-top: 0px;
+     padding-top: 45px;
+     font-size: 700%;
+     color: #BCD439;
+ }
+
+/* ========= System.css Overrides ========= */
+.message ul li {
+	background-image: url('');
+	background-color: green;
+}

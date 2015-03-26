@@ -1,0 +1,28 @@
+.aec_ilist_item aec_ilist_item_3 {
+	text-align: left !important;
+}
+
+.orange-fg, .purple-fg {
+	color:inherit !important;
+	font-size: inherit !important;
+	font-weight: bold;
+	line-height: 1.4em;
+}
+.bluetext, .greentext{
+	color: inherit !important;
+	font-weight: normal !important;
+}
+.orange-bg {
+	background-color: #025f8f !important;
+}
+
+.landing_page_signup .purple_bottom {
+	color: inherit !important;
+}
+.h-nav-in-b .h-nav-in-inf p {
+	color: #fff !important;
+}
+.article-content{
+	text-align: left;
+	padding: 0 10px;
+}

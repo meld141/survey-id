@@ -1,0 +1,90 @@
+.clearfix-tabs{
+	clear: both;
+}
+
+.gk_tab_item_space{
+}
+
+div.gk_tab-style1 {
+	position: relative;
+}
+
+div.gk_tab_wrap-style1 {
+	margin: 0 auto;
+}
+
+ul.gk_tab_ul-style1 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+}
+
+ul.gk_tab_ul-style1 li {
+	float: left;
+	cursor: pointer;
+	margin: 0 3px -1px 0;
+	border: 1px solid #ebebeb;
+	border-bottom: none;
+	position: relative;
+	padding: 1px;
+	padding-bottom: 0px;
+}
+
+ul.gk_tab_ul-style1 li span {
+	display: none;
+}
+
+ul.gk_tab_ul-style1 li.active span {
+	background: url('../images/bg_tab-active.png') repeat-x 0 0;
+	color: #aa2207;
+}
+
+div.gk_tab_container0-style1 {
+	clear: both;
+/*
+	background: url('../images/bg_content.png') repeat-x 0 0;
+*/
+}
+
+div.gk_tab_container1-style1 {
+	overflow: hidden;
+/*
+	background: url('../images/bg_content-bottom.png') repeat-x 0 100%;
+*/
+}
+
+div.gk_tab_item-style1 {
+	float: left;
+	overflow: hidden;
+}
+
+div.gk_tab_button_next-style1,
+div.gk_tab_button_prev-style1 {
+	width: 24px;
+	height: 24px;
+	background: url('../images/b_next.png') no-repeat 0 0;
+	cursor: pointer;
+	position: absolute;
+	top: 43%;
+	right: 0;
+}
+
+div.gk_tab_button_prev-style1 {
+	background: url('../images/b_prev.png') no-repeat 0 0;
+	left: 0;
+	right:inherit;
+}
+
+div.gk_tab_button_next-style1:hover {
+	background: url('../images/b_next.png') no-repeat 100% 0;
+}
+
+div.gk_tab_button_prev-style1:hover {
+	background: url('../images/b_prev.png') no-repeat 100% 0;
+}
+.gk_tab_container0-style1,
+.gk_tab_container1-style1,
+.gk_tab_container2-style1{
+	position:relative;
+}
