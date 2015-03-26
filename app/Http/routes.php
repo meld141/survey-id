@@ -34,3 +34,8 @@ Route::get('im', function()
 {
     return view('im.index');
 });
+
+Route::get('linkedin', function()
+{
+    return view('linkedin.index');
+});
