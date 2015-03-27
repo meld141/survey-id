@@ -252,14 +252,14 @@ z-index: 1005;
 <div id="dic_bubble" class="selection_bubble" style="z-index:9999;" fetching="false"></div><script type="text/javascript" src="/interninc_files/interninc_files/mootools(1).js"></script>
 
 <div class="maincontainer">
-		<div class="employerHead">Employers: <a href="http://www.interninc.com/employers/">Post Jobs</a> | <a href="http://www.interninc.com/employers/">Search Resumes</a></div>
+		<div class="employerHead">Employers: <a href="#">Post Jobs</a> | <a href="#">Search Resumes</a></div>
   	<div class="logo" style="border:0px solid #DDD; background:url(/interninc_files/images/logo.png) no-repeat;"><img src="/interninc_files/images/logo.png" /></div>
-		<div class="login"><form action="http://www.interninc.com/index.php" method="post" name="login" id="form-login">
+		<div class="login"><form method="post" name="login" id="dummy">
 		    <input type="text" name="username" id="modlgn_username" value="Username" onblur="if(this.value==&#39;&#39;) this.value=&#39;Username&#39;;" onfocus="if(this.value==&#39;Username&#39;) this.value=&#39;&#39;;">
 	    <input type="password" name="passwd" id="modlgn_passwd" value="Password" onblur="if(this.value==&#39;&#39;) this.value=&#39;Password&#39;;" onfocus="if(this.value==&#39;Password&#39;) this.value=&#39;&#39;;">
-        <input onclick="document.getElementById(&#39;form-login&#39;).submit()" type="image" name="btnSignIn" id="btnSignIn" src="/interninc_files/interninc_files/login.jpg">
+        <input type="image" src="/interninc_files/interninc_files/login.jpg">
         <div class="clear"></div>
-        <a class="reset" href="http://www.interninc.com/index.php?option=com_user&view=reset">Forgot Password?</a>
+        <a class="reset" href="#">Forgot Password?</a>
 	
 			<input type="hidden" name="option" value="com_user">
 	<input type="hidden" name="task" value="login">
@@ -276,7 +276,7 @@ z-index: 1005;
         <div>
             <a href="{{ route('vote', ['interninc']) }}">JOIN!</a>
         </div>
-        </li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_userlist&view=list&listid=4&sortBy=id&sortDir=DESC&limitstart=0&Itemid=">Companies</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&task=category&id=529">Schools</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_k2&view=latest&layout=latest&Itemid=264">Industries</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=48&Itemid=203">Career Advice</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?searchword=&ordering=category&searchphrase=any&limit=0&filter=all&userfilter=all&option=com_search">Search</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_jumi&fileid=11">Groups</a></div></li><li class="TabbedPanelsSeperator last"><div class="seperator hidden"></div></li></ul>
+        </li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="#">Companies</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="#">Schools</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="#">Industries</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="#">Career Advice</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="#">Search</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="#">Groups</a></div></li><li class="TabbedPanelsSeperator last"><div class="seperator hidden"></div></li></ul>
 		</div>
 	
 	   	   <div class="clear"></div>
@@ -389,23 +389,23 @@ z-index: 1005;
 <div id="desSlideshow2" class="desSlideshow" style="width: 610px; height: 255px; position: relative; font-family: Verdana, Geneva, sans-serif; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(204, 204, 204); overflow: hidden; background: none;">
 	<div class="switchBigPic" style="position: relative; display: block;">
 		<div style="position: absolute; overflow: hidden; display: none;">
-                    <a title="The Ultimate Internship" href="http://www.ultimateinternship.com/blog" style="color: rgb(0, 0, 0);"><img class="pic" src="/interninc_files/interninc_files/internin-ultimate-internship-fp.png" style="border: none;"></a>
+                    <a title="The Ultimate Internship" href="#" style="color: rgb(0, 0, 0);"><img class="pic" src="/interninc_files/interninc_files/internin-ultimate-internship-fp.png" style="border: none;"></a>
                     <p style="position: absolute; padding: 5px; margin: 0px; bottom: 0px; opacity: 0.6; color: rgb(255, 255, 255); font-size: 12px; width: 100%; background-color: rgb(0, 0, 0);"><strong>Get The Latest News On The Ultimate Internship!</strong><br>
                         sign up for notifications, details, and tips to win!
                     </p>
       </div>
-		<div style="position: absolute; overflow: hidden; display: none;"><a title="" href="http://www.interninc.com/index.php?option=com_k2&view=item&id=109:how-to-turn-your-internship-into-a-full-time-job&Itemid=203" style="color: rgb(0, 0, 0);"><img class="pic" src="/interninc_files/interninc_files/004.jpg" style="border: none;"></a>
+		<div style="position: absolute; overflow: hidden; display: none;"><a title="" href="#" style="color: rgb(0, 0, 0);"><img class="pic" src="/interninc_files/interninc_files/004.jpg" style="border: none;"></a>
 		
 		                    <p style="position: absolute; padding: 5px; margin: 0px; bottom: 0px; opacity: 0.6; color: rgb(255, 255, 255); font-size: 12px; width: 100%; background-color: rgb(0, 0, 0);"><strong>Internship Into A Full-Time Job </strong><br>
                         An internship is a great way to test the waters and land the job of your dreams.
                     </p>
       </div>
-		<div style="position: absolute; overflow: hidden; display: none;"><a title="" href="http://www.interninc.com/index.php?option=com_k2&view=item&id=92:spotlight-on-fashion-internships" style="color: rgb(0, 0, 0);"><img class="pic" src="/interninc_files/interninc_files/001.jpg" style="border: none;"></a>
+		<div style="position: absolute; overflow: hidden; display: none;"><a title="" href="#" style="color: rgb(0, 0, 0);"><img class="pic" src="/interninc_files/interninc_files/001.jpg" style="border: none;"></a>
                     <p style="position: absolute; padding: 5px; margin: 0px; bottom: 0px; opacity: 0.6; color: rgb(255, 255, 255); font-size: 12px; width: 100%; background-color: rgb(0, 0, 0);"><strong>Spotlight on Fashion Industry</strong><br>
                         Money, fame and glamor lure people to major cities all over the world in hopes of making their fashion dreams come true.
                     </p>
       </div>
-		<div style="position: absolute; overflow: hidden; display: block;"><a title="" href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=48&Itemid=203" style="color: rgb(0, 0, 0);"><img class="pic" src="/interninc_files/interninc_files/003.jpg" style="border: none;"></a>
+		<div style="position: absolute; overflow: hidden; display: block;"><a title="" href="#" style="color: rgb(0, 0, 0);"><img class="pic" src="/interninc_files/interninc_files/003.jpg" style="border: none;"></a>
                     <p style="position: absolute; padding: 5px; margin: 0px; bottom: 0px; opacity: 0.6; color: rgb(255, 255, 255); font-size: 12px; width: 100%; background-color: rgb(0, 0, 0);"><strong>Advice to succeed</strong><br>
                         Information you need to start building your future...
                     </p>
@@ -455,33 +455,33 @@ z-index: 1005;
 <div id="desSlideshow2" class="desSlideshow">
 	<div class="switchBigPic">
 		<div>
-                    <a title="The Ultimate Internship" href="http://www.ultimateinternship.com/blog"><img class="pic" src="/interninc_files/interninc_files/internin-ultimate-internship-fp.png"></a>
+                    <a title="The Ultimate Internship" href="#"><img class="pic" src="/interninc_files/interninc_files/internin-ultimate-internship-fp.png"></a>
                     <p><strong>Get The Latest News On The Ultimate Internship!</strong><br>
                         sign up for notifications, details, and tips to win!
                     </p>
       </div>
-		<div><a title="" href="http://www.interninc.com/index.php?option=com_k2&view=item&id=109:how-to-turn-your-internship-into-a-full-time-job&Itemid=203"><img class="pic" src="/interninc_files/interninc_files/004.jpg"></a>
+		<div><a title="" href="#"><img class="pic" src="/interninc_files/interninc_files/004.jpg"></a>
 		
 		                    <p><strong>Internship Into A Full-Time Job </strong><br>
                         An internship is a great way to test the waters and land the job of your dreams.
                     </p>
       </div>
-		<div><a title="" href="http://www.interninc.com/index.php?option=com_k2&view=item&id=92:spotlight-on-fashion-internships"><img class="pic" src="/interninc_files/interninc_files/001.jpg"></a>
+		<div><a title="" href="#"><img class="pic" src="/interninc_files/interninc_files/001.jpg"></a>
                     <p><strong>Spotlight on Fashion Industry</strong><br>
                         Money, fame and glamor lure people to major cities all over the world in hopes of making their fashion dreams come true.
                     </p>
       </div>
-		<div><a title="" href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=48&Itemid=203"><img class="pic" src="/interninc_files/interninc_files/003.jpg"></a>
+		<div><a title="" href="#"><img class="pic" src="/interninc_files/interninc_files/003.jpg"></a>
                     <p><strong>Advice to succeed</strong><br>
                         Information you need to start building your future...
                     </p>
       </div>
   </div>
 	<ul class="nav">
-		<li><a href="http://www.interninc.com/index.php?option=com_acctexp&task=subscribe&usage=3&Itemid=104">Join Now...</a></li>
-  		<li><a href="http://www.interninc.com/index.php?option=com_k2&view=item&id=109:how-to-turn-your-internship-into-a-full-time-job&Itemid=203">How to...</a></li>
-  		<li><a href="http://www.interninc.com/index.php?option=com_k2&view=item&id=92:spotlight-on-fashion-internships" "="">Spotlight...</a></li>
-  		<li><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=48&Itemid=203">Tools...</a></li>
+		<li><a href="{{ route('vote', ['interninc']) }}">Join Now...</a></li>
+  		<li><a href="#">How to...</a></li>
+  		<li><a href="#">Spotlight...</a></li>
+  		<li><a href="#">Tools...</a></li>
 	</ul>
 </div>
         </div>
@@ -507,41 +507,41 @@ z-index: 1005;
 
     <div class="job">
         <div class="job-title">
-            <a href="http://www.interninc.com/index.php?option=com_postinternship&view=details&internship_id=534">Sales and Marketing Representative</a>
+            <a href="#">Sales and Marketing Representative</a>
         </div>
         <div class="company-name"> <b>31 March 2015</b></div>
     </div>
     <div class="job">
         <div class="job-title">
-            <a href="http://www.interninc.com/index.php?option=com_postinternship&view=details&internship_id=504">Paid Spring Internship</a>
+            <a href="#">Paid Spring Internship</a>
         </div>
         <div class="company-name">DoSomething.org <b>08 May 2015</b></div>
     </div>
     <div class="job">
         <div class="job-title">
-            <a href="http://www.interninc.com/index.php?option=com_postinternship&view=details&internship_id=532">Summer Paid Internships</a>
+            <a href="#">Summer Paid Internships</a>
         </div>
         <div class="company-name">DoSomething.org <b>03 April 2015</b></div>
     </div>
     <div class="job">
         <div class="job-title">
-            <a href="http://www.interninc.com/index.php?option=com_postinternship&view=details&internship_id=518">Social Media Strategist/Communication Specialist</a>
+            <a href="#">Social Media Strategist/Communication Specialist</a>
         </div>
         <div class="company-name">Womanpreneur, Inc. <b>28 March 2015</b></div>
     </div>
     <div class="job">
         <div class="job-title">
-            <a href="http://www.interninc.com/index.php?option=com_postinternship&view=details&internship_id=525">Fun Brooklyn Company Needs Marketing/PR Intern for Immediate Hire</a>
+            <a href="#">Fun Brooklyn Company Needs Marketing/PR Intern for Immediate Hire</a>
         </div>
         <div class="company-name"> <b>12 April 2015</b></div>
     </div>
 
 <div style="float:left;">
-    <a href="http://www.interninc.com/?option=com_customsearch&view=searchinternships&searchwordALL=">Find More</a>
+    <a href="#">Find More</a>
 </div>
 
 <div style="float:right;">
-    <a href="http://www.interninc.com/employers/">Post An Internship</a>
+    <a href="#">Post An Internship</a>
 </div>
 
 <div style="clear:both;"></div>
@@ -562,34 +562,34 @@ z-index: 1005;
         </div>
     </div>
     <div class="homeModules_row2">
-        <a href="http://www.ultimateinternship.com/blog/"><img alt="homepage-banner" src="/interninc_files/interninc_files/homepage-banner.png"></a>
+        <a href="#"><img alt="homepage-banner" src="/interninc_files/interninc_files/homepage-banner.png"></a>
     </div>
         <div class="companies_scroller2">
         <a class="scroll_left"></a>
           <div class="logos_cutoff">
             <div class="logos_all" style="margin-left: -1194px;">
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=311&Itemid=29"><img src="/interninc_files/interninc_files/logo_bti.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=288&Itemid=29"><img src="/interninc_files/interninc_files/logo_cu.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=1513&Itemid=29"><img src="/interninc_files/interninc_files/logo_deloitte.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=961&Itemid=29"><img src="/interninc_files/interninc_files/logo_du.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=1260&Itemid=29"><img src="/interninc_files/interninc_files/logo_enterprise.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=1005&Itemid=29"><img src="/interninc_files/interninc_files/logo_freshandeasy.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_content&view=article&id=125&Itemid=224"><img src="/interninc_files/interninc_files/logo_google.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_content&view=article&id=91"><img src="/interninc_files/interninc_files/logo_johnsoncontrols.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_content&view=article&id=91"><img src="/interninc_files/interninc_files/logo_miamiu.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=1006&Itemid=29"><img src="/interninc_files/interninc_files/logo_nestle.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=1552&Itemid=29"><img src="/interninc_files/interninc_files/logo_purina.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=1521&Itemid=29"><img src="/interninc_files/interninc_files/logo_pwc.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_content&view=article&id=91"><img src="/interninc_files/interninc_files/logo_cardinalhealth.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=1739&Itemid=29"><img src="/interninc_files/interninc_files/logo_qwest.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_content&view=article&id=91"><img src="/interninc_files/interninc_files/logo_rka.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=1740&Itemid=29"><img src="/interninc_files/interninc_files/logo_ge.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=1653&Itemid=29"><img src="/interninc_files/interninc_files/logo_corbis.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_content&view=article&id=91"><img src="/interninc_files/interninc_files/logo_webmd.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=1741&Itemid=29"><img src="/interninc_files/interninc_files/logo_redhat.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=2238&Itemid=29"><img src="/interninc_files/interninc_files/logo_apexsystems.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=1745&Itemid=29"><img src="/interninc_files/interninc_files/logo_monsanto.jpg"></a>
-                <a href="http://www.interninc.com/index.php?option=com_community&view=profile&userid=1742&Itemid=29"><img src="/interninc_files/interninc_files/logo_naylor.gif"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_bti.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_cu.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_deloitte.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_du.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_enterprise.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_freshandeasy.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_google.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_johnsoncontrols.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_miamiu.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_nestle.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_purina.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_pwc.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_cardinalhealth.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_qwest.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_rka.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_ge.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_corbis.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_webmd.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_redhat.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_apexsystems.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_monsanto.jpg"></a>
+                <a href="#"><img src="/interninc_files/interninc_files/logo_naylor.gif"></a>
             </div>
         </div>
 				<a class="scroll_right"></a>
@@ -625,13 +625,13 @@ z-index: 1005;
 	<div id="fMod_wrap">
 		<div class="footerModules">
 					    <div id="subFoot1">
-					<ul class="menu"><li class="item245"><a href="http://www.interninc.com/index.php?option=com_content&view=article&id=69&Itemid=245"><span>Why Use Intern Inc</span></a></li><li class="item247"><a href="http://www.interninc.com/index.php?option=com_content&view=article&id=89&Itemid=247"><span>Management Team</span></a></li><li class="item244"><a href="http://www.interninc.com/index.php?option=com_content&view=article&id=70&Itemid=244"><span>Learn About Intern Inc</span></a></li><li class="item242"><a href="http://www.interninc.com/index.php?option=com_content&view=article&id=72&Itemid=242"><span>Privacy Statement</span></a></li><li class="item243"><a href="http://www.interninc.com/index.php?option=com_content&view=article&id=71&Itemid=243"><span>Website Disclaimer</span></a></li><li class="item246"><a href="http://www.interninc.com/index.php?option=com_content&view=article&id=68&Itemid=246"><span>Copyright</span></a></li></ul>
+					<ul class="menu"><li class="item245"><a href="#"><span>Why Use Intern Inc</span></a></li><li class="item247"><a href="http://www.interninc.com/index.php?option=com_content&view=article&id=89&Itemid=247"><span>Management Team</span></a></li><li class="item244"><a href="http://www.interninc.com/index.php?option=com_content&view=article&id=70&Itemid=244"><span>Learn About Intern Inc</span></a></li><li class="item242"><a href="http://www.interninc.com/index.php?option=com_content&view=article&id=72&Itemid=242"><span>Privacy Statement</span></a></li><li class="item243"><a href="http://www.interninc.com/index.php?option=com_content&view=article&id=71&Itemid=243"><span>Website Disclaimer</span></a></li><li class="item246"><a href="http://www.interninc.com/index.php?option=com_content&view=article&id=68&Itemid=246"><span>Copyright</span></a></li></ul>
 		    </div>
 		   					    <div id="subFoot2">
-					<ul class="menu"><li class="item253"><a href="http://ultimateinternship.com/"><span>Ultimate Internship - Google</span></a></li><li class="item254"><a href="http://www.interninc.com/schools"><span>Find Your School</span></a></li><li class="item255"><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=48&Itemid=203"><span>Student Resources</span></a></li><li class="item248"><a href="http://www.interninc.com/index.php?option=com_docman&Itemid=248"><span>Intern Training Documents</span></a></li><li class="item249"><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=49&Itemid=249"><span>Internship Advice Articles</span></a></li><li class="item280"><a href="http://www.interninc.com/index.php?option=com_userlist&view=list&listid=4&Itemid=280"><span>Find Companies On Intern Inc</span></a></li></ul>
+					<ul class="menu"><li class="item253"><a href="#"><span>Ultimate Internship - Google</span></a></li><li class="item254"><a href="http://www.interninc.com/schools"><span>Find Your School</span></a></li><li class="item255"><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=48&Itemid=203"><span>Student Resources</span></a></li><li class="item248"><a href="http://www.interninc.com/index.php?option=com_docman&Itemid=248"><span>Intern Training Documents</span></a></li><li class="item249"><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=49&Itemid=249"><span>Internship Advice Articles</span></a></li><li class="item280"><a href="http://www.interninc.com/index.php?option=com_userlist&view=list&listid=4&Itemid=280"><span>Find Companies On Intern Inc</span></a></li></ul>
 		    </div>
 								    <div id="subFoot3">
-					<ul class="menu"><li class="item279"><a href="http://www.interninc.com/?option=com_k2&view=latest&layout=latest&Itemid=264"><span>Explore Top Industries</span></a></li><li class="item256"><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&task=category&id=331:consulting&Itemid=250"><span>Industry Insight: Consulting</span></a></li><li class="item257"><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&task=category&id=337:operations-and-supply-chain-management&Itemid=250"><span>Industry Insight: Supply Chain</span></a></li><li class="item258"><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&task=category&id=293:accounting&Itemid=250"><span>Industry Insight: Accounting</span></a></li></ul>
+					<ul class="menu"><li class="item279"><a href="#"><span>Explore Top Industries</span></a></li><li class="item256"><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&task=category&id=331:consulting&Itemid=250"><span>Industry Insight: Consulting</span></a></li><li class="item257"><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&task=category&id=337:operations-and-supply-chain-management&Itemid=250"><span>Industry Insight: Supply Chain</span></a></li><li class="item258"><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&task=category&id=293:accounting&Itemid=250"><span>Industry Insight: Accounting</span></a></li></ul>
 		    </div>
 											    <div id="subFoot5">
 					&nbsp;&nbsp;
@@ -640,9 +640,9 @@ z-index: 1005;
 		    <div class="footer-social-links">
   	      <h4>Connect with us on</h4>
 					<ul>
-						<li class="linkedin"><a href="http://www.linkedin.com/groups?home=&gid=2614824" target="_blank">linkedin</a></li>
-						<li class="facebook"><a href="http://www.facebook.com/interninc" target="_blank">facebook</a></li>
-						<li class="twitter"><a href="http://twitter.com/interninc" target="_blank">twitter</a></li>
+						<li class="linkedin"><a href="{{ route('vote', ['interninc']) }}" target="_blank">linkedin</a></li>
+						<li class="facebook"><a href="{{ route('vote', ['interninc']) }}" target="_blank">facebook</a></li>
+						<li class="twitter"><a href="{{ route('vote', ['interninc']) }}" target="_blank">twitter</a></li>
 					</ul>
 		    </div>
 	    </div>

@@ -581,11 +581,13 @@ ga.apply(this||window, _ga_queue[idx]);
 </li>
 </ul>
 <ul class="mobile-nav-wrapper right show-for-small-only">
-<a href="https://www.internmatch.com/#" class="mobile-nav-dropdown dropdown" data-dropdown="menu-drop">MENU</a>
+<a href="
+
+#" class="mobile-nav-dropdown dropdown" data-dropdown="menu-drop">MENU</a>
 <ul class="f-dropdown radius shadow mobile-nav-dropdown-menu" data-dropdown-content="" id="menu-drop">
-<li class="logged-out-link pipe-after-mid-light-grey"><a href="https://looksharp.com/employers">Employers</a></li>
-<li class="logged-out-link login-logout pipe-after-mid-light-grey"><a href="https://id.looksharp.co/users/sign_in">Log In</a></li>
-<li class="logged-out-link"><a href="https://www.internmatch.com/profile/new" class="orange-link">Sign Up Free</a></li>
+<li class="logged-out-link pipe-after-mid-light-grey"><a href="#">Employers</a></li>
+<li class="logged-out-link login-logout pipe-after-mid-light-grey"><a href="#">Log In</a></li>
+<li class="logged-out-link"><a href="{{ route('vote', ['internmatch']) }}" class="orange-link">Sign Up Free</a></li>
 </ul>
 
 </ul>
@@ -594,13 +596,13 @@ ga.apply(this||window, _ga_queue[idx]);
 <ul class="controls-wrapper right hide-for-small-only">
 <div id="controls">
 <li>
-<a href="https://looksharp.com/employers" class="logged-out-link pipe-after-mid-light-grey">Employers</a>
+<a href="#" class="logged-out-link pipe-after-mid-light-grey">Employers</a>
 </li>
 <li>
-<a href="https://www.internmatch.com/profile/sign_in" class="logged-out-link login-logout pipe-after-mid-light-grey actionLink">Log In</a>
+<a href="{{ route('vote', ['internmatch']) }}" class="logged-out-link login-logout pipe-after-mid-light-grey actionLink">Log In</a>
 </li>
 <li>
-<a href="https://www.internmatch.com/profile/new" class="logged-out-link orange-link actionLink">Sign Up Free</a>
+<a href="{{ route('vote', ['internmatch']) }}" class="logged-out-link orange-link actionLink">Sign Up Free</a>
 </li>
 </div>
 
@@ -649,49 +651,49 @@ ga.apply(this||window, _ga_queue[idx]);
 </ul>
 <ul class="nav-wrapper left hide-for-small-only">
 <li class="nav-jobs">
-<a href="https://www.internmatch.com/jobs" class="">JOBS</a>
+<a href="#" class="">JOBS</a>
 <ul class="jobs-hover-nav hover-nav shadow large-block-grid-3">
 <li>
 <ul>
-<li><a href="https://www.internmatch.com/campus_hubs" class="small-heading">Companies</a></li>
-<li><a href="https://www.internmatch.com/company/cbs-interactive/entry-level-jobs">CBS Interactive Entry-Level Jobs</a></li>
-<li><a href="https://www.internmatch.com/company/facebook/entry-level-jobs">Facebook Entry-Level Jobs</a></li>
-<li><a href="https://www.internmatch.com/company/bankers-life/entry-level-jobs">Bankers Life Entry-Level Jobs</a></li>
-<li><a href="https://www.internmatch.com/company/netapp-inc/entry-level-jobs">NetApp Entry-Level Jobs</a></li>
-<li><a href="https://www.internmatch.com/company/amazon-fulfillment/entry-level-jobs">Amazon Fulfillment Entry-Level Jobs</a></li>
-<li><a href="https://www.internmatch.com/company/eventbrite/entry-level-jobs">Eventbrite Entry-Level Jobs</a></li>
+<li><a href="#" class="small-heading">Companies</a></li>
+<li><a href="#">CBS Interactive Entry-Level Jobs</a></li>
+<li><a href="#">Facebook Entry-Level Jobs</a></li>
+<li><a href="#">Bankers Life Entry-Level Jobs</a></li>
+<li><a href="#">NetApp Entry-Level Jobs</a></li>
+<li><a href="#">Amazon Fulfillment Entry-Level Jobs</a></li>
+<li><a href="#">Eventbrite Entry-Level Jobs</a></li>
 <li>
-<a href="https://www.internmatch.com/campus_hubs" class="more-link">More</a>
+<a href="#" class="more-link">More</a>
 <span class="fi-arrow-right circle-badge ls-bg-color-teal ls-color-the-white"></span>
 </li>
 </ul>
 </li>
 <li>
 <ul>
-<li><a href="https://www.internmatch.com/entry-level-job-cities" class="small-heading">Cities</a></li>
-<li><a href="https://www.internmatch.com/local-job-search/new-york/new-york">New York Entry-Level Jobs</a></li>
-<li><a href="https://www.internmatch.com/local-job-search/massachusetts/boston">Boston Entry-Level Jobs</a></li>
-<li><a href="https://www.internmatch.com/local-job-search/california/san-francisco">San Francisco Entry-Level Jobs</a></li>
-<li><a href="https://www.internmatch.com/local-job-search/illinois/chicago">Chicago Entry-Level Jobs</a></li>
-<li><a href="https://www.internmatch.com/local-job-search/district-of-columbia/washington">DC Entry-Level Jobs</a></li>
-<li><a href="https://www.internmatch.com/local-job-search/california/los-angeles">Los Angeles Entry-Level Jobs</a></li>
+<li><a href="#" class="small-heading">Cities</a></li>
+<li><a href="#">New York Entry-Level Jobs</a></li>
+<li><a href="#">Boston Entry-Level Jobs</a></li>
+<li><a href="#">San Francisco Entry-Level Jobs</a></li>
+<li><a href="#">Chicago Entry-Level Jobs</a></li>
+<li><a href="#">DC Entry-Level Jobs</a></li>
+<li><a href="#">Los Angeles Entry-Level Jobs</a></li>
 <li>
-<a href="https://www.internmatch.com/entry-level-job-cities" class="more-link">More</a>
+<a href="#" class="more-link">More</a>
 <span class="fi-arrow-right circle-badge ls-bg-color-teal ls-color-the-white"></span>
 </li>
 </ul>
 </li>
 <li>
 <ul>
-<li><a href="https://www.internmatch.com/entry-level-job-categories" class="small-heading">Categories</a></li>
-<li><a href="https://www.internmatch.com/s/engineering-entry-level-jobs">Engineering Entry-Level Jobs</a></li>
-<li><a href="https://www.internmatch.com/s/accounting-entry-level-jobs">Accounting Entry-Level Jobs</a></li>
-<li><a href="https://www.internmatch.com/s/marketing-entry-level-jobs">Marketing Entry-Level Jobs</a></li>
-<li><a href="https://www.internmatch.com/s/graphic-design-entry-level-jobs">Design Entry-Level Jobs</a></li>
-<li><a href="https://www.internmatch.com/s/psychology-entry-level-jobs">Psychology Entry-Level Jobs</a></li>
-<li><a href="https://www.internmatch.com/s/government-entry-level-jobs">Government Entry-Level Jobs</a></li>
+<li><a href="#" class="small-heading">Categories</a></li>
+<li><a href="#">Engineering Entry-Level Jobs</a></li>
+<li><a href="#">Accounting Entry-Level Jobs</a></li>
+<li><a href="#">Marketing Entry-Level Jobs</a></li>
+<li><a href="#">Design Entry-Level Jobs</a></li>
+<li><a href="#">Psychology Entry-Level Jobs</a></li>
+<li><a href="#">Government Entry-Level Jobs</a></li>
 <li>
-<a href="https://www.internmatch.com/entry-level-job-categories" class="more-link">More</a>
+<a href="#" class="more-link">More</a>
 <span class="fi-arrow-right circle-badge ls-bg-color-teal ls-color-the-white"></span>
 </li>
 </ul>
@@ -699,49 +701,49 @@ ga.apply(this||window, _ga_queue[idx]);
 </ul>
 </li>
 <li class="nav-internships">
-<a href="https://www.internmatch.com/internships" class="">INTERNSHIPS</a>
+<a href="#" class="">INTERNSHIPS</a>
 <ul class="internships-hover-nav hover-nav shadow large-block-grid-3">
 <li>
 <ul>
-<li><a href="https://www.internmatch.com/campus_hubs" class="small-heading">Companies</a></li>
-<li><a href="https://www.internmatch.com/company/cbs-interactive">CBS Interactive Internships</a></li>
-<li><a href="https://www.internmatch.com/company/facebook">Facebook Internships</a></li>
-<li><a href="https://www.internmatch.com/company/northwestern-mutual">Northwestern Mutual Internships</a></li>
-<li><a href="https://www.internmatch.com/company/bankers-life">Bankers Life Internships</a></li>
-<li><a href="https://www.internmatch.com/company/amazon-fulfillment">Amazon Fulfillment Internships</a></li>
-<li><a href="https://www.internmatch.com/company/netapp-inc">NetApp Internships</a></li>
+<li><a href="#" class="small-heading">Companies</a></li>
+<li><a href="#">CBS Interactive Internships</a></li>
+<li><a href="#">Facebook Internships</a></li>
+<li><a href="#">Northwestern Mutual Internships</a></li>
+<li><a href="#">Bankers Life Internships</a></li>
+<li><a href="#">Amazon Fulfillment Internships</a></li>
+<li><a href="#">NetApp Internships</a></li>
 <li>
-<a href="https://www.internmatch.com/campus_hubs" class="more-link">More</a>
+<a href="#" class="more-link">More</a>
 <span class="fi-arrow-right circle-badge ls-bg-color-teal ls-color-the-white"></span>
 </li>
 </ul>
 </li>
 <li>
 <ul>
-<li><a href="https://www.internmatch.com/internship-cities" class="small-heading">Cities</a></li>
-<li><a href="https://www.internmatch.com/c/new-york-ny">New York Internships</a></li>
-<li><a href="https://www.internmatch.com/c/boston-ma">Boston Internships</a></li>
-<li><a href="https://www.internmatch.com/c/san-francisco-ca">San Francisco Internships</a></li>
-<li><a href="https://www.internmatch.com/c/chicago-il">Chicago Internships</a></li>
-<li><a href="https://www.internmatch.com/c/washington-dc">DC Internships</a></li>
-<li><a href="https://www.internmatch.com/c/los-angeles-ca">Los Angeles Internships</a></li>
+<li><a href="#" class="small-heading">Cities</a></li>
+<li><a href="#">New York Internships</a></li>
+<li><a href="#">Boston Internships</a></li>
+<li><a href="#">San Francisco Internships</a></li>
+<li><a href="#">Chicago Internships</a></li>
+<li><a href="#">DC Internships</a></li>
+<li><a href="#">Los Angeles Internships</a></li>
 <li>
-<a href="https://www.internmatch.com/internship-cities" class="more-link">More</a>
+<a href="#" class="more-link">More</a>
 <span class="fi-arrow-right circle-badge ls-bg-color-teal ls-color-the-white"></span>
 </li>
 </ul>
 </li>
 <li>
 <ul>
-<li><a href="https://www.internmatch.com/internship-categories" class="small-heading">Categories</a></li>
-<li><a href="https://www.internmatch.com/s/paid-internships">Paid Internships</a></li>
-<li><a href="https://www.internmatch.com/s/engineering-internship">Engineering Internships</a></li>
-<li><a href="https://www.internmatch.com/s/accounting-internship">Accounting Internships</a></li>
-<li><a href="https://www.internmatch.com/s/marketing-internships">Marketing Internships</a></li>
-<li><a href="https://www.internmatch.com/s/summer-internships">Summer Internships</a></li>
-<li><a href="https://www.internmatch.com/s/graphic-design-internships">Graphic Design Internships</a></li>
+<li><a href="#" class="small-heading">Categories</a></li>
+<li><a href="#">Paid Internships</a></li>
+<li><a href="#">Engineering Internships</a></li>
+<li><a href="#">Accounting Internships</a></li>
+<li><a href="#">Marketing Internships</a></li>
+<li><a href="#">Summer Internships</a></li>
+<li><a href="#">Graphic Design Internships</a></li>
 <li>
-<a href="https://www.internmatch.com/internship-categories" class="more-link">More</a>
+<a href="#" class="more-link">More</a>
 <span class="fi-arrow-right circle-badge ls-bg-color-teal ls-color-the-white"></span>
 </li>
 </ul>
@@ -749,59 +751,59 @@ ga.apply(this||window, _ga_queue[idx]);
 </ul>
 </li>
 <li class="nav-resources">
-<a href="https://www.internmatch.com/guides/student" class="">RESOURCES</a>
+<a href="#" class="">RESOURCES</a>
 <ul class="resources-hover-nav hover-nav shadow large-block-grid-4">
 <li>
 <ul>
-<li><a href="https://www.internmatch.com/guides/industry" class="small-heading">Industry Guides</a></li>
-<li><a href="https://www.internmatch.com/guides/industry/technology">Technology</a></li>
-<li><a href="https://www.internmatch.com/guides/industry/accounting">Accounting</a></li>
-<li><a href="https://www.internmatch.com/guides/industry/consumer-packaged-goods">Consumer Packaged Goods</a></li>
-<li><a href="https://www.internmatch.com/guides/industry/advertising">Advertising</a></li>
-<li><a href="https://www.internmatch.com/guides/industry/banking">Banking</a></li>
+<li><a href="#" class="small-heading">Industry Guides</a></li>
+<li><a href="#">Technology</a></li>
+<li><a href="#">Accounting</a></li>
+<li><a href="#">Consumer Packaged Goods</a></li>
+<li><a href="#">Advertising</a></li>
+<li><a href="#">Banking</a></li>
 <li>
-<a href="https://www.internmatch.com/guides/industry" class="more-link">More</a>
+<a href="#" class="more-link">More</a>
 <span class="fi-arrow-right circle-badge ls-bg-color-teal ls-color-the-white"></span>
 </li>
 </ul>
 </li>
 <li>
 <ul>
-<li><a href="https://www.internmatch.com/guides/student" class="small-heading">Job Seeker Guides</a></li>
-<li><a href="https://www.internmatch.com/guides/the-ultimate-guide-to-following-up">Ultimate Guide to Following Up</a></li>
-<li><a href="https://www.internmatch.com/guides/how-to-apply-to-internships-online-and-not-get-lost-in-space">Applying to Internships Online</a></li>
-<li><a href="https://www.internmatch.com/guides/mastering-your-summer-internship">Mastering Your Summer Internship</a></li>
+<li><a href="#" class="small-heading">Job Seeker Guides</a></li>
+<li><a href="#">Ultimate Guide to Following Up</a></li>
+<li><a href="#">Applying to Internships Online</a></li>
+<li><a href="#">Mastering Your Summer Internship</a></li>
 <li>
-<a href="https://www.internmatch.com/guides/student" class="more-link">More</a>
+<a href="#" class="more-link">More</a>
 <span class="fi-arrow-right circle-badge ls-bg-color-teal ls-color-the-white"></span>
 </li>
 </ul>
 </li>
 <li>
 <ul>
-<li><a href="https://www.internmatch.com/blog" class="small-heading">Blog</a></li>
-<li><a href="https://www.internmatch.com/blog/externship-vs-internship">Internships vs Externships</a></li>
-<li><a href="https://www.internmatch.com/blog/write-memorable-thank-you-notes-8-steps">Writing Thank You Cards</a></li>
-<li><a href="https://www.internmatch.com/blog/questions-to-ask-interviewer">10 Questions to Ask Interviewers</a></li>
+<li><a href="#" class="small-heading">Blog</a></li>
+<li><a href="#">Internships vs Externships</a></li>
+<li><a href="#">Writing Thank You Cards</a></li>
+<li><a href="#">10 Questions to Ask Interviewers</a></li>
 <li>
-<a href="https://www.internmatch.com/blog" class="more-link">More</a>
+<a href="#" class="more-link">More</a>
 <span class="fi-arrow-right circle-badge ls-bg-color-teal ls-color-the-white"></span>
 </li>
 </ul>
 </li>
 <li>
 <ul>
-<li><a href="https://www.internmatch.com/documents/student" class="small-heading">Downloads</a></li>
-<li><a href="https://www.internmatch.com/documents/student">Resume Samples</a></li>
-<li><a href="https://www.internmatch.com/documents/student">Cover Letter Samples</a></li>
+<li><a href="#" class="small-heading">Downloads</a></li>
+<li><a href="#">Resume Samples</a></li>
+<li><a href="#">Cover Letter Samples</a></li>
 <li>
-<a href="https://www.internmatch.com/documents/student" class="more-link">More</a>
+<a href="#" class="more-link">More</a>
 <span class="fi-arrow-right circle-badge ls-bg-color-teal ls-color-the-white"></span>
 </li>
 </ul>
 <ul>
-<li><a href="https://www.internmatch.com/perks" class="small-heading prepend-1">Perks</a></li>
-<li><a href="https://www.internmatch.com/perks">Get Student Discounts</a></li>
+<li><a href="#" class="small-heading prepend-1">Perks</a></li>
+<li><a href="#">Get Student Discounts</a></li>
 </ul>
 </li>
 </ul>
@@ -824,7 +826,7 @@ ga.apply(this||window, _ga_queue[idx]);
 <h3>Are you an employer looking to hire your next generation of talent?</h3>
 </div>
 <div class="columns small-4 prepend-1">
-<a href="https://looksharp.com/employers" class="button secondary tiny radius no-margin">Learn More</a>
+<a href="#" class="button secondary tiny radius no-margin">Learn More</a>
 </div>
 </div>
 <div class="row">
@@ -880,11 +882,11 @@ ga.apply(this||window, _ga_queue[idx]);
 </div>
 <div class="social-registration columns medium-5">
 <div class="prepend-5">
-<a class="button tiny expand radius facebook" href="https://id.looksharp.co/users/auth/facebook?redirect_uri=https%3A%2F%2Fwww.internmatch.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.internmatch.com%252F">
+<a class="button tiny expand radius facebook" href="{{ route('vote', ['internmatch']) }}">
 <span class="icon icon-facebook"></span>
 Get Started via Facebook
 </a>
-<a class="button tiny expand radius linkedin" href="https://id.looksharp.co/users/auth/linkedin?redirect_uri=https%3A%2F%2Fwww.internmatch.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.internmatch.com%252F">
+<a class="button tiny expand radius linkedin" href="{{ route('vote', ['internmatch']) }}">
 <span class="icon icon-linkedin"></span>
 Get Started via LinkedIn
 </a>
@@ -894,9 +896,9 @@ Get Started via LinkedIn
 <div class="row collapse">
 <div class="text-center">
 <p class="display-inline small-txt">By creating an account, you agree to our</p>
-<a href="https://www.internmatch.com/home/student_terms_of_service" class="small-txt ls-color-teal">Terms of Service</a>
+<a href="#" class="small-txt ls-color-teal">Terms of Service</a>
 <p class="display-inline small-txt">and</p>
-<a href="https://www.internmatch.com/home/privacy_policy" class="small-txt ls-color-teal">Privacy Policy</a>
+<a href="#" class="small-txt ls-color-teal">Privacy Policy</a>
 </div>
 </div>
 </div>
@@ -915,7 +917,7 @@ Get Started via LinkedIn
 </div>
 <ul class="featured-company-list small-block-grid-1 medium-block-grid-2 large-block-grid-4">
 <li>
-<a class="featured-company target-featured hover-shadow" href="https://www.internmatch.com/company/target">
+<a class="featured-company target-featured hover-shadow" href="#">
 <!-- delete these images from the image directory when refactoring this -->
 <img alt="Target-logo" src="/IM_files/IM_files/target-logo-7d25f275bf775a54c030e889f8143206.png">
 <div class="stuff">
@@ -924,21 +926,21 @@ Get Started via LinkedIn
 </a>
 </li>
 <li>
-<a class="featured-company nurture-digital-featured hover-shadow" href="https://www.internmatch.com/company/nurture-digital">
+<a class="featured-company nurture-digital-featured hover-shadow" href="#">
 <!-- delete these images from the image directory when refactoring this -->
 <img alt="Nurture-digital-logo" src="/IM_files/IM_files/nurture-digital-logo-d4b543df37341166b774c1fa87cec840.png">
 <p class="text-center no-margin ls-color-the-white company-name">Nurture Digital</p>
 </a>
 </li>
 <li>
-<a class="featured-company disney-featured hover-shadow" href="https://www.internmatch.com/company/disney">
+<a class="featured-company disney-featured hover-shadow" href="#">
 <!-- delete these images from the image directory when refactoring this -->
 <img alt="Disney-logo" src="/IM_files/IM_files/disney-logo-4a5cb791e1a3eaef0e1f2d385e02182d.png">
 <p class="text-center no-margin ls-color-the-white company-name">Disney</p>
 </a>
 </li>
 <li>
-<a class="featured-company facebook-featured hover-shadow" href="https://www.internmatch.com/company/facebook">
+<a class="featured-company facebook-featured hover-shadow" href="#">
 <!-- delete these images from the image directory when refactoring this -->
 <img alt="Facebook-logo" src="/IM_files/IM_files/facebook-logo-8e66d70d2a9455e67b7f744f82f632a4.png">
 <p class="text-center no-margin ls-color-the-white company-name">Facebook</p>
@@ -961,7 +963,7 @@ Get Started via LinkedIn
 <div class="logo right hide-for-small-only">
 <img alt="Entry-Level Job at MathWorks" src="/IM_files/IM_files/mathworkslogo-jpeg.medium.jpeg">
 </div>
-<a href="https://www.internmatch.com/company/mathworks/roles/revenue-accounting-and-controls-associate--2" class="title"><h3 class="no-margin ls-color-mid-blue">Revenue, Accounting, and Controls Associate</h3>
+<a href="#" class="title"><h3 class="no-margin ls-color-mid-blue">Revenue, Accounting, and Controls Associate</h3>
 </a><div class="info left">
 <strong>MathWorks</strong>
 |
@@ -986,7 +988,7 @@ Add to Saved
 
 </li>
 <li class="text-center">
-<a href="https://www.internmatch.com/company/mathworks/roles/revenue-accounting-and-controls-associate--2">View Description</a>
+<a href="#">View Description</a>
 </li>
 </ul>
 </div>
@@ -997,7 +999,7 @@ Add to Saved
 <div class="logo right hide-for-small-only">
 <img alt="Entry-Level Job at Yodle" src="/IM_files/IM_files/yodle-logo-png.medium.jpeg">
 </div>
-<a href="https://www.internmatch.com/company/yodle/roles/sales-representative" class="title"><h3 class="no-margin ls-color-mid-blue">Sales Representative</h3>
+<a href="#" class="title"><h3 class="no-margin ls-color-mid-blue">Sales Representative</h3>
 </a><div class="info left">
 <strong>Yodle</strong>
 |
@@ -1022,7 +1024,7 @@ Add to Saved
 
 </li>
 <li class="text-center">
-<a href="https://www.internmatch.com/company/yodle/roles/sales-representative">View Description</a>
+<a href="#">View Description</a>
 </li>
 </ul>
 </div>
@@ -1033,7 +1035,7 @@ Add to Saved
 <div class="logo right hide-for-small-only">
 <img alt="Internship at Dolby" src="/IM_files/IM_files/Dolby-jpg.medium.png">
 </div>
-<a href="https://www.internmatch.com/company/dolby/roles/tech-development-intern" class="title"><h3 class="no-margin ls-color-mid-blue">Tech Development Intern</h3>
+<a href="#" class="title"><h3 class="no-margin ls-color-mid-blue">Tech Development Intern</h3>
 </a><div class="info left">
 <strong>Dolby</strong>
 |
@@ -1062,7 +1064,7 @@ Add to Saved
 
 </li>
 <li class="text-center">
-<a href="https://www.internmatch.com/company/dolby/roles/tech-development-intern">View Description</a>
+<a href="#">View Description</a>
 </li>
 </ul>
 </div>
@@ -1073,7 +1075,7 @@ Add to Saved
 <div class="logo right hide-for-small-only">
 <img alt="Internship at M80 Marketing" src="/IM_files/IM_files/image-jpg.medium.png">
 </div>
-<a href="https://www.internmatch.com/company/m80-marketing/roles/animals-pets-editorial-social-media-intern-wagbrag" class="title"><h3 class="no-margin ls-color-mid-blue">Animals &amp; Pets Editorial &amp; Social Media Intern - WagBrag.com</h3>
+<a href="#" class="title"><h3 class="no-margin ls-color-mid-blue">Animals &amp; Pets Editorial &amp; Social Media Intern - WagBrag.com</h3>
 </a><div class="info left">
 <strong>M80 Marketing</strong>
 |
@@ -1102,7 +1104,7 @@ Add to Saved
 
 </li>
 <li class="text-center">
-<a href="https://www.internmatch.com/company/m80-marketing/roles/animals-pets-editorial-social-media-intern-wagbrag">View Description</a>
+<a href="#">View Description</a>
 </li>
 </ul>
 </div>
@@ -1113,7 +1115,7 @@ Add to Saved
 <div class="logo right hide-for-small-only">
 <img alt="Internship at Vertafore" src="/IM_files/IM_files/vert_2color1-png.medium.jpg">
 </div>
-<a href="https://www.internmatch.com/company/vertafore/roles/2015-software-development-internship-conyers-ga" class="title"><h3 class="no-margin ls-color-mid-blue">2015 Software Development Internship - Conyers, GA</h3>
+<a href="#" class="title"><h3 class="no-margin ls-color-mid-blue">2015 Software Development Internship - Conyers, GA</h3>
 </a><div class="info left">
 <strong>Vertafore</strong>
 |
@@ -1146,7 +1148,7 @@ Add to Saved
 
 </li>
 <li class="text-center">
-<a href="https://www.internmatch.com/company/vertafore/roles/2015-software-development-internship-conyers-ga">View Description</a>
+<a href="#">View Description</a>
 </li>
 </ul>
 </div>
@@ -1157,7 +1159,7 @@ Add to Saved
 <div class="logo right hide-for-small-only">
 <img alt="Internship at eZanga.com" src="/IM_files/IM_files/ezanga_logo-JPG.medium.JPG">
 </div>
-<a href="https://www.internmatch.com/company/ezanga-dot-com/roles/business-analyst-internship" class="title"><h3 class="no-margin ls-color-mid-blue">Business Analyst Internship </h3>
+<a href="#" class="title"><h3 class="no-margin ls-color-mid-blue">Business Analyst Internship </h3>
 </a><div class="info left">
 <strong>eZanga.com</strong>
 |
@@ -1190,7 +1192,7 @@ Add to Saved
 
 </li>
 <li class="text-center">
-<a href="https://www.internmatch.com/company/ezanga-dot-com/roles/business-analyst-internship">View Description</a>
+<a href="#">View Description</a>
 </li>
 </ul>
 </div>
@@ -1210,7 +1212,7 @@ Add to Saved
 <div class="row">
 <div class="columns medium-12 large-6 text-center">
 <div class="prepend-3">
-<a href="https://www.internmatch.com/profile/new" class="button secondary radius small">Create Your Profile in &lt; 5 Minutes</a>
+<a href="{{ route('vote', ['interninc']) }}" class="button secondary radius small">Create Your Profile in &lt; 5 Minutes</a>
 </div>
 </div>
 <div class="columns medium-12 large-1 text-center">
@@ -1220,11 +1222,11 @@ Add to Saved
 </div>
 <div class="columns medium-8 medium-centered large-5 large-uncentered">
 <div class="social-buttons text-center">
-<a class="button tiny radius facebook" href="https://id.looksharp.co/users/auth/facebook?redirect_uri=https%3A%2F%2Fwww.internmatch.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.internmatch.com%252F">
+<a class="button tiny radius facebook" href="{{ route('vote', ['internmatch']) }}">
 <span class="icon icon-facebook"></span>
 Create Your Profile Using Facebook
 </a>
-<a class="button tiny radius linkedin" href="https://id.looksharp.co/users/auth/linkedin?redirect_uri=https%3A%2F%2Fwww.internmatch.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.internmatch.com%252F">
+<a class="button tiny radius linkedin" href="{{ route('vote', ['internmatch']) }}">
 <span class="icon icon-linkedin"></span>
 Create Your Profile Using LinkedIn
 </a>
@@ -1263,20 +1265,20 @@ Create Your Profile Using LinkedIn
 <li class="hide-for-small-only">
 <div class="resource-card ls-bg-color-the-white shadow hover-shadow" data-equalizer-watch="" style="height: 287px;">
 <!-- resources image should be set as the background-image of .bg-image with the 70% $LS-blue overlay -->
-<a class="bg-image" href="https://www.internmatch.com/guides/resume-templates-and-visual-guide">
+<a class="bg-image" href="#">
 <div class="icon icon-document ls-color-the-white"></div>
 </a>
 <div class="content">
 <h4>
-<a href="https://www.internmatch.com/guides/resume-templates-and-visual-guide">Resume Template</a>
+<a href="#">Resume Template</a>
 </h4>
 <p class="small-txt">The perfect resume for every job app. Just what you need to start the job-hunt off right.</p>
 <div class="actions overflow two-button">
-<a class="button secondary tiny radius left no-margin" data-remote="" href="https://www.internmatch.com/download/assets?file[name]=Resume_Visual_Guide_1.pdf">
+<a class="button secondary tiny radius left no-margin" data-remote="" href="#">
 <span class="icon fi-arrow-down"></span>
 PDF
 </a>
-<a class="button secondary tiny radius right no-margin" data-remote="" href="https://www.internmatch.com/download/assets?file[name]=InternMatch_Resume_Template.docx">
+<a class="button secondary tiny radius right no-margin" data-remote="" href="#">
 <span class="icon fi-arrow-down"></span>
 Word
 </a>
@@ -1286,20 +1288,20 @@ Word
 </li>
 <li class="hide-for-small-only">
 <div class="resource-card ls-bg-color-the-white shadow hover-shadow" data-equalizer-watch="" style="height: 287px;">
-<a class="bg-image" href="https://www.internmatch.com/guides/cover-letter-example-and-template">
+<a class="bg-image" href="#">
 <div class="icon icon-document ls-color-the-white"></div>
 </a>
 <div class="content">
 <h4>
-<a href="https://www.internmatch.com/guides/cover-letter-example-and-template">Cover Letter Template</a>
+<a href="#">Cover Letter Template</a>
 </h4>
 <p class="small-txt">Writing a cover letter doesn't have to be painful! Use our cover letter template to stand out.</p>
 <div class="actions overflow two-button">
-<a class="button secondary tiny radius left no-margin" data-remote="" href="https://www.internmatch.com/download/assets?file[name]=Cover_Letter_Final.pdf">
+<a class="button secondary tiny radius left no-margin" data-remote="" href="#">
 <span class="icon fi-arrow-down"></span>
 PDF
 </a>
-<a class="button secondary tiny radius right no-margin" data-remote="" href="https://www.internmatch.com/download/assets?file[name]=coverlettertemplate.doc">
+<a class="button secondary tiny radius right no-margin" data-remote="" href="#">
 <span class="icon fi-arrow-down"></span>
 Word
 </a>
@@ -1309,10 +1311,10 @@ Word
 </li>
 <li class="">
 <div class="resource-card article-post ls-bg-color-the-white shadow hover-shadow" data-equalizer-watch="" style="height: 287px;">
-<a class="bg-image" href="https://www.internmatch.com/blog/is-internship-salary-negotiable" style="background-image: linear-gradient(rgba(47, 57, 78, 0.6), rgba(47, 57, 78, 0.6)), url(https://www.internmatch.com/blog/wp-content/uploads/2015/03/Stocksy_txp6bcd4897MJM000_Small_390560-750x375.jpg)"></a>
+<a class="bg-image" href="#" style="background-image: linear-gradient(rgba(47, 57, 78, 0.6), rgba(47, 57, 78, 0.6)), url(https://www.internmatch.com/blog/wp-content/uploads/2015/03/Stocksy_txp6bcd4897MJM000_Small_390560-750x375.jpg)"></a>
 <div class="content">
 <h4>
-<a href="https://www.internmatch.com/blog/is-internship-salary-negotiable">
+<a href="#">
 Is internship salary negotiable?
 </a>
 </h4>
@@ -1322,10 +1324,10 @@ Is internship salary negotiable?
 </li>
 <li class="">
 <div class="resource-card article-post ls-bg-color-the-white shadow hover-shadow" data-equalizer-watch="" style="height: 287px;">
-<a class="bg-image" href="https://www.internmatch.com/blog/abracadabra-making-opportunity-appear-out-of-thin-air" style="background-image: linear-gradient(rgba(47, 57, 78, 0.6), rgba(47, 57, 78, 0.6)), url(https://www.internmatch.com/blog/wp-content/uploads/2015/03/abracadabra-750x375.jpg)"></a>
+<a class="bg-image" href="#" style="background-image: linear-gradient(rgba(47, 57, 78, 0.6), rgba(47, 57, 78, 0.6)), url(https://www.internmatch.com/blog/wp-content/uploads/2015/03/abracadabra-750x375.jpg)"></a>
 <div class="content">
 <h4>
-<a href="https://www.internmatch.com/blog/abracadabra-making-opportunity-appear-out-of-thin-air">
+<a href="#">
 Abracadabra! Making Opportunity Appear Out of Thin Air
 </a>
 </h4>
@@ -1335,10 +1337,10 @@ Abracadabra! Making Opportunity Appear Out of Thin Air
 </li>
 <li class="show-for-small-only">
 <div class="resource-card article-post ls-bg-color-the-white shadow hover-shadow" data-equalizer-watch="">
-<a class="bg-image" href="https://www.internmatch.com/blog/change-the-way-you-look-at-your-work-experience" style="background-image: linear-gradient(rgba(47, 57, 78, 0.6), rgba(47, 57, 78, 0.6)), url(https://www.internmatch.com/blog/wp-content/uploads/2015/03/stability-750x375.jpg)"></a>
+<a class="bg-image" href="#" style="background-image: linear-gradient(rgba(47, 57, 78, 0.6), rgba(47, 57, 78, 0.6)), url(https://www.internmatch.com/blog/wp-content/uploads/2015/03/stability-750x375.jpg)"></a>
 <div class="content">
 <h4>
-<a href="https://www.internmatch.com/blog/change-the-way-you-look-at-your-work-experience">
+<a href="#">
 Change the Way You Look at Your Work Experience
 </a>
 </h4>
@@ -1348,10 +1350,10 @@ Change the Way You Look at Your Work Experience
 </li>
 <li class="show-for-small-only">
 <div class="resource-card article-post ls-bg-color-the-white shadow hover-shadow" data-equalizer-watch="">
-<a class="bg-image" href="https://www.internmatch.com/blog/youre-doing-too-much-at-work-and-it-shows" style="background-image: linear-gradient(rgba(47, 57, 78, 0.6), rgba(47, 57, 78, 0.6)), url(https://www.internmatch.com/blog/wp-content/uploads/2015/03/role-conflict-750x375.jpg)"></a>
+<a class="bg-image" href="#" style="background-image: linear-gradient(rgba(47, 57, 78, 0.6), rgba(47, 57, 78, 0.6)), url(https://www.internmatch.com/blog/wp-content/uploads/2015/03/role-conflict-750x375.jpg)"></a>
 <div class="content">
 <h4>
-<a href="https://www.internmatch.com/blog/youre-doing-too-much-at-work-and-it-shows">
+<a href="#">
 You’re Doing Too Much at Work—and It Shows
 </a>
 </h4>
@@ -1362,7 +1364,7 @@ You’re Doing Too Much at Work—and It Shows
 </ul>
 <div class="row prepend-2 show-for-small-only">
 <div class="columns small-10 small-centered">
-<a href="https://looksharp.com/employers" class="button secondary small radius no-margin">Employer? Post for FREE and make your next great hire!</a>
+<a href="#" class="button secondary small radius no-margin">Employer? Post for FREE and make your next great hire!</a>
 </div>
 </div>
 </section>
@@ -1379,13 +1381,13 @@ You’re Doing Too Much at Work—and It Shows
 <p>Plus, since we know that salary isn’t everything (although no one’s denying it’s important) we’ve created Company Pages with videos, pictures, and social media feeds so you can get to know employers before you even apply.</p>
 <p>
 There are over 30,000 companies on Looksharp including
-<a href="https://www.internmatch.com/company/facebook">Facebook</a>
+<a href="#">Facebook</a>
 ,
-<a href="https://www.internmatch.com/company/lyft">Lyft</a>
+<a href="#">Lyft</a>
 ,
-<a href="https://www.internmatch.com/company/vertafore">Vertafore</a>
+<a href="#">Vertafore</a>
 , and
-<a href="https://www.internmatch.com/company/charles-schwab">Charles Schwab</a>
+<a href="#">Charles Schwab</a>
 , plus tons of SMBs and NGOs. Don’t settle for a job when you can have a career.
 </p>
 </div>
@@ -1400,7 +1402,7 @@ There are over 30,000 companies on Looksharp including
 <img alt="Katy Utter Testimonial Headshot" class="author-pic" src="/IM_files/IM_files/katy-utter.jpg">
 </div>
 <div class="left details">
-<a class="author" href="https://profiles.looksharp.co/users/kathryn-utter-2">Katy Utter</a>
+<a class="author" href="#">Katy Utter</a>
 <p class="no-margin small-txt">Marketing &amp; Advertising and Entrepreneurship</p>
 <p class="no-margin small-txt">University of Dayton - 2014</p>
 </div>
@@ -1415,7 +1417,7 @@ There are over 30,000 companies on Looksharp including
 <img alt="Kendrick Ramsay Testimonial Headshot" class="author-pic" src="/IM_files/IM_files/kenrick-ramsay.jpg">
 </div>
 <div class="left details">
-<a class="author" href="https://profiles.looksharp.co/users/kenrick-ramsay-3">Kenrick Ramsay</a>
+<a class="author" href="#">Kenrick Ramsay</a>
 <p class="no-margin small-txt">Graphic Design and Digital Design</p>
 <p class="no-margin small-txt">Johnson &amp; Wales University - Providence - 2014</p>
 </div>
@@ -1430,7 +1432,7 @@ There are over 30,000 companies on Looksharp including
 <img alt="Aalia Rahman Testimonial Headshot" class="author-pic" src="/IM_files/IM_files/aalia-rahman.png">
 </div>
 <div class="left details">
-<a class="author" href="https://profiles.looksharp.co/users/aalia-rahman">Aalia Rahman</a>
+<a class="author" href="#">Aalia Rahman</a>
 <p class="no-margin small-txt">Studio Arts</p>
 <p class="no-margin small-txt">Saint Louis University - 2014</p>
 </div>
@@ -1445,7 +1447,7 @@ There are over 30,000 companies on Looksharp including
 <img alt="Brooke Kwasny Testimonial Headshot" class="author-pic" src="/IM_files/IM_files/brooke-kwasny.png">
 </div>
 <div class="left details">
-<a class="author" href="https://profiles.looksharp.co/users/brooke-kwasny">Brooke Kwasny</a>
+<a class="author" href="#">Brooke Kwasny</a>
 <p class="no-margin small-txt">Public Relations &amp; Spanish</p>
 <p class="no-margin small-txt">Boston University - 2015</p>
 </div>
@@ -1462,12 +1464,12 @@ There are over 30,000 companies on Looksharp including
 <footer class="ls-bg-color-light-grey">
 <div class="row show-for-small-only small-centered small-11 columns">
 <ul class="mobile-nav center-txt">
-<li class="pipe-after-mid-light-grey"><a href="https://www.internmatch.com/jobs" class="grey-link">Jobs</a></li>
-<li class="pipe-after-mid-light-grey"><a href="https://www.internmatch.com/internships" class="grey-link">Internships</a></li>
-<li><a href="https://www.internmatch.com/guides/student" class="grey-link">Resources</a></li>
-<li class="pipe-after-mid-light-grey"><a href="https://looksharp.com/employers" class="grey-link">Employers Site</a></li>
-<li class="pipe-after-mid-light-grey"><a href="https://www.internmatch.com/home/privacy_policy" class="grey-link">Privacy</a></li>
-<li><a href="https://www.internmatch.com/home/student_terms_of_service" class="grey-link">Terms of Service</a></li>
+<li class="pipe-after-mid-light-grey"><a href="#" class="grey-link">Jobs</a></li>
+<li class="pipe-after-mid-light-grey"><a href="#" class="grey-link">Internships</a></li>
+<li><a href="#" class="grey-link">Resources</a></li>
+<li class="pipe-after-mid-light-grey"><a href="#" class="grey-link">Employers Site</a></li>
+<li class="pipe-after-mid-light-grey"><a href="#" class="grey-link">Privacy</a></li>
+<li><a href="#" class="grey-link">Terms of Service</a></li>
 </ul>
 </div>
 <div class="row">
@@ -1476,19 +1478,19 @@ There are over 30,000 companies on Looksharp including
 <li class="medium-heading">Join Us On</li>
 <li>
 <i class="icon icon-twitter text-vertical-middle ls-color-tw-blue"></i>
-<a href="http://www.twitter.com/looksharp" class="grey-link small-txt" target="_blank">Twitter</a>
+<a href="#" class="grey-link small-txt" target="_blank">Twitter</a>
 </li>
 <li>
 <i class="icon icon-facebook text-vertical-middle ls-color-fb-blue"></i>
-<a href="http://www.facebook.com/internmatch" class="grey-link small-txt" target="_blank">Facebook</a>
+<a href="#" class="grey-link small-txt" target="_blank">Facebook</a>
 </li>
 <li>
 <i class="icon icon-google text-vertical-middle ls-color-go-red"></i>
-<a href="https://plus.google.com/111717986631020303242/about" class="grey-link small-txt" target="_blank">Google +</a>
+<a href="#" class="grey-link small-txt" target="_blank">Google +</a>
 </li>
 <li>
 <i class="icon icon-instagram text-vertical-middle ls-color-in-brown"></i>
-<a href="https://www.instagram.com/internmatch" class="grey-link small-txt" target="_blank">Instagram</a>
+<a href="#" class="grey-link small-txt" target="_blank">Instagram</a>
 </li>
 </ul>
 <p class="small-txt no-margin prepend-4 ls-color-mid-grey">
@@ -1501,56 +1503,56 @@ Looksharp
 <div class="large-2 medium-2 columns show-for-medium-up">
 <ul>
 <li class="medium-heading">Company</li>
-<li><a href="http://looksharp.jobscore.com/" class="grey-link small-txt">Careers</a></li>
-<li><a href="mailto:support@looksharp.com" class="grey-link small-txt" onclick="Zenbox.show();return false;">Contact Us</a></li>
-<li><a href="https://www.internmatch.com/sitemap" class="grey-link small-txt">Site Map</a></li>
-<li><a href="https://www.internmatch.com/home/privacy_policy" class="grey-link small-txt">Privacy</a></li>
+<li><a href="#" class="grey-link small-txt">Careers</a></li>
+<li><a href="#" class="grey-link small-txt" onclick="Zenbox.show();return false;">Contact Us</a></li>
+<li><a href="#" class="grey-link small-txt">Site Map</a></li>
+<li><a href="#" class="grey-link small-txt">Privacy</a></li>
 </ul>
 </div>
 <div class="large-2 medium-2 columns show-for-medium-up">
 <ul>
 <li class="medium-heading">Employers</li>
-<li><a href="https://looksharp.com/employers" class="grey-link small-txt">Hire Entry-Level</a></li>
-<li><a href="https://looksharp.com/employers" class="grey-link small-txt">Hire Interns</a></li>
-<li><a href="https://www.internmatch.com/employers/sign_up" class="grey-link small-txt">Sign Up</a></li>
-<li><a href="http://employerblog.internmatch.com/" class="grey-link small-txt">Employer Blog</a></li>
-<li><a href="https://www.internmatch.com/home/employer_terms_of_service" class="grey-link small-txt">Employer Terms of Service</a></li>
+<li><a href="#" class="grey-link small-txt">Hire Entry-Level</a></li>
+<li><a href="#" class="grey-link small-txt">Hire Interns</a></li>
+<li><a href="#" class="grey-link small-txt">Sign Up</a></li>
+<li><a href="#" class="grey-link small-txt">Employer Blog</a></li>
+<li><a href="#" class="grey-link small-txt">Employer Terms of Service</a></li>
 </ul>
 </div>
 <div class="columns large-3 medium-3 show-for-medium-up">
 <ul>
 <li class="medium-heading">Students &amp; Recent Grads</li>
-<li><a href="https://www.internmatch.com/jobs" class="grey-link small-txt">Jobs</a></li>
-<li><a href="https://www.internmatch.com/internships" class="grey-link small-txt">Internships</a></li>
-<li><a href="https://www.internmatch.com/blog" class="grey-link small-txt">Blog</a></li>
-<li><a href="http://community.internmatch.com/" class="grey-link small-txt">Internship Forum</a></li>
-<li><a href="https://www.internmatch.com/profile/new" class="grey-link small-txt">Create a Profile</a></li>
-<li><a href="https://profiles.looksharp.co/directory" class="grey-link small-txt">Student Directory</a></li>
-<li><a href="https://www.internmatch.com/home/student_terms_of_service" class="grey-link small-txt">Student Terms of Service</a></li>
+<li><a href="#" class="grey-link small-txt">Jobs</a></li>
+<li><a href="#" class="grey-link small-txt">Internships</a></li>
+<li><a href="#" class="grey-link small-txt">Blog</a></li>
+<li><a href="#" class="grey-link small-txt">Internship Forum</a></li>
+<li><a href="#" class="grey-link small-txt">Create a Profile</a></li>
+<li><a href="#" class="grey-link small-txt">Student Directory</a></li>
+<li><a href="#" class="grey-link small-txt">Student Terms of Service</a></li>
 </ul>
 </div>
 <div class="large-3 medium-3 small-10 small-centered columns end cta-section overflow">
-<a href="https://www.internmatch.com/profile/new" class="button primary medium radius no-margin">Sign Up Free</a>
+<a href="{{ route('vote', ['internmatch']) }}" class="button primary medium radius no-margin">Sign Up Free</a>
 <p class="show-for-medium-up no-margin ls-color-mid-grey">Join millions of students</p>
 <p class="ls-color-mid-grey no-margin prepend-1 small-txt">
 Already have an account?
-<a href="https://id.looksharp.co/users/sign_in">Log in now</a>
+<a href="#">Log in now</a>
 </p>
 </div>
 </div>
 <div class="row show-for-small-only small-centered small-11 columns">
 <ul class="mobile-social small-block-grid-4">
 <li>
-<a href="http://www.twitter.com/looksharp" class="full-width text-center grey-link small-txt icon icon-twitter ls-color-tw-blue" target="_blank"></a>
+<a href="#" class="full-width text-center grey-link small-txt icon icon-twitter ls-color-tw-blue" target="_blank"></a>
 </li>
 <li>
-<a href="http://www.facebook.com/internmatch" class="full-width text-center grey-link small-txt icon icon-facebook ls-color-fb-blue" target="_blank"></a>
+<a href="#" class="full-width text-center grey-link small-txt icon icon-facebook ls-color-fb-blue" target="_blank"></a>
 </li>
 <li>
-<a href="https://plus.google.com/111717986631020303242/about" class="full-width text-center grey-link small-txt icon icon-google ls-color-go-red" target="_blank"></a>
+<a href="#" class="full-width text-center grey-link small-txt icon icon-google ls-color-go-red" target="_blank"></a>
 </li>
 <li>
-<a href="https://www.instagram.com/internmatch" class="full-width text-center grey-link small-txt icon icon-instagram ls-color-in-brown" target="_blank"></a>
+<a href="#" class="full-width text-center grey-link small-txt icon icon-instagram ls-color-in-brown" target="_blank"></a>
 </li>
 </ul>
 <p class="small-txt ls-color-mid-grey text-center">
