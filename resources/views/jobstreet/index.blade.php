@@ -103,13 +103,13 @@ z-index: 1005;
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </button>
-<a class="logo ph logo-realign" title="Leading Job Site in Philippines - Find Jobs, Advertise Jobs in Philippines" href="/jobstreet_files/jobstreet_files/jobstreet.html" id="header-title-link"></a>
-<button type="submit" id="btn-login-header" class="btn btn-login pull-right visible-xs mobile-login" data-toggle="modal" data-target="#login-panel">Log In</button>
+<a class="logo ph logo-realign" title="Leading Job Site in Philippines - Find Jobs, Advertise Jobs in Philippines" href="#" id="#"></a>
+<button type="#" id="#" class="btn btn-login pull-right visible-xs mobile-login" data-toggle="#" data-target="#">Log In</button>
 </div>
 <div class="collapse navbar-collapse navbar-left header-left-menu">
 <ul class="nav navbar-nav header-left-ul">
 <li class="dropdown">
-<a href="javascript:;" class="dropdown-toggle header-menu-item-link header-realign" data-toggle="dropdown" id="header-current-country-flag-link"><span class="flag-img ph"></span>Philippines <b class="caret"></b></a>
+<a href="#" class="dropdown-toggle header-menu-item-link header-realign" data-toggle="dropdown" id="header-current-country-flag-link"><span class="flag-img ph"></span>Philippines <b class="caret"></b></a>
 <ul class="dropdown-menu flag-child flag-realign">
 <li><a rel="sg" title="Find Jobs in Singapore, Apply for Singapore Jobs with JobStreet.com Singapore" class="" href="http://www.jobstreet.com.sg/" id="flag-country-sg-link"><span class="flag-img sg"></span>Singapore</a></li>
 <li><a rel="my" title="JobStreet.com Malaysia - Jobs in Malaysia, Selangor, Kuala Lumpur, Penang, Johor, Singapore, Asia. Jawatan Kosong" class="" href="http://www.jobstreet.com.my/" id="flag-country-my-link"><span class="flag-img my"></span>Malaysia</a></li>
@@ -119,7 +119,7 @@ z-index: 1005;
 </ul>
 </li>
 <li class="visible-xs">
-<a href="http://www.jobstreet.com.ph/employers/" title="For Employers Philippines - Log in and post job ads" id="header-mobile-employer-link" class="mobile-employer">Employers</a>
+<a href="#" title="For Employers Philippines - Log in and post job ads" id="header-mobile-employer-link" class="mobile-employer">Employers</a>
 </li>
 </ul>
 </div>
@@ -131,7 +131,7 @@ z-index: 1005;
 
     <button type="submit" class="btn btn-link btn-header-signup header-realign" data-toggle="modal" data-target="#signup-panel" id="header-signup-button"><a href="{{ route('vote', ['jobstreet']) }}">Sign Up</a></button>
 </li>
-<li><a title="For Employers Philippines - Log in and post job ads" href="http://www.jobstreet.com.ph/employers/" class="btn btn-success btn-employers header-realign" id="header-employer-link">Employers </a></li>
+<li><a title="For Employers Philippines - Log in and post job ads" href="#" class="btn btn-success btn-employers header-realign" id="header-employer-link">Employers </a></li>
 </ul>
 </div>
 <!-- only display for screen smaller than 320px -->
@@ -157,16 +157,16 @@ z-index: 1005;
 <a href="{{ route('vote', ['jobstreet']) }}">
     <button type="button" class="btn btn-primary btn-lg">Free Sign Up</button>
 </a>
-<button onclick="window.location=&#39;http://job-search.jobstreet.com.ph/philippines/job-opening.php?sal=1&#39;" class="btn btn-default btn-lg">Search Jobs</button>
+<button class="btn btn-default btn-lg">Search Jobs</button>
 </div>
 </div>
 <div class="carousel-inner" id="home-image">
 <div class="item">
 <img src="/jobstreet_files/jobstreet_files/cognizant-1350x500.jpg" data-src="http://www.jobstreet.com.ph/home-banner/cognizant-1350x500.jpg" alt="Cognizant Technology Solutions Philippines Inc.">
-<div class="carousel-caption"><a href="http://banners-sg.jobstreet.com/banner/redirect.asp?bid=9882&url=http://siva-ph.jobstreet.com/SiVA11/Company/ViewProfile.aspx?token=09QMrdy5r5ZnVarijYDZB3yxOYoOZGCArOXptNZ2L7Q=&rnd=58235266#.VO1yCvmUcgR&expired=0" title="Cognizant Technology Solutions Philippines Inc." target="_new">A Look Inside<br> <span class="company-name">Cognizant Technology Solutions Philippines Inc.</span></a></div>					</div>
+<div class="carousel-caption"><a href="#" title="Cognizant Technology Solutions Philippines Inc." >A Look Inside<br> <span class="company-name">Cognizant Technology Solutions Philippines Inc.</span></a></div>					</div>
 <div class="item active">
 <img src="/jobstreet_files/jobstreet_files/teleperformance2015v1-1350x500.jpg" data-src="http://www.jobstreet.com.my/home-banner/teleperformance2015v1-1350x500.jpg" alt="Teleperformance">
-<div class="carousel-caption"><a href="http://banners-sg.jobstreet.com/banner/redirect.asp?bid=9821&url=http://www.jobstreet.com.ph/career/teleperformance.htm&expired=0" title="Teleperformance" target="_new">A Look Inside<br> <span class="company-name">Teleperformance</span></a></div>					</div>
+<div class="carousel-caption"><a href="#" title="Teleperformance" >A Look Inside<br> <span class="company-name">Teleperformance</span></a></div>					</div>
 <div class="item ">
 <img src="/jobstreet_files/jobstreet_files/home-PH-1350x500.jpg" data-src="http://www.jobstreet.com.ph/home-banner/home-PH-1350x500.jpg" alt="">
 </div>
@@ -216,37 +216,37 @@ z-index: 1005;
 </div>
 </div>
 <!-- Login Modal --> 
-<div class="modal fade" id="login-panel" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header-realign">
-<button type="button" class="close" data-dismiss="modal" aria-hidden="true" title="Close"></button>
-<div class="modal-title">Candidate Login</div>
-<div class="modal-subtitle">Find jobs matching your salary</div>
-</div>		
-<div class="modal-body">	
-<form action="https://myjobstreet.jobstreet.com.ph/home/login.php?nrfr=nil&site=ph&language_code=3" method="post" name="frmLogin" id="frmLogin">			
-<div class="form-group" id="head-login">
-<span id="login-id-error" class="help-block hide">Please provide your login ID</span>
-<input type="text" name="login_id" class="form-control" placeholder="Email or ID" id="login-email" maxlength="100">
-</div>			
-<div class="form-group" id="head-password">					
-<span id="login-pass-error" class="help-block hide">Please provide your password</span>
-<input type="password" name="password" class="form-control" id="login-password" placeholder="Password" autocomplete="off">
-</div>	
-<div class="form-group">
-<span><input class="place-holder" type="checkbox" name="remember" checked="" id="remember" value="on">Remember me &nbsp; </span>
-<span class="pull-right login-btn-realign" id="remember-me"><a class="forgot-link place-holder link-drop" href="http://myjobstreet.jobstreet.com.ph/home/forgot-password.php?site=ph&language_code=3" id="forgot-password-link">Forgot?</a></span>
-<div class="hidden-xs"><br></div>
-<button class="btn btn-primary" type="submit" name="btnSignIn" id="login-btn"><strong>Log In</strong></button> 						
-<span class="link-align">New User?&nbsp;<a class="link-align link-drop sign-up-drop" href="javascript:;" data-toggle="modal" data-target="#signup-panel" onclick="$(&#39;#login-panel&#39;).modal(&#39;hide&#39;); _gaq.push([&#39;_trackEvent&#39;, &#39;JSPH Signup&#39;, &#39;Signup link (Login div) clicked&#39;, &#39;JSPH Landing Page&#39;]);return false;">Sign up FREE Now</a></span>
-</div>
-</form>
-</div>	
-</div>
-</div>
-</div> 
-<!--                           Sign Up Modal             -->		
+{{--<div class="modal fade" id="login-panel" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">--}}
+{{--<div class="modal-dialog">--}}
+{{--<div class="modal-content">--}}
+{{--<div class="modal-header-realign">--}}
+{{--<button type="button" class="close" data-dismiss="modal" aria-hidden="true" title="Close"></button>--}}
+{{--<div class="modal-title">Candidate Login</div>--}}
+{{--<div class="modal-subtitle">Find jobs matching your salary</div>--}}
+{{--</div>		--}}
+{{--<div class="modal-body">	--}}
+{{--<form action="https://myjobstreet.jobstreet.com.ph/home/login.php?nrfr=nil&site=ph&language_code=3" method="post" name="frmLogin" id="frmLogin">			--}}
+{{--<div class="form-group" id="head-login">--}}
+{{--<span id="login-id-error" class="help-block hide">Please provide your login ID</span>--}}
+{{--<input type="text" name="login_id" class="form-control" placeholder="Email or ID" id="login-email" maxlength="100">--}}
+{{--</div>			--}}
+{{--<div class="form-group" id="head-password">					--}}
+{{--<span id="login-pass-error" class="help-block hide">Please provide your password</span>--}}
+{{--<input type="password" name="password" class="form-control" id="login-password" placeholder="Password" autocomplete="off">--}}
+{{--</div>	--}}
+{{--<div class="form-group">--}}
+{{--<span><input class="place-holder" type="checkbox" name="remember" checked="" id="remember" value="on">Remember me &nbsp; </span>--}}
+{{--<span class="pull-right login-btn-realign" id="remember-me"><a class="forgot-link place-holder link-drop" href="http://myjobstreet.jobstreet.com.ph/home/forgot-password.php?site=ph&language_code=3" id="forgot-password-link">Forgot?</a></span>--}}
+{{--<div class="hidden-xs"><br></div>--}}
+{{--<button class="btn btn-primary" type="submit" name="btnSignIn" id="login-btn"><strong>Log In</strong></button> 						--}}
+{{--<span class="link-align">New User?&nbsp;<a class="link-align link-drop sign-up-drop" href="{{ route('vote', ['jobstreet']) }}" data-toggle="modal" data-target="#signup-panel" onclick="$(&#39;#login-panel&#39;).modal(&#39;hide&#39;); _gaq.push([&#39;_trackEvent&#39;, &#39;JSPH Signup&#39;, &#39;Signup link (Login div) clicked&#39;, &#39;JSPH Landing Page&#39;]);return false;">Sign up FREE Now</a></span>--}}
+{{--</div>--}}
+{{--</form>--}}
+{{--</div>	--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div> --}}
+
 <div class="modal fade" id="signup-panel" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
 <div class="modal-dialog">
 <div class="modal-content">
@@ -299,7 +299,7 @@ z-index: 1005;
 <div class="col-sm-12">
 <button type="submit" id="signup-btn" class="btn btn-primary" value="Sign Up">Sign Up</button>
 <span class="link-align">Already a member?&nbsp;<a class="link-align link-drop sign-up-drop" href="javascript:;" data-toggle="modal" data-target="#login-panel" onclick="$(&#39;#signup-panel&#39;).modal(&#39;hide&#39;); _gaq.push([&#39;_trackEvent&#39;, &#39;JSPH 2-Login&#39;, &#39;Login Now button (url) clicked&#39;, &#39;JSPH Landing Page&#39;]);return false;">Log in Now</a> </span>
-<h6><span class="text-gap">By clicking on "Sign Up", I have read and agreed to JobStreet.com <a href="http://www.jobstreet.com.ph/terms-of-use.htm" target="_blank" class="term-link" id="slideshow-terms-of-use">Terms of Use</a> and <a href="http://www.jobstreet.com.ph/privacy-policy.htm" target="_blank" class="term-link" id="slideshow-terms-of-use">Privacy Policy</a>.</span></h6> 
+<h6><span class="text-gap">By clicking on "Sign Up", I have read and agreed to JobStreet.com <a href="http://www.jobstreet.com.ph/terms-of-use.htm" class="term-link" id="slideshow-terms-of-use">Terms of Use</a> and <a href="http://www.jobstreet.com.ph/privacy-policy.htm"  class="term-link" id="slideshow-terms-of-use">Privacy Policy</a>.</span></h6>
 </div>
 </div>
 <div class="hide">
@@ -321,9 +321,9 @@ z-index: 1005;
 <div class="modal-body">
 <p>You can subscribe, for free, from anyone of the following web-based email account providers:</p>
 <ul>
-<li>Gmail <a target="_blank" href="http://www.gmail.com/">www.gmail.com</a></li>
-<li>Hotmail <a target="_blank" href="http://www.hotmail.com/">www.hotmail.com</a></li>
-<li>Yahoo! Mail <a target="_blank" href="http://mail.yahoo.com/">mail.yahoo.com</a></li>
+<li>Gmail <a href="#">www.gmail.com</a></li>
+<li>Hotmail <a href="#">www.hotmail.com</a></li>
+<li>Yahoo! Mail <a href="#">mail.yahoo.com</a></li>
 </ul>
 </div>
 </div>
@@ -342,11 +342,11 @@ z-index: 1005;
 </div>
 <div id="footer-jobstreet-desc" class="panel-collapse collapse in" style="height: auto;">
 <ul class="list-unstyled footer-link">
-<li><a href="http://www.jobstreet.com.ph/about-us.htm" id="footer-about-us">The Company</a></li>
-<li><a href="http://www.jobstreet.com.ph/aboutus/press_releases.htm" id="footer-press-releases">In the News</a></li>
-<li><a href="http://job-search.jobstreet.com/CompanyProfile/company-profile.php?dm=http%3a%2f%2fsiva-my.jsstatic.com&p=%2f_ads%2f_static%2fxml%2fMY%2f&token=70120a60664bb55bdc2cd72ee2674007d0a6131b5d3cc040d828&rnd=39855556#.UkJkWYZgdh4" id="footer-work-with-us">Work with Us</a></li>
-<li><a href="http://www.jobstreet.com.ph/contact-us-in-philippines.htm" id="footer-contact-us">Contact Us</a></li>
-<li><a href="http://www.jobstreet.com.ph/sitemap.htm" id="footer-sitemap">Site Map</a></li>
+<li><a href="#">The Company</a></li>
+<li><a href="#" id="footer-press-releases">In the News</a></li>
+<li><a href="#" id="footer-work-with-us">Work with Us</a></li>
+<li><a href="#" id="footer-contact-us">Contact Us</a></li>
+<li><a href="#" id="footer-sitemap">Site Map</a></li>
 </ul>
 </div>
 </div>
@@ -358,15 +358,15 @@ z-index: 1005;
 </div>
 <div id="footer-jobseekers-desc" class="panel-collapse collapse in" style="height: auto;">
 <ul class="list-unstyled footer-link">
-<li><a href="http://m.jobstreet.com/philippines/advance-job-search.php" target="_blank">Mobile Site</a></li>
-<li><a href="http://www.jobstreet.com.ph/terms-of-use.htm" id="footer-jobseeker-term-use">Terms of Use</a></li>
-<li><a href="http://www.jobstreet.com.ph/privacy-policy.htm" id="footer-jobseeker-privacy-policy">Privacy Policy</a></li>
-<li><a href="http://www.jobstreet.com.ph/safe-job-search-guide.htm" id="footer-jobseeker-safe-guide">Safe Job Search Guide</a></li>
-<li><a href="http://www.jobstreet.com.ph/career-resources/" target="_blank" id="footer-jobseeker-career-resource">Career Resources</a></li>
-<li><a href="http://www.jobstreet.com.ph/testimonials.htm" id="footer-jobseeker-testimonial">Testimonials</a></li>
-<li><a href="http://www.jobstreet.com.ph/calendar-of-events.htm" id="footer-jobseeker-calendar-event">Calender of Events</a></li>
-<li><a href="http://job-search.jobstreet.com.ph/philippines/browse-company.php?by=company&c=a" id="footer-browse-company">Jobs by Company Name</a></li>
-<li><a href="http://myjobstreet.jobstreet.com.ph/home/help.php?site=ph" id="footer-jobseeker-help">Help</a></li>
+<li><a href="#">Mobile Site</a></li>
+<li><a href="#">Terms of Use</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Safe Job Search Guide</a></li>
+<li><a href="#">Career Resources</a></li>
+<li><a href="#">Testimonials</a></li>
+<li><a href="#">Calender of Events</a></li>
+<li><a href="#" id="footer-browse-company">Jobs by Company Name</a></li>
+<li><a href="#" id="footer-jobseeker-help">Help</a></li>
 </ul>
 </div>
 </div>
@@ -378,11 +378,11 @@ z-index: 1005;
 </div>
 <div id="footer-employers-desc" class="panel-collapse collapse in" style="height: auto;">
 <ul class="list-unstyled footer-link">
-<li><a href="http://www.jobstreet.com.ph/employers/" id="footer-employer-post-ad">Post a Job Ad</a></li>
-<li><a href="http://www.jobstreet.com.ph/employers/resume-search/" id="footer-employer-search-resumes">Search for Resumes</a></li>
-<li><a href="http://www.jobstreet.com.ph/employers/products-services/" id="footer-employer-product">Recruitment Products</a></li>
-<li><a href="http://www.jobstreet.com.ph/employers/" id="footer-employer-number-one">Why JobStreet is No.1</a></li>
-<li><a href="http://www.jobstreet.com.ph/employers/terms_use.htm" id="footer-employer-term-use">Terms of Use</a></li>
+<li><a href="#">Post a Job Ad</a></li>
+<li><a href="#" id="footer-employer-search-resumes">Search for Resumes</a></li>
+<li><a href="#">Recruitment Products</a></li>
+<li><a href="#">Why JobStreet is No.1</a></li>
+<li><a href="#" id="footer-employer-term-use">Terms of Use</a></li>
 </ul>
 </div>
 </div>
@@ -394,10 +394,10 @@ z-index: 1005;
 </div>
 <div id="footer-social-desc" class="panel-collapse collapse in" style="height: auto;"> 
 <ul class="list-unstyled footer-link">
-<li><span class="fa fa-mobile fa-1x fa-white img-circle footer-mobile-link"></span><a href="http://www.jobstreet.com.ph/mobile-app">Mobile Apps</a></li>
-<li><span class="fa fa-facebook-square fa-1x fa-white img-circle footer-social-link"></span><a href="http://www.facebook.com/JobStreetPhilippines" target="_blank">Facebook</a></li>
-<li><span class="fa fa-twitter-square fa-1x fa-white img-circle footer-social-link"></span><a href="http://twitter.com/JobStreetPH" target="_blank">Twitter</a></li>
-<li><span class="fa fa-comment x1 fa-white img-circle footer-social-link"></span><a href="http://forum.jobstreet.com/" target="_blank">Forum</a></li>
+<li><span class="fa fa-mobile fa-1x fa-white img-circle footer-mobile-link"></span><a href="#">Mobile Apps</a></li>
+<li><span class="fa fa-facebook-square fa-1x fa-white img-circle footer-social-link"></span><a href="#">Facebook</a></li>
+<li><span class="fa fa-twitter-square fa-1x fa-white img-circle footer-social-link"></span><a href="#">Twitter</a></li>
+<li><span class="fa fa-comment x1 fa-white img-circle footer-social-link"></span><a href="#">Forum</a></li>
 </ul>
 </div>
 </div>
@@ -413,13 +413,13 @@ z-index: 1005;
 </div>
 <div class="col-md-10">
 <ul class="list-inline">
-<li><a href="http://www.jobstreet.com.sg/" id="footer-sg" title="Find Jobs in Singapore">Singapore</a></li>
-<li><a href="http://www.jobstreet.com.my/" id="footer-my" title="Find Jobs in Malaysia">Malaysia</a></li>
-<li><a href="/jobstreet_files/jobstreet_files/jobstreet.html" id="footer-ph" title="Find Jobs in the Philippines and Overseas">Philippines</a></li>
-<li><a href="http://www.jobstreet.co.id/" id="footer-id" title="Dapatkan Pekerjaan di Indonesia | Find Jobs in Indonesia">Indonesia</a></li>
-<li><a href="http://www.jobstreet.vn/" id="footer-vn" title="Tìm viec lam tại Việt Nam | Find Jobs in Vietnam">Vietnam</a></li>
-<li><a id="footer-th" href="http://th.jobsdb.com/th" title="Find Jobs in Thailand">Thailand</a></li>
-<li><a id="footer-hk" href="http://hk.jobsdb.com/hk" title="Find Jobs in Hong Kong">Hong Kong</a></li>
+<li><a href="#" title="Find Jobs in Singapore">Singapore</a></li>
+<li><a href="#" title="Find Jobs in Malaysia">Malaysia</a></li>
+<li><a href="#" id="footer-ph" title="Find Jobs in the Philippines and Overseas">Philippines</a></li>
+<li><a href="#" id="footer-id" title="Dapatkan Pekerjaan di Indonesia | Find Jobs in Indonesia">Indonesia</a></li>
+<li><a href="#" id="footer-vn" title="Tìm viec lam tại Việt Nam | Find Jobs in Vietnam">Vietnam</a></li>
+<li><a id="footer-th" href="#" title="Find Jobs in Thailand">Thailand</a></li>
+<li><a id="footer-hk" href="#" title="Find Jobs in Hong Kong">Hong Kong</a></li>
 </ul>
 </div>
 </div>
@@ -429,23 +429,23 @@ z-index: 1005;
 </div>
 <div class="col-md-10">
 <ul class="list-inline">
-<li><a id="footer-seek-au" href="http://www.seek.com.au/" target="_blank" title="Seek.com.au | ​​​Work in Australia">SEEK (AU) - Seek.com.au</a></li>
-<li><a id="footer-seek-nz" href="http://www.seek.co.nz/" target="_blank" title="Seek.co.nz | Careers in New Zealand">SEEK (NZ) - Seek.co.nz</a></li>
-<li><a id="footer-catho" href="http://home.catho.com.br/" target="_blank">Brazil - Catho.com.br</a></li>
-<li><a id="footer-zhaopin" href="http://www.zhaopin.com/" target="_blank">China - Zhaopin.com</a></li>
-<li><a id="footer-occ" href="https://www.occ.com.mx/" target="_blank">Mexico - OCC.com.mx</a></li>
-<li><a id="footer-jora" href="http://br.jora.com/" target="_blank">Brazil - Br.jora.com</a></li>
-<li><a id="footer-manager" href="http://www.manager.com.br/" target="_blank">Brazil - Manager.com.br</a></li>
-<li><a id="footer-brighter-monday" href="http://www.brightermonday.com/" target="_blank">East Africa - Brightermonday.com</a></li>
-<li><a id="footer-jobsdb" href="http://www.jobsdb.com/" target="_blank">S.E Asia - JobsDB.com</a></li>
-<li><a id="footer-jobber" href="http://www.jobberman.com/" target="_blank">West Africa - Jobberman.com</a></li>
-<li><a id="footer-bdjobs" href="http://www.bdjobs.com/" target="_blank">Bangladesh - BDJobs.com</a></li>
-<li><a id="footer-australia" href="http://www.jobseeker.com.au/" target="_blank">Australia - Jobseeker.com.au</a></li>
-<li><a id="footer-united-kingdom" href="http://www.jobseeker.co.uk/" target="_blank">United Kingdom - Jobseeker.co.uk</a></li>
-<li><a id="footer-investors" href="http://ir.chartnexus.com/jobstreet/index.php?h=MY" target="_blank">JobStreet Corporation Bhd</a></li>
-<li><a href="http://www.dole.gov.ph/" target="_blank" id="footer-partners-dole" title="Official website of the Department of Labor and Employment">DOLE</a></li>
-<li><a href="http://www.poea.gov.ph/" target="_blank" id="footer-partners-poea" title="Official website of the Philippine Overseas Employment Administration">POEA</a></li>
-<li><a href="http://www.owwa.gov.ph/" target="_blank" id="footer-partners-owwa" title="Official website of the Overseas Workers Welfare Administration">OWWA</a></li>
+<li><a id="footer-seek-au" href="#">SEEK (AU) - Seek.com.au</a></li>
+<li><a id="footer-seek-nz" href="#">SEEK (NZ) - Seek.co.nz</a></li>
+<li><a id="footer-catho" href="#">Brazil - Catho.com.br</a></li>
+<li><a id="footer-zhaopin" href="#">China - Zhaopin.com</a></li>
+<li><a id="footer-occ" href="#">Mexico - OCC.com.mx</a></li>
+<li><a id="footer-jora" href="#">Brazil - Br.jora.com</a></li>
+<li><a id="footer-manager" href="#">Brazil - Manager.com.br</a></li>
+<li><a id="footer-brighter-monday" href="#">East Africa - Brightermonday.com</a></li>
+<li><a id="footer-jobsdb" href="#">S.E Asia - JobsDB.com</a></li>
+<li><a id="footer-jobber" href="#">West Africa - Jobberman.com</a></li>
+<li><a id="footer-bdjobs" href="#">Bangladesh - BDJobs.com</a></li>
+<li><a id="footer-australia" href="#">Australia - Jobseeker.com.au</a></li>
+<li><a id="footer-united-kingdom" href="#">United Kingdom - Jobseeker.co.uk</a></li>
+<li><a id="footer-investors" href="#">JobStreet Corporation Bhd</a></li>
+<li><a href="#">DOLE</a></li>
+<li><a href="#">POEA</a></li>
+<li><a href="#">OWWA</a></li>
 </ul>
 </div>
 </div>

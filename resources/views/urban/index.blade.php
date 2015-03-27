@@ -202,21 +202,21 @@ z-index: 1005;
     <div id="wrapper">
 		<div id="header">
 			<div id="logo">
-				<a href="/urban_files/urban_files/urban.html"><img src="/urban_files/urban_files/urban_logo.png" width="224px" height="52px" alt="Urban Interns Logo"></a>
+				<a href="#"><img src="/urban_files/urban_files/urban_logo.png" width="224px" height="52px" alt="Urban Interns Logo"></a>
 			</div>
 			<div id="righttopmenu">
 				<ul>
-					<li><a href="{{ route('vote', ['urban']) }}">signup</a></li><li><a href="http://www.urbaninterns.com/login">log in</a></li><li class="last"><a href="http://www.urbaninterns.com/plans">plans &amp; pricing</a></li>				</ul>
+					<li><a href="{{ route('vote', ['urban']) }}">signup</a></li><li><a href="#">log in</a></li><li class="last"><a href="#">plans &amp; pricing</a></li>				</ul>
 			</div>
 			<div id="nav">
 				<div class="social">
-					<a target="_blank" title="Follow us on Twitter" href="http://twitter.com/urbaninterns"><img src="/urban_files/urban_files/logo_twitter.png" alt="Follow us on Twitter"></a>
-					<a target="_blank" title="Follow us on Linkedin" href="http://www.linkedin.com/companies/443021"><img src="/urban_files/urban_files/logo_linkedin.png" alt="Follow us on Linkedin"></a>
-					<a target="_blank" title="Follow us on facebook" href="http://www.facebook.com/pages/Urban-Interns/63155166063"><img src="/urban_files/urban_files/logo_facebook.png" alt="Follow us on facebook"></a>
-										<a target="_blank" title="Subscribe to Our Newsletter" href="http://www.urbaninterns.com/newsletter"><img src="/urban_files/urban_files/email_open.png" alt="Our Newsletter"></a>
+					<a title="Follow us on Twitter" href="#"><img src="/urban_files/urban_files/logo_twitter.png" alt="Follow us on Twitter"></a>
+					<a title="Follow us on Linkedin" href="#"><img src="/urban_files/urban_files/logo_linkedin.png" alt="Follow us on Linkedin"></a>
+					<a title="Follow us on facebook" href="#"><img src="/urban_files/urban_files/logo_facebook.png" alt="Follow us on facebook"></a>
+										<a title="Subscribe to Our Newsletter" href="#"><img src="/urban_files/urban_files/email_open.png" alt="Our Newsletter"></a>
 									</div>
 				<ul>
-				        <li class="home selected"><a href="/urban_files/urban_files/urban.html">home</a></li><li class="intern"><a href="http://www.urbaninterns.com/find-interns">find an urban intern</a></li><li class="post-job"><a href="http://www.urbaninterns.com/signup">post a job</a></li><li class="how-it-works"><a href="http://www.urbaninterns.com/how-it-works">how it works</a></li><li class="resources"><a href="http://www.urbaninterns.com/journal/employers">blog</a></li><li class="navline"></li>				</ul>
+				        <li class="home selected"><a href="#">home</a></li><li class="intern"><a href="#">find an urban intern</a></li><li class="post-job"><a href="#">post a job</a></li><li class="how-it-works"><a href="#">how it works</a></li><li class="resources"><a href="#">blog</a></li><li class="navline"></li>				</ul>
 			</div>
 			<!-- Show the job seeker overlay to logged in interns -->
 						<!-- Otherwise, show the general menu -->
@@ -224,13 +224,13 @@ z-index: 1005;
 				<div class="overlay_tab">For Job Seekers</div>
 					<ul class="overlay_menu">
 						<li><a href="{{ route('vote', ['site' => 'urban']) }}"><img src="/urban_files/urban_files/icon_profile.png" alt="create a profile" align="top">Create a Profile</a></li>
-						<li><a href="http://www.urbaninterns.com/job-search"><img src="/urban_files/urban_files/icon_folder.png" alt="browse jobs" align="top">Browse Jobs </a></li>
-						<li><a href="http://www.urbaninterns.com/journal/jobseekers"><img src="/urban_files/urban_files/icon_arrow.png" alt="resources" align="top">Blog </a></li>
+						<li><a href="#"><img src="/urban_files/urban_files/icon_folder.png" alt="browse jobs" align="top">Browse Jobs </a></li>
+						<li><a href="#"><img src="/urban_files/urban_files/icon_arrow.png" alt="resources" align="top">Blog </a></li>
 					</ul>
 				<div class="overlay_search_container">
-					<form onsubmit="return false;" action="http://www.urbaninterns.com/jobs/" method="get">
-						<input name="keyword" type="text" class="overlay_search" onblur="if (value== &#39;&#39;) {value=&#39;Keyword or location&#39;}" onfocus="if (value == &#39;Keyword or location&#39;) {value=&#39;&#39;}" value="Keyword or location">
-						<input type="submit" onclick="TopSearch(&#39;job&#39;);" class="job_search">
+					<form onsubmit="return false;" action="#" method="get">
+						<input name="keyword" type="text" class="overlay_search" value="Keyword or location">
+						<input type="submit" class="job_search">
 					</form>
 				</div>
 			</div>
@@ -248,15 +248,15 @@ z-index: 1005;
 	</div>
 	<div id="banner_form">
 		<form onsubmit="return false;" action="http://www.urbaninterns.com/interns/" method="get">
-			<input name="keyword" type="text" class="banner_input" onblur="if (value== &#39;&#39;) {value=&#39;type a skill, industry, school or location&#39;}" onfocus="if (value == &#39;Type a skill, industry, school, or location&#39;) {value=&#39;&#39;}" value="Type a skill, industry, school, or location">
-			<input type="submit" onclick="hasValue();" class="banner_submit">
+			<input name="keyword" type="text" class="banner_input" value="Type a skill, industry, school, or location">
+			<input type="submit" class="banner_submit">
 		</form>
-		or <a href="http://www.urbaninterns.com/post-jobs" class="postjob">post a job</a>
+		or <a href="#" class="postjob">post a job</a>
 	</div>
 	<div id="banner_links">
-		ex. <a href="http://www.urbaninterns.com/interns/?location_name=New+York&virtual_ok=&skill=Blogging">blogger NYC,</a> 
-			<a href="http://www.urbaninterns.com/interns/?skill=Graphic%20Design&location_name=Los%20Angeles">graphic designer LA,</a> 
-			<a href="http://www.urbaninterns.com/interns/?keyword=Research&location_name=Chicago">research assistant Chicago</a>
+		ex. <a href="#">blogger NYC,</a>
+			<a href="#">graphic designer LA,</a>
+			<a href="#">research assistant Chicago</a>
 	</div>
 </div>
 <div id="twocol_wrap">
@@ -270,35 +270,89 @@ z-index: 1005;
 				<!-- Show intern categories -->
 				<ul class="keywords noborder">
 					<li class="keywords_header">By Skills</li>
-					<li><a href="http://www.urbaninterns.com/interns/?skills[]=Bookkeeping">Bookkeeping</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Blogging">Blogging</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Business%20Development">Business Development</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Client%20Relations">Client Relations</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Consumer%20Research">Consumer Research</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Email%20Marketing">Email Marketing</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Events">Events</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Financial%20Analysis">Financial Analysis</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=General%20Administration">General Administration</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Graphic%20Design">Graphic Design</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Odd%20Jobs%20/%20Errands">Odd Jobs / Errands</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Organizing">Organizing</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=PR%20/%20Marketing">PR / Marketing</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=SEO">SEO</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Sales">Sales</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Scheduling%20/%20Phone%20Calls">Scheduling / Phone Calls</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Social%20Media">Social Media</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Strategic%20Analysis">Strategic Analysis</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Web%20Design">Web Design</a></li><li><a href="http://www.urbaninterns.com/interns/?skills[]=Web%20Development">Web Development</a></li>				
+					<li><a href="#">Bookkeeping</a></li>
+                    <li><a href="#">Blogging</a></li>
+                    <li><a href="#">Business Development</a></li>
+                    <li><a href="#">Client Relations</a></li>
+                    <li><a href="#">Consumer Research</a></li>
+                    <li><a href="#">Email Marketing</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Financial Analysis</a></li>
+                    <li><a href="#">General Administration</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">Odd Jobs / Errands</a></li>
+                    <li><a href="#">Organizing</a></li>
+                    <li><a href="#">PR / Marketing</a></li>
+                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Scheduling / Phone Calls</a></li>
+                    <li><a href="#">Social Media</a></li>
+                    <li><a href="#">Strategic Analysis</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Web Development</a></li>
 				</ul>
 
 				<ul class="keywords">
 					<li class="keywords_header">By Industry</li>
 					<!-- Show all industries -->                        
-		                        <li><a href="http://www.urbaninterns.com/interns/?industries[]=Accounting%20/%20Finance">Accounting / Finance</a></li><li><a href="http://www.urbaninterns.com/interns/?industries[]=Art%20/%20Media%20/%20Design">Art / Media / Design</a></li><li><a href="http://www.urbaninterns.com/interns/?industries[]=Education">Education</a></li><li><a href="http://www.urbaninterns.com/interns/?industries[]=Event%20Planning">Event Planning</a></li><li><a href="http://www.urbaninterns.com/interns/?industries[]=Food%20/%20Beverage%20/%20Hospitality">Food / Beverage / Hospitality</a></li><li><a href="http://www.urbaninterns.com/interns/?industries[]=Health%20/%20Beauty">Health / Beauty</a></li><li><a href="http://www.urbaninterns.com/interns/?industries[]=Internet">Internet</a></li><li><a href="http://www.urbaninterns.com/interns/?industries[]=Marketing%20/%20PR%20/%20Advertising">Marketing / PR / Advertising</a></li><li><a href="http://www.urbaninterns.com/interns/?industries[]=Nonprofit">Nonprofit</a></li><li><a href="http://www.urbaninterns.com/interns/?industries[]=Publishing">Publishing</a></li><li><a href="http://www.urbaninterns.com/interns/?industries[]=Retail%20/%20Wholesale">Retail / Wholesale</a></li><li><a href="http://www.urbaninterns.com/interns/?industries[]=Sales%20/%20Business%20Development">Sales / Business Development</a></li><li><a href="http://www.urbaninterns.com/interns/?industries[]=Software%20/%20Technology">Software / Technology</a></li><li><a href="http://www.urbaninterns.com/interns/?industries[]=Travel%20/%20Transportation">Travel / Transportation</a></li><li><a href="http://www.urbaninterns.com/interns/?industries[]=TV%20/%20Film%20/%20Video">TV / Film / Video</a></li><li><a href="http://www.urbaninterns.com/interns/?industries[]=Other">Other</a></li>					
+		                        <li><a href="#">Accounting / Finance</a></li>
+                    <li><a href="#">Art / Media / Design</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Event Planning</a></li>
+                    <li><a href="#">Food / Beverage / Hospitality</a></li>
+                    <li><a href="#">Health / Beauty</a></li>
+                    <li><a href="#">Internet</a></li>
+                    <li><a href="#">Marketing / PR / Advertising</a></li>
+                    <li><a href="#">Nonprofit</a></li>
+                    <li><a href="#">Publishing</a></li>
+                    <li><a href="#">Retail / Wholesale</a></li>
+                    <li><a href="#">Sales / Business Development</a></li>
+                    <li><a href="#">Software / Technology</a></li>
+                    <li><a href="#">Travel / Transportation</a></li>
+                    <li><a href="#">TV / Film / Video</a></li>
+                    <li><a href="#">Other</a></li>
 		                </ul>
 
 				<ul class="keywords">
 					<li class="keywords_header">By Availability</li>
 					<!-- Show all hours -->
-					<li><a href="http://www.urbaninterns.com/interns/?hours=1-5%20hours%20per%20week"> 1-5 Hours / Week</a></li>
-					<li><a href="http://www.urbaninterns.com/interns/?hours=6-10%20hours%20per%20week">6-10 Hours / Week</a></li>
-					<li><a href="http://www.urbaninterns.com/interns/?hours=11-20%20hours%20per%20week">11-20 Hours / Week</a></li>
-					<li><a href="http://www.urbaninterns.com/interns/?hours=21-30%20hours%20per%20week">21-30 Hours / Week</a></li>
-					<li><a href="http://www.urbaninterns.com/interns/?hours=31+%20hours%20per%20week">31+ Hours / Week</a></li>
+					<li><a href="#"> 1-5 Hours / Week</a></li>
+					<li><a href="#">6-10 Hours / Week</a></li>
+					<li><a href="#">11-20 Hours / Week</a></li>
+					<li><a href="#">21-30 Hours / Week</a></li>
+					<li><a href="#">31+ Hours / Week</a></li>
 				</ul>
 
 				<ul class="keywords">
 					<li class="keywords_header">By Location</li>
-					<li><a href="http://www.urbaninterns.com/interns/?location_name=Other">Other</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=New%20York">New York</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=Boston">Boston</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=Chicago">Chicago</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=Washington,%20D.C.">Washington, D.C.</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=Philadelphia">Philadelphia</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=Atlanta">Atlanta</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=Dallas">Dallas</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=San%20Francisco">San Francisco</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=Los%20Angeles">Los Angeles</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=San%20Diego">San Diego</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=San%20Jose">San Jose</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=Austin">Austin</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=Houston">Houston</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=San%20Antonio">San Antonio</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=Miami">Miami</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=Ft.%20Lauderdale">Ft. Lauderdale</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=Orlando">Orlando</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=Tampa">Tampa</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=Jacksonville">Jacksonville</a></li><li><a href="http://www.urbaninterns.com/interns/?location_name=Seattle">Seattle</a></li>					
-					<li><a href="http://www.urbaninterns.com/interns/?location_name=any">Any / Virtual</a></li>
+					<li><a href="#">Other</a></li>
+                    <li><a href="#">New York</a></li>
+                    <li><a href="#">Boston</a></li>
+                    <li><a href="#">Chicago</a></li>
+                    <li><a href="#">Washington, D.C.</a></li>
+                    <li><a href="#">Philadelphia</a></li>
+                    <li><a href="#">Atlanta</a></li>
+                    <li><a href="#">Dallas</a></li>
+                    <li><a href="#">San Francisco</a></li>
+                    <li><a href="#">Los Angeles</a></li>
+                    <li><a href="#">San Diego</a></li>
+                    <li><a href="#">San Jose</a></li>
+                    <li><a href="#">Austin</a></li>
+                    <li><a href="#">Houston</a></li>
+                    <li><a href="#">San Antonio</a></li>
+                    <li><a href="#">Miami</a></li>
+                    <li><a href="#">Ft. Lauderdale</a></li>
+                    <li><a href="#">Orlando</a></li>
+                    <li><a href="#">Tampa</a></li>
+                    <li><a href="#">Jacksonville</a></li>
+                    <li><a href="#">Seattle</a></li>
+					<li><a href="#">Any / Virtual</a></li>
 				</ul>
 			</div>
 			<div class="left_col_darkhead_bottom">
 			</div>
 		</div>
-		<a style="padding-left:10px;" href="http://members.internprofits.com/dap/a/?a=2130&p=www.InternProfits.com/new2012">
+		<a style="padding-left:10px;" href="#">
 			<img src="/urban_files/urban_files/InternProfits-banner-course home page.jpg">
 		</a>
 				<div class="left_col">
@@ -306,7 +360,7 @@ z-index: 1005;
 			</div>
 			<div class="left_col_middle">
 				<h2><img src="/urban_files/urban_files/icon_star.png" alt="Star"> Urban Interns Spotlight</h2>
-				<div class="more_links"><a href="http://www.urbaninterns.com/find-interns">More Urban Interns &gt;</a></div>
+				<div class="more_links"><a href="#">More Urban Interns &gt;</a></div>
 				<div class="leftcol_line"></div>
 				<!-- Show the featured job seekers as entered in the admin console -->
 					
@@ -316,9 +370,9 @@ z-index: 1005;
 							<img title="Amanda" alt="Amanda" src="/urban_files/urban_files/17909.jpg" height="65px" width="65px">
 						</div>
 						<div class="intern_profile_info">
-							<a class="name" href="http://www.urbaninterns.com/interns/intern-profile/profile-id/17909"></a><br>
+							<a class="name" href="#"></a><br>
 							<!---<a class='location'>{$value->location_name.}</a>-->
-							<a class="proflink" href="http://www.urbaninterns.com/interns/intern-profile/profile-id/17909">
+							<a class="proflink" href="#">
 								<img src="/urban_files/urban_files/icon_profile.png" alt="View Profile">View Profile</a>
 						</div>
 						<div class="intern_profile_about">
@@ -332,9 +386,9 @@ z-index: 1005;
 							<img title="Michael" alt="Michael" src="/urban_files/urban_files/23724.jpg" height="65px" width="65px">
 						</div>
 						<div class="intern_profile_info">
-							<a class="name" href="http://www.urbaninterns.com/interns/intern-profile/profile-id/23724">Detail Oriented And Experienced Marketing Rep</a><br>
+							<a class="name" href="#">Detail Oriented And Experienced Marketing Rep</a><br>
 							<!---<a class='location'>{$value->location_name.}</a>-->
-							<a class="proflink" href="http://www.urbaninterns.com/interns/intern-profile/profile-id/23724">
+							<a class="proflink" href="#">
 								<img src="/urban_files/urban_files/icon_profile.png" alt="View Profile">View Profile</a>
 						</div>
 						<div class="intern_profile_about">
@@ -353,11 +407,11 @@ z-index: 1005;
 	<div class="right_col_middle">
 		<h2><img src="/urban_files/urban_files/icon_star.png" alt="Star"> Meet Our Partners</h2>
 		<div class="rightcol_line"></div>
-		<a style="padding-left:20px;" href="http://ulm.intraxinc.com/university?utm_source=Urban%2BIntern&utm_medium=Email&utm_campaign=March_email_2012">
+		<a style="padding-left:20px;" href="#">
 			<img src="/urban_files/urban_files/univ-pw-logo.png">
 		</a>
 		<br><br>
-		<a style="display:inline-block;text-align:center;border:1px solid black;width:316px;" target="_blank" href="http://www.princetonreview.com/" alt="Princeton Review">
+		<a style="display:inline-block;text-align:center;border:1px solid black;width:316px;"  href="#">
 			<img style="margin-left:-10px;" src="/urban_files/urban_files/princeton_review.jpg">
 		</a>	
 	</div>
@@ -370,16 +424,17 @@ z-index: 1005;
 			</div>
 			<div class="right_col_middle">
 				<h2><img src="/urban_files/urban_files/icon_star.png" alt="Star"> Featured Position</h2>
-				<div class="more_links"><a href="http://www.urbaninterns.com/job-search">More Jobs &gt;</a></div>
+				<div class="more_links"><a href="#">More Jobs &gt;</a></div>
 				<div class="rightcol_line"></div>
 
 				<!-- Show Featured Job -->
-				<h3><a href="http://www.urbaninterns.com/jobs/job-details/job-id/3338">Rockstar Entrepreneur Seeks Rock Star Assistant</a></h3><h4>Woohoo, Inc., Los Angeles</h4><p>You: Reliable, multitasking, tech savvy, self directed, ambitious, and ready to hit the ground running...
+				<h3><a href="#">Rockstar Entrepreneur Seeks Rock Star Assistant</a></h3><h4>Woohoo, Inc., Los Angeles</h4><p>You: Reliable, multitasking, tech savvy, self directed, ambitious, and ready to hit the ground running...
 
 Me: A busy entrepreneur with a rock star coaching and consulting business who needs a right-hand assistant who's not flaky 
 
 Approximately 15-20 hours/week. Could lead to full time for the right individual.
-</p><p class="apply"><a href="http://www.urbaninterns.com/jobs/job-details/job-id/3338"><img src="/urban_files/urban_files/icon_folder.png" alt="apply to job">Apply to Job</a></p>			</div>
+</p><p class="apply"><a href="#">
+                        <img src="/urban_files/urban_files/icon_folder.png" alt="apply to job">Apply to Job</a></p>			</div>
 			<div class="right_col_bottom">
 			</div>
 		</div>
@@ -447,41 +502,58 @@ setInterval ( rotateText, 4000 );
 			<li><img src="/urban_files/urban_files/press4.png" alt="Crain&#39;s"></li>
 		</ul>
 		<div class="footer_more_links">
-		<a href="http://www.urbaninterns.com/press">More press buzz &gt;</a>
+		<a href="#">More press buzz &gt;</a>
 		</div>
 	</div>
 	<div id="footer_links">
 		<ul class="footer_blog_links">
-						<li class="footer_blog_links_header"><a href="http://www.urbaninterns.com/journal/employers/">Employer Blog</a> <a href="http://www.urbaninterns.com/journal/employers/feed/"><img alt="RSS" style="margin: 0 0 -2px 2px; " src="/urban_files/urban_files/icon_rss.png"></a></li>
-			<li><a href="http://www.urbaninterns.com/journal/employers/meet-our-latest-featured-urban-intern-jerry-adams/">Meet Our Latest Featured Urban Intern: Jerry Adams</a></li><li><a href="http://www.urbaninterns.com/journal/employers/featured-urban-intern-jonathan-jackson/">Featured Urban Intern: Jonathan Jackson</a></li><li><a href="http://www.urbaninterns.com/journal/employers/meet-our-latest-featured-urban-intern-max-wiseltier/">Meet Our Latest Featured Urban Intern: Max Wiseltier</a></li><li><a href="http://www.urbaninterns.com/journal/employers/the-top-3-interns-every-business-must-have-webinar-replay-available-now/">The Top 3 Interns Every Business Must Have – Webinar Replay Available Now!</a></li><li><a href="http://www.urbaninterns.com/journal/employers/hiring-an-intern-whos-the-best-intern-hire-for-2012/">Hiring An Intern? Who’s The Best Intern Hire For 2012</a></li>		</ul>
+						<li class="footer_blog_links_header"><a href="#">Employer Blog</a>
+                            <a href="#">
+                                <img alt="RSS" style="margin: 0 0 -2px 2px; " src="/urban_files/urban_files/icon_rss.png"></a></li>
+			<li><a href="#">Meet Our Latest Featured Urban Intern: Jerry Adams</a></li>
+            <li><a href="#">Featured Urban Intern: Jonathan Jackson</a></li>
+            <li><a href="#">Meet Our Latest Featured Urban Intern: Max Wiseltier</a></li>
+            <li><a href="#">The Top 3 Interns Every Business Must Have – Webinar Replay Available Now!</a></li>
+            <li><a href="#">Hiring An Intern? Who’s The Best Intern Hire For 2012</a></li>		</ul>
 		<ul class="footer_blog_links">
-						<li class="footer_blog_links_header"><a href="http://www.urbaninterns.com/journal/jobseekers/">Job Seeker Blog</a> <a href="http://www.urbaninterns.com/journal/jobseekers/feed/"><img alt="RSS" style="margin: 0 0 -2px 2px; " src="/urban_files/urban_files/icon_rss.png"></a></li>		
-			<li><a href="http://www.urbaninterns.com/journal/jobseekers/a-new-resource-for-interns-myriverguides-com/">A New Resource for Interns – MyRiverGuides.com</a></li><li><a href="http://www.urbaninterns.com/journal/jobseekers/meet-our-latest-featured-urban-intern-jerry-adams-2/">Meet Our Latest Featured Urban Intern: Jerry Adams</a></li><li><a href="http://www.urbaninterns.com/journal/jobseekers/featured-urban-intern-jonathan-jackson-2/">Featured Urban Intern: Jonathan Jackson</a></li><li><a href="http://www.urbaninterns.com/journal/jobseekers/meet-our-latest-featured-urban-intern-max-wiseltier-2/">Meet Our Latest Featured Urban Intern: Max Wiseltier</a></li><li><a href="http://www.urbaninterns.com/journal/jobseekers/want-to-spend-the-summer-in-london-as-the-olympics-kick-off/">Want to Spend the Summer in London as the Olympics Kick Off?</a></li>		</ul>
+						<li class="footer_blog_links_header"><a href="#">Job Seeker Blog</a>
+                            <a href="#">
+                                <img alt="RSS" style="margin: 0 0 -2px 2px; " src="/urban_files/urban_files/icon_rss.png"></a></li>
+			<li><a href="#">A New Resource for Interns – MyRiverGuides.com</a></li>
+            <li><a href="#">Meet Our Latest Featured Urban Intern: Jerry Adams</a></li>
+            <li><a href="#">Featured Urban Intern: Jonathan Jackson</a></li>
+            <li><a href="#">Meet Our Latest Featured Urban Intern: Max Wiseltier</a></li>
+            <li><a href="#">Want to Spend the Summer in London as the Olympics Kick Off?</a></li>		</ul>
 		
 		<ul class="footer_right_links">
-			<li><a href="http://www.urbaninterns.com/about">about</a>  | 
-			<a href="http://www.urbaninterns.com/about/frequently-asked-questions">F.A.Q.</a> | 
-			<a href="http://www.urbaninterns.com/press">Press</a>  |  
-			<a href="http://www.urbaninterns.com/contact">Help/Contact</a>  |  
-			<!--<a href="/partners">Partners</a>  |  -->
-			<a href="http://www.urbaninterns.com/terms">Terms</a>  |  
-			<a href="http://www.urbaninterns.com/sitemap">Sitemap</a></li>
+			<li><a href="#">about</a>  |
+			<a href="#">F.A.Q.</a> |
+			<a href="#">Press</a>  |
+			<a href="#">Help/Contact</a>  |
+			<!--<a href="#">Partners</a>  |  -->
+			<a href="#">Terms</a>  |
+			<a href="#">Sitemap</a></li>
 			<li>Copyright © 2015 Urbaninterns.com. All rights reserved.</li>
 			<li>
 				Follow us on 
-					<a title="Follow us on Twitter" href="{{ route('vote', ['urban']) }}"><img src="/urban_files/urban_files/logo_twitter.png" alt="Follow us on Twitter"></a>
-					<a title="Follow us on Linkedin" href="{{ route('vote', ['urban']) }}"><img src="/urban_files/urban_files/logo_linkedin.png" alt="Follow us on Linkedin"></a>
-					<a title="Follow us on facebook" href="{{ route('vote', ['urban']) }}"><img src="/urban_files/urban_files/logo_facebook.png" alt="Follow us on facebook"></a>
-											<a target="_blank" title="Signup to Our Newsletter" href="http://www.urbaninterns.com/newsletter"><img src="/urban_files/urban_files/email_open.png" alt="Our Newsletter"></a>
+					<a title="Follow us on Twitter" href="#">
+                        <img src="/urban_files/urban_files/logo_twitter.png" alt="Follow us on Twitter"></a>
+					<a title="Follow us on Linkedin" href="#">
+                        <img src="/urban_files/urban_files/logo_linkedin.png" alt="Follow us on Linkedin"></a>
+					<a title="Follow us on facebook" href="#">
+                        <img src="/urban_files/urban_files/logo_facebook.png" alt="Follow us on facebook"></a>
+											<a  title="Signup to Our Newsletter" href="#">
+                                                <img src="/urban_files/urban_files/email_open.png" alt="Our Newsletter"></a>
 								</li>
 		</ul>
 		
 		<div class="footer_text">
-			<b>Urban Interns</b> is a new community that connects prospective <a href="http://www.urbaninterns.com/intern">Interns</a> and Job Seekers with relevant 
-			<a href="http://www.urbaninterns.com/employers">Employers</a>, <a href="http://www.urbaninterns.com/find-jobs">Jobs</a> and 
-			<a href="http://www.urbaninterns.com/internships">Internships</a>, and specializes in virtual &amp; part-time work. <b>Employers</b> can find interns and job seekers by searching, 
+			<b>Urban Interns</b> is a new community that connects prospective <a href="#">Interns</a> and Job Seekers with relevant
+			<a href="#">Employers</a>,
+            <a href="#">Jobs</a> and
+			<a href="#">Internships</a>, and specializes in virtual &amp; part-time work. <b>Employers</b> can find interns and job seekers by searching,
 			browsing or filtering through our database of candidates. 
-			<b>Interns</b> and <b>Job Seekers</b> can also peruse the listings to find great <b>internships</b>, <b>jobs</b> and <a href="http://www.urbaninterns.com/co-working">co-working spaces</a>.
+			<b>Interns</b> and <b>Job Seekers</b> can also peruse the listings to find great <b>internships</b>, <b>jobs</b> and <a href="#">co-working spaces</a>.
 			Want to stand out in the crowd? Create your profile and start connecting today!
 		</div>
 		
@@ -489,11 +561,49 @@ setInterval ( rotateText, 4000 );
 		<div id="seo_footer">
 	<h3>Find interns &amp; Part Time Help in:</h3>
 	<ul>
-		<li><a href="http://www.urbaninterns.com/find-interns/georgia-ga/atlanta">Atlanta</a></li><li><a href="http://www.urbaninterns.com/find-interns/texas-tx/austin">Austin</a></li><li><a href="http://www.urbaninterns.com/find-interns/massachusetts-ma/boston">Boston</a></li><li><a href="http://www.urbaninterns.com/find-interns/illinois-il/chicago">Chicago</a></li><li><a href="http://www.urbaninterns.com/find-interns/texas-tx/dallas">Dallas</a></li><li><a href="http://www.urbaninterns.com/find-interns/florida-fl/ft-lauderdale">Ft. Lauderdale</a></li><li><a href="http://www.urbaninterns.com/find-interns/texas-tx/houston">Houston</a></li><li><a href="http://www.urbaninterns.com/find-interns/florida-fl/jacksonville">Jacksonville</a></li><li><a href="http://www.urbaninterns.com/find-interns/california-ca/los-angeles">Los Angeles</a></li><br><li><a href="http://www.urbaninterns.com/find-interns/florida-fl/miami">Miami</a></li><li><a href="http://www.urbaninterns.com/find-interns/new-york-ny/new-york">New York</a></li><li><a href="http://www.urbaninterns.com/find-interns/florida-fl/orlando">Orlando</a></li><li><a href="http://www.urbaninterns.com/find-interns/pennsylvania-pa/philadelphia">Philadelphia</a></li><li><a href="http://www.urbaninterns.com/find-interns/texas-tx/san-antonio">San Antonio</a></li><li><a href="http://www.urbaninterns.com/find-interns/california-ca/san-diego">San Diego</a></li><li><a href="http://www.urbaninterns.com/find-interns/california-ca/san-francisco">San Francisco</a></li><li><a href="http://www.urbaninterns.com/find-interns/california-ca/san-jose">San Jose</a></li><li><a href="http://www.urbaninterns.com/find-interns/washington-wa/seattle">Seattle</a></li><li><a href="http://www.urbaninterns.com/find-interns/florida-fl/tampa">Tampa</a></li><li><a href="http://www.urbaninterns.com/find-interns/washington-dc/dc-metro">Washington, D.C.</a></li>	</ul>
+		<li><a href="#">Atlanta</a></li>
+        <li><a href="#">Austin</a></li>
+        <li><a href="#">Boston</a></li>
+        <li><a href="#">Chicago</a></li>
+        <li><a href="#">Dallas</a></li>
+        <li><a href="#">Ft. Lauderdale</a></li>
+        <li><a href="#">Houston</a></li>
+        <li><a href="#">Jacksonville</a></li>
+        <li><a href="#">Los Angeles</a></li>
+        <br><li><a href="#">Miami</a></li>
+        <li><a href="#">New York</a></li>
+        <li><a href="#">Orlando</a></li>
+        <li><a href="#">Philadelphia</a></li>
+        <li><a href="#">San Antonio</a></li>
+        <li><a href="#">San Diego</a></li>
+        <li><a href="#">San Francisco</a></li>
+        <li><a href="#">San Jose</a></li>
+        <li><a href="#">Seattle</a></li>
+        <li><a href="#">Tampa</a></li>
+        <li><a href="#">Washington, D.C.</a></li>	</ul>
 
 	<h3>Find Internships &amp; Jobs in:</h3>
 	<ul>
-		<li><a href="http://www.urbaninterns.com/job-search/georgia-ga/atlanta">Atlanta</a></li><li><a href="http://www.urbaninterns.com/job-search/texas-tx/austin">Austin</a></li><li><a href="http://www.urbaninterns.com/job-search/massachusetts-ma/boston">Boston</a></li><li><a href="http://www.urbaninterns.com/job-search/illinois-il/chicago">Chicago</a></li><li><a href="http://www.urbaninterns.com/job-search/texas-tx/dallas">Dallas</a></li><li><a href="http://www.urbaninterns.com/job-search/florida-fl/ft-lauderdale">Ft. Lauderdale</a></li><li><a href="http://www.urbaninterns.com/job-search/texas-tx/houston">Houston</a></li><li><a href="http://www.urbaninterns.com/job-search/florida-fl/jacksonville">Jacksonville</a></li><li><a href="http://www.urbaninterns.com/job-search/california-ca/los-angeles">Los Angeles</a></li><br><li><a href="http://www.urbaninterns.com/job-search/florida-fl/miami">Miami</a></li><li><a href="http://www.urbaninterns.com/job-search/new-york-ny/new-york">New York</a></li><li><a href="http://www.urbaninterns.com/job-search/florida-fl/orlando">Orlando</a></li><li><a href="http://www.urbaninterns.com/job-search/pennsylvania-pa/philadelphia">Philadelphia</a></li><li><a href="http://www.urbaninterns.com/job-search/texas-tx/san-antonio">San Antonio</a></li><li><a href="http://www.urbaninterns.com/job-search/california-ca/san-diego">San Diego</a></li><li><a href="http://www.urbaninterns.com/job-search/california-ca/san-francisco">San Francisco</a></li><li><a href="http://www.urbaninterns.com/job-search/california-ca/san-jose">San Jose</a></li><li><a href="http://www.urbaninterns.com/job-search/washington-wa/seattle">Seattle</a></li><li><a href="http://www.urbaninterns.com/job-search/florida-fl/tampa">Tampa</a></li><li><a href="http://www.urbaninterns.com/job-search/washington-dc/dc-metro">Washington, D.C.</a></li>	</ul>
+		<li><a href="#">Atlanta</a></li>
+        <li><a href="#">Austin</a></li>
+        <li><a href="#">Boston</a></li>
+        <li><a href="#">Chicago</a></li>
+        <li><a href="#">Dallas</a></li>
+        <li><a href="#">Ft. Lauderdale</a></li>
+        <li><a href="#">Houston</a></li>
+        <li><a href="#">Jacksonville</a></li>
+        <li><a href="#">Los Angeles</a></li>
+        <br><li><a href="#">Miami</a></li>
+        <li><a href="#">New York</a></li>
+        <li><a href="#">Orlando</a></li>
+        <li><a href="#">Philadelphia</a></li>
+        <li><a href="#">San Antonio</a></li>
+        <li><a href="#">San Diego</a></li>
+        <li><a href="#">San Francisco</a></li>
+        <li><a href="#">San Jose</a></li>
+        <li><a href="#">Seattle</a></li>
+        <li><a href="#">Tampa</a></li>
+        <li><a href="#">Washington, D.C.</a></li>	</ul>
 </div>		
 	</div>
 </div>
