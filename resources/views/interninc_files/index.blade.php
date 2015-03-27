@@ -248,12 +248,6 @@ z-index: 1005;
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-<script>
-    $('#myModal').on('shown.bs.modal', function () {
-        $('#myInput').focus()
-    })
-</script>
-
 
 <div id="dic_bubble" class="selection_bubble" style="z-index:9999;" fetching="false"></div><script type="text/javascript" src="/interninc_files/interninc_files/mootools(1).js"></script>
 
@@ -350,7 +344,7 @@ z-index: 1005;
        		<div id="frontpage-calltoaction">
 <h2>Start Connecting to Exciting Internship Opportunities</h2>
 <p>
-    <a href="#" data-toggle="modal" data-target="#myModal">
+    <a href="{{ route('vote', ['interninc']) }}" data-toggle="modal" data-target="#myModal">
         <img alt="join-now2" src="/interninc_files/interninc_files/join-now2.png" height="52" width="195">
     </a>
 </p>

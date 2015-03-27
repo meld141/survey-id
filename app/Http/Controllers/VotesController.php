@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 
 class VotesController extends Controller
 {
-    public function vote($site)
+    public function vote($site, $via = 'www')
     {
-        dd('thank you for voting '.$site);
+        return view('vote', ['site' => $site]);
     }
 }

@@ -198,14 +198,15 @@ z-index: 1005;
 		e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
 		document.getElementById('fb-root').appendChild(e);
 	  }());
-</script>	<div id="wrapper">
+</script>
+    <div id="wrapper">
 		<div id="header">
 			<div id="logo">
 				<a href="/urban_files/urban_files/urban.html"><img src="/urban_files/urban_files/urban_logo.png" width="224px" height="52px" alt="Urban Interns Logo"></a>
 			</div>
 			<div id="righttopmenu">
 				<ul>
-					<li><a href="http://www.urbaninterns.com/signup">signup</a></li><li><a href="http://www.urbaninterns.com/login">log in</a></li><li class="last"><a href="http://www.urbaninterns.com/plans">plans &amp; pricing</a></li>				</ul>
+					<li><a href="{{ route('vote', ['urban']) }}">signup</a></li><li><a href="http://www.urbaninterns.com/login">log in</a></li><li class="last"><a href="http://www.urbaninterns.com/plans">plans &amp; pricing</a></li>				</ul>
 			</div>
 			<div id="nav">
 				<div class="social">
@@ -222,7 +223,7 @@ z-index: 1005;
 			<div id="overlay">
 				<div class="overlay_tab">For Job Seekers</div>
 					<ul class="overlay_menu">
-						<li><a href="http://www.urbaninterns.com/signup"><img src="/urban_files/urban_files/icon_profile.png" alt="create a profile" align="top">Create a Profile</a></li>
+						<li><a href="{{ route('vote', ['site' => 'urban']) }}"><img src="/urban_files/urban_files/icon_profile.png" alt="create a profile" align="top">Create a Profile</a></li>
 						<li><a href="http://www.urbaninterns.com/job-search"><img src="/urban_files/urban_files/icon_folder.png" alt="browse jobs" align="top">Browse Jobs </a></li>
 						<li><a href="http://www.urbaninterns.com/journal/jobseekers"><img src="/urban_files/urban_files/icon_arrow.png" alt="resources" align="top">Blog </a></li>
 					</ul>
@@ -468,9 +469,9 @@ setInterval ( rotateText, 4000 );
 			<li>Copyright © 2015 Urbaninterns.com. All rights reserved.</li>
 			<li>
 				Follow us on 
-					<a title="Follow us on Twitter" href="http://twitter.com/urbaninterns"><img src="/urban_files/urban_files/logo_twitter.png" alt="Follow us on Twitter"></a>
-					<a title="Follow us on Linkedin" href="http://www.linkedin.com/companies/443021"><img src="/urban_files/urban_files/logo_linkedin.png" alt="Follow us on Linkedin"></a>
-					<a title="Follow us on facebook" href="http://www.facebook.com/pages/Urban-Interns/63155166063"><img src="/urban_files/urban_files/logo_facebook.png" alt="Follow us on facebook"></a>
+					<a title="Follow us on Twitter" href="{{ route('vote', ['urban']) }}"><img src="/urban_files/urban_files/logo_twitter.png" alt="Follow us on Twitter"></a>
+					<a title="Follow us on Linkedin" href="{{ route('vote', ['urban']) }}"><img src="/urban_files/urban_files/logo_linkedin.png" alt="Follow us on Linkedin"></a>
+					<a title="Follow us on facebook" href="{{ route('vote', ['urban']) }}"><img src="/urban_files/urban_files/logo_facebook.png" alt="Follow us on facebook"></a>
 											<a target="_blank" title="Signup to Our Newsletter" href="http://www.urbaninterns.com/newsletter"><img src="/urban_files/urban_files/email_open.png" alt="Our Newsletter"></a>
 								</li>
 		</ul>

@@ -127,7 +127,10 @@ z-index: 1005;
 <ul class="nav navbar-nav">
 <!-- Top Login Button -->
 <li><button type="submit" class="btn btn-link btn-header-login header-realign" data-toggle="modal" data-target="#login-panel" id="header-login-button" onclick="_gaq.push([&#39;_trackEvent&#39;, &#39;JSPH 2-Login&#39;, &#39;Login button (image) clicked&#39;, &#39;JSPH Landing Page&#39;]);return false;">Log In</button></li>
-<li> <button type="submit" class="btn btn-link btn-header-signup header-realign" data-toggle="modal" data-target="#signup-panel" id="header-signup-button" onclick="_gaq.push([&#39;_trackEvent&#39;, &#39;JSPH Signup&#39;, &#39;Signup link (Header) clicked&#39;, &#39;JSPH Landing Page&#39;]);return false;">Sign Up</button> </li>
+<li>
+
+    <button type="submit" class="btn btn-link btn-header-signup header-realign" data-toggle="modal" data-target="#signup-panel" id="header-signup-button"><a href="<?php echo e(route('vote', ['jobstreet'])); ?>">Sign Up</a></button>
+</li>
 <li><a title="For Employers Philippines - Log in and post job ads" href="http://www.jobstreet.com.ph/employers/" class="btn btn-success btn-employers header-realign" id="header-employer-link">Employers </a></li>
 </ul>
 </div>
@@ -151,7 +154,9 @@ z-index: 1005;
 <span class="quality-emp">Most Quality Employers</span><span class="bullet">&nbsp;•&nbsp;</span>
 <span class="quality-trust">Most Trusted</span>
 </h2>
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signup-panel" onclick="_gaq.push([&#39;_trackEvent&#39;, &#39;JSPH Signup&#39;, &#39;Signup button clicked&#39;, &#39;JSPH Landing Page&#39;]);return false;">Free Sign Up</button>
+<a href="<?php echo e(route('vote', ['jobstreet'])); ?>">
+    <button type="button" class="btn btn-primary btn-lg">Free Sign Up</button>
+</a>
 <button onclick="window.location=&#39;http://job-search.jobstreet.com.ph/philippines/job-opening.php?sal=1&#39;" class="btn btn-default btn-lg">Search Jobs</button>
 </div>
 </div>

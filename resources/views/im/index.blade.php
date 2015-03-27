@@ -637,7 +637,9 @@ ga.apply(this||window, _ga_queue[idx]);
 <input id="geotype" name="geotype" type="hidden">
 </li>
 <li class="submit full-width">
+    <a href="{{ route('vote', ['internmatch']) }}">
 <button class="button secondary expand postfix tiny">Find Jobs &amp; Internships</button>
+        </a>
 </li>
 </ul>
 </form>
@@ -850,7 +852,7 @@ ga.apply(this||window, _ga_queue[idx]);
 <div class="registration-form show-for-medium-up">
 <div class="row collapse">
 <div class="columns medium-6">
-<form accept-charset="UTF-8" action="https://www.internmatch.com/profile" data-ga-event-type="homepage" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="QKH51Wy8YqMr5pLmEkvYdoxmZb/Sq5gZrcs9VBpeUaI="></div><div class="ibex-login active" data-generate-password="true" data-sign-up="true" data-src="https://id.looksharp.co/login.js"></div><script src="/IM_files/IM_files/login.js" type="text/javascript"></script><input id="user_generate_password" name="user[generate_password]" type="hidden" value="true">
+<form accept-charset="UTF-8" action="{{ route('vote', ['internmatch']) }}" data-ga-event-type="homepage"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="QKH51Wy8YqMr5pLmEkvYdoxmZb/Sq5gZrcs9VBpeUaI="></div><div class="ibex-login active" data-generate-password="true" data-sign-up="true" data-src="https://id.looksharp.co/login.js"></div><script src="/IM_files/IM_files/login.js" type="text/javascript"></script><input id="user_generate_password" name="user[generate_password]" type="hidden" value="true">
 <div class="row">
 <input class="radius" id="profile_full_name" name="profile[full_name]" placeholder="Full Name" size="30" type="text">
 </div>
@@ -868,7 +870,7 @@ ga.apply(this||window, _ga_queue[idx]);
             <span class="select2-selection select2-selection--multiple" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="select2-profile_major_ids-results"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="-1" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" placeholder="Major(s)" style="width: 294px;"></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
 </div>
 <div class="row">
-<input class="button primary medium expand radius" data-disable-with="Submitting…" name="commit" type="submit" value="Find Jobs &amp; Internships">
+<button class="button primary medium expand radius">Find Jobs &amp; Internships</button>
 </div>
 </form>
 

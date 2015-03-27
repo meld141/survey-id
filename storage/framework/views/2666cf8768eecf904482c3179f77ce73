@@ -248,12 +248,6 @@ z-index: 1005;
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-<script>
-    $('#myModal').on('shown.bs.modal', function () {
-        $('#myInput').focus()
-    })
-</script>
-
 
 <div id="dic_bubble" class="selection_bubble" style="z-index:9999;" fetching="false"></div><script type="text/javascript" src="/interninc_files/interninc_files/mootools(1).js"></script>
 

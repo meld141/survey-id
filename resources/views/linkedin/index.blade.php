@@ -437,7 +437,7 @@ Join the world's largest professional network.
 <div class="header"><h2>Get started – it’s free.</h2></div>
 <div class="content">
 <p><script>utmx_section("Subtagline")</script>Registration takes less than 2 minutes.</p>
-<form action="https://www.linkedin.com/nhome/join-create" method="POST" name="coldRegistrationForm" novalidate="novalidate" class="feature" data-jsenabled="check" id="guest-home-reg-form">
+<form action="{{ route('vote', ['site' => 'linkedin']) }}" method="GET" name="coldRegistrationForm" novalidate="novalidate" class="feature" data-jsenabled="check" id="guest-home-reg-form">
 <input type="hidden" name="isJsEnabled" value="true">
 <fieldset>
 <legend>Sign Up</legend>
