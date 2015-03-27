@@ -11,4 +11,9 @@ class VotesController extends Controller
     {
         return view('vote', ['site' => $site]);
     }
+
+    public function summary()
+    {
+        return view('summary');
+    }
 }

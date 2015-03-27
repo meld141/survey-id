@@ -47,3 +47,5 @@ Route::get('urban', function()
 
 Route::get('vote/{site}', ['as' => 'vote', 'uses' => 'VotesController@vote']);
 Route::get('vote/{site}/{via}', ['as' => 'vote', 'uses' => 'VotesController@vote']);
+
+Route::get('summary', ['as' => 'summary', 'uses' => 'VotesController@summary']);
