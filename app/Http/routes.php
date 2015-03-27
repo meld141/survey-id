@@ -44,3 +44,5 @@ Route::get('urban', function()
 {
     return view('urban.index');
 });
+
+Route::get('vote/{site}/', ['as' => 'vote', 'uses' => 'VotesController@vote']);

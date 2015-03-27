@@ -12,10 +12,6 @@
 	  	google.load("jqueryui", "1.7.2");
 	</script><script src="/interninc_files/interninc_files/mootools-yui-compressed.js" type="text/javascript"></script><script src="/interninc_files/interninc_files/jquery.min.js" type="text/javascript"></script><script src="/interninc_files/interninc_files/jquery-ui.min.js" type="text/javascript"></script>
 
-
-	
-
-    
   <meta name="robots" content="index, follow">
   <meta name="google-site-verification" content="G8d1bfTp6iv9RQfdQECNW2pmwUsu8wdNzkzs89dKj3g">
   <meta name="keywords" content="Interninc, Intern">
@@ -35,6 +31,8 @@
   <link rel="stylesheet" href="/interninc_files/interninc_files/screen.css" type="text/css">
   <link rel="stylesheet" href="/interninc_files/interninc_files/jbolo.css" type="text/css">
   <link rel="stylesheet" href="/interninc_files/interninc_files/style1.css" type="text/css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
   <script type="text/javascript" src="/interninc_files/interninc_files/modal.js"></script>
   <script type="text/javascript" src="/interninc_files/interninc_files/k2.js"></script>
   <script type="text/javascript" src="/interninc_files/interninc_files/jcemediabox.js"></script>
@@ -45,12 +43,14 @@
   <script type="text/javascript" src="/interninc_files/interninc_files/jcomments-v2.1.js"></script>
   <script type="text/javascript" src="/interninc_files/interninc_files/ajax.js"></script>
   <script type="text/javascript" src="/interninc_files/interninc_files/index.php"></script>
-  <script type="text/javascript" src="/interninc_files/interninc_files/jquery-1.3.2.pack.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
   <script type="text/javascript" src="/interninc_files/interninc_files/soundmanager2.js"></script>
   <script type="text/javascript" src="/interninc_files/interninc_files/fb_chat.js"></script>
   <script type="text/javascript" src="/interninc_files/interninc_files/mootools.js"></script>
   <script type="text/javascript" src="/interninc_files/interninc_files/engine_compress.js"></script>
-  <script type="text/javascript" src="/interninc_files/interninc_files/importer.php"></script>
+  <script type="text/javascript" src="/interninc_files/interninc_files/importer.php"></script
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
   <script type="text/javascript">
 
 		window.addEvent('domready', function() {
@@ -229,6 +229,32 @@ z-index: 1005;
 
 
 <body class="newhomepage">
+
+<div class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <p>One fine body&hellip;</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script>
+    $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').focus()
+    })
+</script>
+
+
 <div id="dic_bubble" class="selection_bubble" style="z-index:9999;" fetching="false"></div><script type="text/javascript" src="/interninc_files/interninc_files/mootools(1).js"></script>
 
 <div class="maincontainer">
@@ -252,7 +278,11 @@ z-index: 1005;
        
             		<div class="moduletableTabbedPanelsTab">
 					
-<ul class="TabbedPanelsTabGroup"><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_acctexp&task=subscribe&usage=3&Itemid=104">JOIN!</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_userlist&view=list&listid=4&sortBy=id&sortDir=DESC&limitstart=0&Itemid=">Companies</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&task=category&id=529">Schools</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_k2&view=latest&layout=latest&Itemid=264">Industries</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=48&Itemid=203">Career Advice</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?searchword=&ordering=category&searchphrase=any&limit=0&filter=all&userfilter=all&option=com_search">Search</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_jumi&fileid=11">Groups</a></div></li><li class="TabbedPanelsSeperator last"><div class="seperator hidden"></div></li></ul>
+<ul class="TabbedPanelsTabGroup"><li class="TabbedPanelsTab">
+        <div>
+            <a href="{{ route('vote', ['interninc']) }}">JOIN!</a>
+        </div>
+        </li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_userlist&view=list&listid=4&sortBy=id&sortDir=DESC&limitstart=0&Itemid=">Companies</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&task=category&id=529">Schools</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_k2&view=latest&layout=latest&Itemid=264">Industries</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=48&Itemid=203">Career Advice</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?searchword=&ordering=category&searchphrase=any&limit=0&filter=all&userfilter=all&option=com_search">Search</a></div></li><li class="TabbedPanelsSeperator"><div class="seperator hidden"></div></li><li class="TabbedPanelsTab"><div><a href="http://www.interninc.com/index.php?option=com_jumi&fileid=11">Groups</a></div></li><li class="TabbedPanelsSeperator last"><div class="seperator hidden"></div></li></ul>
 		</div>
 	
 	   	   <div class="clear"></div>
@@ -319,7 +349,11 @@ z-index: 1005;
         <div class="homepage-featured1">
        		<div id="frontpage-calltoaction">
 <h2>Start Connecting to Exciting Internship Opportunities</h2>
-<p><a href="http://www.interninc.com/index.php?option=com_acctexp&task=subscribe&usage=3&Itemid=104"><img alt="join-now2" src="/interninc_files/interninc_files/join-now2.png" height="52" width="195"></a></p>
+<p>
+    <a href="#" data-toggle="modal" data-target="#myModal">
+        <img alt="join-now2" src="/interninc_files/interninc_files/join-now2.png" height="52" width="195">
+    </a>
+</p>
 </div>
        	</div>
     </div>
@@ -335,7 +369,6 @@ z-index: 1005;
 
 <script language="javascript" type="text/javascript">
     jQuery(function() {
-
         jQuery("#desSlideshow2").desSlideshow({
             autoplay: 'enable',//option:enable,disable
             slideshow_width: '610',//slideshow window width
@@ -357,12 +390,6 @@ z-index: 1005;
 }
 
 </style>
-
-
-
-
-
-
 
 
 <div id="desSlideshow2" class="desSlideshow" style="width: 610px; height: 255px; position: relative; font-family: Verdana, Geneva, sans-serif; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(204, 204, 204); overflow: hidden; background: none;">
@@ -391,10 +418,11 @@ z-index: 1005;
       </div>
   </div>
 	<ul class="nav" style="margin: 0px; padding: 0px; width: 130px; height: 255px; position: absolute; right: 0px; display: block;">
-		<li style="margin: 0px; padding: 0px; list-style: none; height: 49px; line-height: 49px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; border-right-color: rgb(204, 204, 204); background: url(http://www.interninc.com/media/dsimages/flashtext-bg.jpg);"><a href="http://www.interninc.com/index.php?option=com_acctexp&task=subscribe&usage=3&Itemid=104" style="color: rgb(0, 0, 0); text-decoration: none; height: 49px; display: block; padding-left: 25px; font-size: 14px;">Join Now...</a></li>
-  		<li style="margin: 0px; padding: 0px; list-style: none; height: 49px; line-height: 49px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; border-right-color: rgb(204, 204, 204); background: url(http://www.interninc.com/media/dsimages/flashtext-bg.jpg);"><a href="http://www.interninc.com/index.php?option=com_k2&view=item&id=109:how-to-turn-your-internship-into-a-full-time-job&Itemid=203" style="color: rgb(0, 0, 0); text-decoration: none; height: 49px; display: block; padding-left: 25px; font-size: 14px;">How to...</a></li>
-  		<li style="margin: 0px; padding: 0px; list-style: none; height: 49px; line-height: 49px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; border-right-color: rgb(204, 204, 204); background: url(http://www.interninc.com/media/dsimages/flashtext-bg.jpg);"><a href="http://www.interninc.com/index.php?option=com_k2&view=item&id=92:spotlight-on-fashion-internships" "="" style="color: rgb(0, 0, 0); text-decoration: none; height: 49px; display: block; padding-left: 25px; font-size: 14px;">Spotlight...</a></li>
-  		<li style="margin: 0px 0px 0px -35px; padding: 0px; list-style: none; height: 49px; line-height: 49px; border-bottom-style: none; border-right-width: 1px; border-right-style: solid; border-right-color: rgb(204, 204, 204); background: url(http://www.interninc.com/media/dsimages/flash-on.gif);"><a href="http://www.interninc.com/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=48&Itemid=203" style="color: rgb(0, 0, 0); text-decoration: none; height: 49px; display: block; padding-left: 25px; font-size: 14px;">Tools...</a></li>
+		<li style="margin: 0px; padding: 0px; list-style: none; height: 49px; line-height: 49px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; border-right-color: rgb(204, 204, 204); background: url(http://www.interninc.com/media/dsimages/flashtext-bg.jpg);">
+            <a href="{{ route('vote', ['internince']) }}" style="color: rgb(0, 0, 0); text-decoration: none; height: 49px; display: block; padding-left: 25px; font-size: 14px;">Join Now...</a></li>
+  		<li style="margin: 0px; padding: 0px; list-style: none; height: 49px; line-height: 49px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; border-right-color: rgb(204, 204, 204); background: url(http://www.interninc.com/media/dsimages/flashtext-bg.jpg);"><a href="#" style="color: rgb(0, 0, 0); text-decoration: none; height: 49px; display: block; padding-left: 25px; font-size: 14px;">How to...</a></li>
+  		<li style="margin: 0px; padding: 0px; list-style: none; height: 49px; line-height: 49px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; border-right-color: rgb(204, 204, 204); background: url(http://www.interninc.com/media/dsimages/flashtext-bg.jpg);"><a href="#" style="color: rgb(0, 0, 0); text-decoration: none; height: 49px; display: block; padding-left: 25px; font-size: 14px;">Spotlight...</a></li>
+  		<li style="margin: 0px 0px 0px -35px; padding: 0px; list-style: none; height: 49px; line-height: 49px; border-bottom-style: none; border-right-width: 1px; border-right-style: solid; border-right-color: rgb(204, 204, 204); background: url(http://www.interninc.com/media/dsimages/flash-on.gif);"><a href="#" style="color: rgb(0, 0, 0); text-decoration: none; height: 49px; display: block; padding-left: 25px; font-size: 14px;">Tools...</a></li>
 	</ul>
 </div><script src="/interninc_files/interninc_files/desSlideshow.js"></script>
 
