@@ -18,39 +18,39 @@
                     <tr style="background-color: #666666; color:white">
                         <th>Site</th>
                         <th>Number of Votes</th>
-                        <th></th>
+                        <th>Percentage</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Intern Inc</td>
-                        <td>100</td>
-                        <td></td>
+                        <td>{{ (!empty($interninc['votes']) ? $interninc['votes'] : '-') }}</td>
+                        <td>{{ (!empty($interninc['percent']) ? $interninc['percent'] . '%' : '-') }}</td>
                     </tr>
                     <tr>
                         <td>Intern Match</td>
-                        <td>150</td>
-                        <td></td>
+                        <td>{{ (!empty($im['votes']) ? $im['votes'] : '-') }}</td>
+                        <td>{{ (!empty($im['percent']) ? $im['percent'] . '%' : '-') }}</td>
                     </tr>
                     <tr>
-                        <td>Jobstreet</td>
-                        <td>500</td>
-                        <td></td>
+                        <td>Job Street</td>
+                        <td>{{ (!empty($jobstreet['votes']) ? $jobstreet['votes'] : '-') }}</td>
+                        <td>{{ (!empty($jobstreet['percent']) ? $jobstreet['percent'] . '%' : '-') }}</td>
                     </tr>
                     <tr>
                         <td>Linkedin</td>
-                        <td>320</td>
-                        <td></td>
+                        <td>{{ (!empty($linkedin['votes']) ? $linkedin['votes'] : '-') }}</td>
+                        <td>{{ (!empty($linkedin['percent']) ? $linkedin['percent'] . '%' : '-') }}</td>
                     </tr>
                     <tr>
                         <td>Urban Interns</td>
-                        <td>268</td>
-                        <td></td>
+                        <td>{{ (!empty($urban['votes']) ? $urban['votes'] : '-') }}</td>
+                        <td>{{ (!empty($urban['percent']) ? $urban['percent'] . '%' : '-') }}</td>
                     </tr>
                     <tr>
                         <td>ID</td>
-                        <td>1000</td>
-                        <td></td>
+                        <td>{{ (!empty($id['votes']) ? $id['votes'] : '-') }}</td>
+                        <td>{{ (!empty($id['percent']) ? $id['percent'] . '%' : '-') }}</td>
                     </tr>
                 </tbody>
             </table>
